@@ -1,0 +1,2028 @@
+[ 2016-03-10T09:15:04+08:00 ] ::1 /sae/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:17:54+08:00 ] ::1 /sae/index.php/Home/Wechat/index
+ERR: 无法加载控制器:Wechat
+
+[ 2016-03-10T09:18:13+08:00 ] ::1 /sae/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Wechat
+
+[ 2016-03-10T09:19:12+08:00 ] ::1 /sae/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:22:07+08:00 ] ::1 /sae/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:24:33+08:00 ] ::1 /sae/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:25:26+08:00 ] ::1 /sae/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:25:53+08:00 ] ::1 /sae/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:25:54+08:00 ] ::1 /sae/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:28:08+08:00 ] ::1 /sae/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T09:28:17+08:00 ] ::1 /sae/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:29:43+08:00 ] ::1 /sae/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\sae\Home\Controller\WechatController.class.php on line 17 and defined E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 16 行.
+
+[ 2016-03-10T09:30:47+08:00 ] ::1 /sae/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 43 行.
+NOTIC: [8] Undefined index: signature E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 181 行.
+NOTIC: [8] Undefined index: timestamp E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 182 行.
+NOTIC: [8] Undefined index: nonce E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:31:51+08:00 ] ::1 /sae/index.php/Home/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-03-10T09:33:48+08:00 ] 10.10.24.237 /sae/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:36:56+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=571f537b0bc2db8f445f46617e4fe22fb21ff637&echostr=1916991030454968297&timestamp=1457573857&nonce=1233085991
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-03-10T09:38:13+08:00 ] ::1 /sae/index.php/Home/Wechat/index??signature=c1c077e692368784692a72d10052fe7061c587f5&echostr=2727166259281186717&timestamp=1457573781&nonce=1364732785
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: signature E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 186 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:38:24+08:00 ] ::1 /sae/index.php/Home/Wechat/index?signature=c1c077e692368784692a72d10052fe7061c587f5&echostr=2727166259281186717&timestamp=1457573781&nonce=1364732785
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 186 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-03-10T09:39:35+08:00 ] ::1 /sae/index.php/Home/Wechat/index?signature=c1c077e692368784692a72d10052fe7061c587f5&echostr=2727166259281186717&timestamp=1457573781&nonce=1364732785
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 186 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:40:28+08:00 ] ::1 /sae/index.php/Home/Wechat/index?signature=c1c077e692368784692a72d10052fe7061c587f5&echostr=2727166259281186717&timestamp=1457573781&nonce=1364732785
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:42:01+08:00 ] ::1 /sae/index.php/Home/Wechat/index?signature=c1c077e692368784692a72d10052fe7061c587f5&echostr=2727166259281186717&timestamp=1457573781&nonce=1364732785
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:42:36+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=a1b95b502b040708a0fc39e7d24bc1676f5490c3&echostr=4575715995334603255&timestamp=1457574196&nonce=1075041304
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:51:36+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=be874b86a8693200eaf001816e86b5ecdbdd9986&timestamp=1457574731&nonce=2122526268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 44 行.
+
+[ 2016-03-10T09:51:36+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=ff896a0a2d8f2b9a2951056743dad8c3db27354a&timestamp=1457574735&nonce=487504583
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 44 行.
+
+[ 2016-03-10T09:51:37+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=2769740e4ae2e2d4e97204162cefef3380d283e2&timestamp=1457574737&nonce=1487301334
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 44 行.
+
+[ 2016-03-10T09:51:43+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=c2a8a0206e5af44cea33882706b67d60be0febce&timestamp=1457574743&nonce=1525830363
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 44 行.
+
+[ 2016-03-10T09:51:49+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=2b982b32d7a2266dafae73a179fc50c07ae2babe&timestamp=1457574749&nonce=504797391
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 44 行.
+
+[ 2016-03-10T09:51:55+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=e000dc7e2535739ce61e9e6160f990177089245f&timestamp=1457574755&nonce=1121715074
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 44 行.
+
+[ 2016-03-10T09:52:01+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=849aa2e325fd2be2aa1cda86ffa446306d3514ab&timestamp=1457574761&nonce=1166945166
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 44 行.
+
+[ 2016-03-10T09:52:07+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=ee5157b153feb33f9e841ba85ae1aa27cbe5a16a&timestamp=1457574767&nonce=1730591219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 44 行.
+
+[ 2016-03-10T09:52:21+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=2f7fbabb5a08d345c2a3bacdeb50bf58f223f5bf&timestamp=1457574774&nonce=1592868979
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 44 行.
+
+[ 2016-03-10T09:52:21+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=2f7fbabb5a08d345c2a3bacdeb50bf58f223f5bf&timestamp=1457574774&nonce=1592868979
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 44 行.
+
+[ 2016-03-10T09:52:21+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=c80d126e607abee614242a9ac66c4a4a1e89b95a&timestamp=1457574779&nonce=733902193
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 44 行.
+
+[ 2016-03-10T09:52:25+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=31291fd3c1f6c1001515006e2f04e439cca50dd1&timestamp=1457574785&nonce=2051457083
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 44 行.
+
+[ 2016-03-10T09:52:31+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=4669f9c1117559d6d543d2d2f17a944cb5e9477d&timestamp=1457574791&nonce=1878305894
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 44 行.
+
+[ 2016-03-10T09:53:29+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=35ff24726e4d97819b0fb065bf3cfa30ec7fca63&timestamp=1457574849&nonce=1482791835
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: echostr E:\PhpstormProjects\ThinkPHP\Library\Wechat\Wechat.class.php 第 44 行.
+
+[ 2016-03-10T09:54:39+08:00 ] ::1 /sae/index.php/Home/Wechat/index?signature=c1c077e692368784692a72d10052fe7061c587f5&echostr=2727166259281186717&timestamp=1457573781&nonce=1364732785
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:54:48+08:00 ] ::1 /sae/index.php/Home/Wechat/index?signature=c1c0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA E:\PhpstormProjects\sae\Home\Controller\WechatController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:55:02+08:00 ] ::1 /sae/index.php/Home/Wechat/index?signature=c1c0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA E:\PhpstormProjects\sae\Home\Controller\WechatController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T09:56:10+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=681ff8d8ffc0805a816a4436e16b56ea8d6adfb7&timestamp=1457575010&nonce=863421631
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T10:04:34+08:00 ] ::1 /sae/index.php/Home/Wechat/index?signature=c1c0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA E:\PhpstormProjects\sae\Home\Controller\WechatController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-03-10T10:13:57+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=687613b0943fad2e7bcab29ed8105ec6355eeb93&timestamp=1457576078&nonce=633495210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T10:14:54+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=b161bea8453dd63826d2b169b7eceed14bde6a15&timestamp=1457576135&nonce=163403224
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T10:15:30+08:00 ] ::1 /sae/index.php/Home/Wechat/index?signature=c1c0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA E:\PhpstormProjects\sae\Home\Controller\WechatController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T10:15:31+08:00 ] ::1 /sae/index.php/Home/Wechat/index?signature=c1c0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA E:\PhpstormProjects\sae\Home\Controller\WechatController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-03-10T10:20:26+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=f605f04e1e72d48082a5af898a5c47758eb1066a&timestamp=1457576466&nonce=1866853535
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T10:20:29+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=e417ac3286f280765248bbf127a11cbaf05a1e44&timestamp=1457576470&nonce=720419486
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-03-10T10:20:51+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=b1e157b14f625baf92ba7ec91ddc972d619c5e84&timestamp=1457576491&nonce=48945538
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T10:20:54+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=2d6c201e1117e07f7da92aa7c8e78dd525ea2a52&timestamp=1457576494&nonce=968233145
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T10:23:07+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=2b9c4368f237540a4a73f22b8fe8eb7c5a2c138a&timestamp=1457576628&nonce=1281615848
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T10:24:31+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=33e3f4383caa5af6437ead0bbc621692ae42dc86&timestamp=1457576711&nonce=241376024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T10:28:28+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=f956d08506fad4a4c6696485d09c5d234b41c337&timestamp=1457576948&nonce=1344021243
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-10T10:29:08+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=94cb55c280d7a03897818b1a16d4fc490b05654b&timestamp=1457576989&nonce=167175946
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T10:29:49+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=5cee80509f44f59c559a8309bb8089e93145985d&timestamp=1457577029&nonce=788188573
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T10:29:54+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=d5f158f38ee9573679db3bbd5bc18056820f05e4&timestamp=1457577034&nonce=1048839814
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-03-10T10:30:15+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=ba78030df4d906b52daee1e4115d3e62f3039fc1&timestamp=1457577055&nonce=1026260528
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T10:31:08+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=4ae835890242cc95dbace67717f3c58b8bbb10d0&timestamp=1457577109&nonce=1751398014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T10:31:55+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=6a1f322e5d7bbd3b55df566748a14267bc2a0bd4&timestamp=1457577155&nonce=560438236
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T10:32:27+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=71eb02cf4b8b2df1565dcd21ab7b8596bfe2a839&timestamp=1457577187&nonce=239652444
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T10:35:01+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=2918c9d39d360a7a5d90609a7d2e99810575636e&timestamp=1457577341&nonce=46551464
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T10:36:47+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=7cdbf11324e667a377e9e4056bad47d109e59068&timestamp=1457577447&nonce=1883205808
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T10:36:54+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=f5258d9e8b3b0d027d615463a3ceec8ec4ccadb9&timestamp=1457577455&nonce=654277104
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T11:43:07+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=45af12247191a0dd4f6c5282e0a9308638771824&timestamp=1457581422&nonce=405741629
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T11:43:08+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=711a7d338b6b650301b0e50203c3a5c555e69e69&timestamp=1457581428&nonce=2047344348
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T11:43:20+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=ef13b666eb307936822edd8d697161dce7bd0f4c&timestamp=1457581440&nonce=753442343
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T11:43:26+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=23815199b2f32eef26909b41df5d5c96ac894793&timestamp=1457581446&nonce=1136086688
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T11:43:32+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=5febaa198ac50db64f7208ac367469d3c61b73b7&timestamp=1457581452&nonce=921944740
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T11:43:38+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=8e3e90ca2328321aa147d719bf90fa877c4a8e16&timestamp=1457581458&nonce=1187564732
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T11:43:44+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=46bb69d9320585b11a8f17af241d9e0a23872bd6&timestamp=1457581464&nonce=597808124
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T11:43:50+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=300990bbfa678026ff93a5f032d3cdb71941cf95&timestamp=1457581470&nonce=429826160
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T11:43:56+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=6e3ca75c664eaf1245f12858c9530c835baeda7d&timestamp=1457581476&nonce=129880801
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T11:54:54+08:00 ] ::1 /sae/index.php/Home/Wechat/index?signature=c1c0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA E:\PhpstormProjects\sae\Home\Controller\WechatController.class.php 第 24 行.
+NOTIC: [8] Trying to get property of non-object E:\PhpstormProjects\sae\Home\Controller\WechatController.class.php 第 29 行.
+NOTIC: [8] Trying to get property of non-object E:\PhpstormProjects\sae\Home\Controller\WechatController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T11:54:55+08:00 ] ::1 /sae/index.php/Home/Wechat/index?signature=c1c077e692368784692a72d10052fe7061c587f5&echostr=2727166259281186717&timestamp=1457573781&nonce=1364732785
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T11:54:57+08:00 ] ::1 /sae/index.php/Home/Wechat/index?signature=c1c0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA E:\PhpstormProjects\sae\Home\Controller\WechatController.class.php 第 24 行.
+NOTIC: [8] Trying to get property of non-object E:\PhpstormProjects\sae\Home\Controller\WechatController.class.php 第 29 行.
+NOTIC: [8] Trying to get property of non-object E:\PhpstormProjects\sae\Home\Controller\WechatController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T12:58:42+08:00 ] 10.10.24.237 /sae/index.php/Home/Wechat/index?signature=8f732df158d3a41aed5e6248bdc2bd310458bcbb&timestamp=1457585952&nonce=694560662
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T14:04:14+08:00 ] ::1 /sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T14:05:02+08:00 ] ::1 /sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T14:08:08+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T14:08:47+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T14:11:10+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T14:13:06+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T14:15:04+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] readfile(http://img4.imgtn.bdimg.com/it/u=2590623354,3904419824&amp;fm=21&amp;gp=0.jpg): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T14:17:10+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] readfile(http://img4.imgtn.bdimg.com/it/u=2590623354,3904419824&amp;fm=21&amp;gp=0.jpg): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T14:20:29+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] readfile(http://d.hiphotos.baidu.com/zhidao/wh%3D450%2C600/sign=ba2a5b3e612762d0806bacbb95dc24cc/e7cd7b899e510fb31ce2938adb33c895d1430c37.jpg):  E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 74 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T14:21:39+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] readfile(http://d.hiphotos.baidu.com/zhidao/wh%3D450%2C600/sign=ba2a5b3e612762d0806bacbb95dc24cc/e7cd7b899e510fb31ce2938adb33c895d1430c37.jpg):  E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 74 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-03-10T14:22:18+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T14:25:26+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T14:29:28+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-10T14:30:36+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T14:32:54+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T14:41:10+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] file_get_contents(./access_token.txt): failed to open stream: No such file or directory E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 6 行.
+NOTIC: [8] Trying to get property of non-object E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 9 行.
+
+[ 2016-03-10T14:41:49+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] file_get_contents(./access_token.txt): failed to open stream: No such file or directory E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 6 行.
+NOTIC: [8] Trying to get property of non-object E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 9 行.
+NOTIC: [8] Undefined index: access_token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T14:42:56+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] file_get_contents(./access_token.txt): failed to open stream: No such file or directory E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 7 行.
+NOTIC: [8] Trying to get property of non-object E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 10 行.
+NOTIC: [8] Undefined index: access_token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T14:43:35+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] file_get_contents(./access_token.txt): failed to open stream: No such file or directory E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 7 行.
+NOTIC: [8] Trying to get property of non-object E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 10 行.
+NOTIC: [8] Undefined index: access_token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T14:43:51+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] file_get_contents(./access_token.txt): failed to open stream: No such file or directory E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 7 行.
+NOTIC: [8] Trying to get property of non-object E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 10 行.
+NOTIC: [8] Undefined index: access_token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T14:44:47+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] file_get_contents(./access_token.txt): failed to open stream: No such file or directory E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 7 行.
+NOTIC: [8] Trying to get property of non-object E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\CommonUtil.class.php 第 8 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T14:45:29+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T14:45:30+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T14:45:31+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T14:45:32+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T14:57:53+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=f9a110241672b723869958eca6be57e69d755b69&echostr=6685510076833184539&timestamp=1457593113&nonce=1099288910
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-03-10T14:57:57+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=0f8704bb01aa6ad9f50e6b34df35c0ccd1c2782b&timestamp=1457593117&nonce=2092123668
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T14:58:27+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=4132815e319eca86a94a01ddf5b71ecc86d987e4&timestamp=1457593147&nonce=959934006
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T14:58:51+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=868993540ad662c4e78c24e950c74df684c7e518&timestamp=1457593171&nonce=912274038
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T14:58:57+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=aa6b42a4eb54f566cfe9cde82f02de0faf85137e&timestamp=1457593177&nonce=208080975
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T14:59:08+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=a9b6a31419591d2e02e913cca9dc8590151f2323&timestamp=1457593188&nonce=1117337405
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T14:59:16+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=1f98e1688456df7ae1964c64067cc6b02996781c&timestamp=1457593196&nonce=1560023120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T15:00:19+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=601b49c71205bc80807a606dcfac599dcf69a1f5&timestamp=1457593259&nonce=1628855181
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:01:13+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=faa2336c74bbffea752b735a600f750e7e460093&timestamp=1457593308&nonce=465010973
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:01:18+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=005c32d3403ff53e118e152c704acce26969c14b&timestamp=1457593318&nonce=1720067090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-03-10T15:01:37+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=7795efbf1ed99d639f6df31abacfa10e3262ae88&timestamp=1457593337&nonce=968103257
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T15:02:38+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=7bb563e38d99067d8e73ac07ca3eb33e7ee51632&timestamp=1457593398&nonce=1970201273
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:03:18+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=61bba3972546f87bbe88801f00522cdfe8ac8c3b&timestamp=1457593438&nonce=732751778
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:03:40+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=08ff1afec0902d14b49eb7dcafca8f042c067c91&timestamp=1457593460&nonce=354382299
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:06:49+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=cc5b4bf5c1425565397984e314b0a9e7413c2d93&timestamp=1457593649&nonce=223031571
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:09:35+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=d4a58c16490a37f09b28fdb552acaedf78baedce&timestamp=1457593815&nonce=1926077287
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T15:10:16+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=9b60bbd6bae8b68b40bc7116673a8a1812f46c83&timestamp=1457593856&nonce=817139313
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Trying to get property of non-object E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:10:42+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=abd667644699ba32438f9693bc859177c14f9dd3&timestamp=1457593877&nonce=290320902
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:10:52+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=63b8f5db26f1e3ff53c034bf90445c9f62528766&timestamp=1457593892&nonce=469628126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:11:33+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=60e939efb0fc9e97997d41650306b0031cd61258&timestamp=1457593933&nonce=856035799
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:12:04+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=24e787aeda1039ec4ac2133b4430db658cf700d9&timestamp=1457593964&nonce=1230207142
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:13:44+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:13:46+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-03-10T15:14:03+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-03-10T15:14:11+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:14:55+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:14:57+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:15:17+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:16:17+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T15:16:19+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:16:20+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:17:28+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:17:45+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:18:03+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T15:19:46+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T15:20:07+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:20:50+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T15:21:26+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T15:21:52+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T15:22:09+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T15:22:21+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:25:37+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T15:26:10+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T15:26:42+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T15:26:48+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T15:27:00+08:00 ] 10.10.24.237 /saewx/sae/index.php/Home/Wechat/index?signature=b0d1cb9fa0295cbae3c3932346c1bf0e8f90ca01&timestamp=1457594860&nonce=888538012
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:28:14+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T15:28:33+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:28:36+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:29:40+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:38:08+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:38:33+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:39:19+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-10T15:39:35+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-03-10T15:39:46+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:40:04+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:40:25+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php 第 73 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:40:45+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 55 行.
+NOTIC: [2] Illegal string offset 'headimgurl' E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php 第 73 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-03-10T15:41:10+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 55 行.
+
+[ 2016-03-10T15:41:26+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T15:41:33+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Wechat\Wechat::__construct(), called in E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php on line 70 and defined E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 12 行.
+NOTIC: [8] Undefined variable: token E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 14 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\saewx\ThinkPHP\Library\Wechat\Wechat.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T15:44:57+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T16:02:27+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T16:02:27+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T16:02:54+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T16:02:54+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T16:14:34+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/getImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T16:22:18+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] file_get_contents(./src.jpg): failed to open stream: No such file or directory E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php 第 82 行.
+NOTIC: [2] imagecreatefromstring(): Empty string or invalid image E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php 第 82 行.
+NOTIC: [2] file_get_contents(./20160310034457_thumb.jpg): failed to open stream: No such file or directory E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php 第 83 行.
+NOTIC: [2] imagecreatefromstring(): Empty string or invalid image E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php 第 83 行.
+NOTIC: [2] imagecopy() expects parameter 1 to be resource, boolean given E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T16:24:19+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] file_get_contents(./src.jpg): failed to open stream: No such file or directory E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php 第 82 行.
+NOTIC: [2] imagecreatefromstring(): Empty string or invalid image E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php 第 82 行.
+NOTIC: [2] file_get_contents(./20160310034457_thumb.jpg): failed to open stream: No such file or directory E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php 第 83 行.
+NOTIC: [2] imagecreatefromstring(): Empty string or invalid image E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php 第 83 行.
+NOTIC: [2] imagecopy() expects parameter 1 to be resource, boolean given E:\PhpstormProjects\saewx\sae\Home\Controller\WechatController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T16:24:53+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T16:28:23+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T16:29:25+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T17:03:35+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-10T17:04:18+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T17:04:48+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T17:05:26+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-10T17:05:48+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T17:06:09+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-10T17:06:23+08:00 ] ::1 /saewx/sae/index.php/Home/Wechat/img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
