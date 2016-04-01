@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>代理订单</title>
+
+    <!-- BOOTSTRAP STYLES-->
+    <link href="__PUBLIC__/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLES-->
+    <link href="__PUBLIC__/css/font-awesome.css" rel="stylesheet" />
+    <!--TABLE STYLES-->
+    <link href="__PUBLIC__/css/bootstrap-table.css" rel="stylesheet" />
+    <!--CUSTOM BASIC STYLES-->
+    <link href="__PUBLIC__/css/basic.css?var=<?php echo time() ?>" rel="stylesheet" />
+    <!--CUSTOM MAIN STYLES-->
+    <link href="__PUBLIC__/css/custom.css?var=<?php echo time() ?>" rel="stylesheet" />
+    <link href="__PUBLIC__/css/datepicker3.css" rel="stylesheet" />
+    <!-- GOOGLE FONTS
+    <link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    -->
+</head>
+<body>
+<div id="page-inner" >
+
+    <div class="row">
+
+        <div class="col-md-12">
+            <div id="preload" ></div>
+            <h1 class="page-head-line">订单管理</h1>
+            <div>
+                <ol class="breadcrumb">
+                    <li><a href="#">Admin</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li class="active">proxyorders</li>
+                </ol>
+            </div>
+            <hr/>
+
+        </div>
+    </div>
+    <!-- /. ROW  -->
+
+    <div class="row">
+        <div class="col-md-12">
+
+            <div id="toolbar">
+                <label>时间</label>
+                <input id="begin_time" name="begin_time" type="text" readonly="readonly">-<input id="end_time" name="end_time" type="text" readonly="readonly">
+                <label>订单号</label>
+                <input name="order_no" type="text" size="40">
+                <label>选择子商户</label>
+                <select name="mid">
+                    <?php if(!$_SESSION['loginMerchant']['pretend']){
+                        echo " <option value=''>所有商户</option>";
+                    }
+                  ?>
+                    <foreach name='submerchants' item='submerchant'>
+                        <option value="{$submerchant.id}">{$submerchant.merchantname}</option>
+                    </foreach>
+                </select>
+            </div>
+            <table id="tab">
+            </table>
+            <!-- /. ROW  -->
+        </div>
+        <!-- /.REVIEWS &  SLIDESHOW  -->
+    </div>
+    <!-- /. ROW  -->
+    <hr />
+</div>
+
+<!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+<!-- JQUERY SCRIPTS -->
+<script src="__PUBLIC__/js/jquery-1.10.2.js"></script>
+<!-- BOOTSTRAP SCRIPTS -->
+<script src="__PUBLIC__/js/bootstrap.js"></script>
+<!-- TABLE SCRIPTS -->
+<script language="javascript" src="__PUBLIC__/js/bootstrap-table.js"></script>
+<script  src="__PUBLIC__/js/bootstrap-datepicker.js"></script>
+<script language="javascript">
+    onload=function(){
+        setTimeout(function(){
+            document.getElementById("preload").style.display="none";
+        },1000);
+
+        $('#begin_time').datepicker({
+            keyboardNavigation: false,
+            forceParse: false,
+            format: "yyyy-mm-dd",
+            autoclose: true
+        });
+        $('#end_time').datepicker({
+            keyboardNavigation: false,
+            forceParse: false,
+            format: "yyyy-mm-dd",
+            autoclose: true
+        });
+    }
+
+    function getTab(){
+        var url = '__MODULE__/order/proxyorders';
+        $('#tab').bootstrapTable({
+            method: 'POST', //这里要设置为get，不知道为什么 设置post获取不了
+            url: url,
+            cache: false,
+            height: 800,
+            striped: true,
+            pagination: true,
+            pageList: [20],
+            toolbar: '#toolbar',
+            sortOrder:'desc',
+            contentType: "application/x-www-form-urlencoded",
+            pageSize:20,
+            pageNumber:1,
+//            search: true,
+            sidePagination:'server',//设置为服务器端分页
+            queryParams: queryParams,//参数
+            showColumns: true,
+            showRefresh: true,
+            minimumCountColumns: 2,
+            clickToSelect: true,
+            smartDisplay:true,
+            columns: [
+                {
+                    field: 'id',
+                    title: '编号',
+                    align: 'center',
+                    width: '180',
+                    valign: 'bottom',
+                    visible:false,
+                    sortable: true
+                }, {
+                    field: 'order_no',
+                    title: '订单号',
+                    align: 'center',
+                    width: '200',
+                    valign: 'middle',
+                    sortable: true
+                },{
+                    field: 'total_fee',
+                    title: '消费金额',
+                    align: 'center',
+                    width: '100',
+                    valign: 'middle',
+                    formatter:priceformat,
+                    sortable: true
+                }, {
+                    field: 'lijian_fee',
+                    title: '立减金额',
+                    align: 'center',
+                    width: '80',
+                    valign: 'middle',
+                    formatter:priceformat,
+                    sortable: true
+                }, {
+                    field: 'vip_discount',
+                    title: '折扣(%)',
+                    align: 'center',
+                    width: '50',
+                    valign: 'middle',
+                    sortable: true
+                }, {
+                    field: 'time_end',
+                    title: '日期',
+                    align: 'center',
+                    width: '200',
+                    valign: 'middle',
+                    sortable: true
+                },{
+                    field: 'pay_way',
+                    title: '渠道',
+                    align: 'center',
+                    width: '50',
+                    valign: 'middle',
+                    formatter:paywayformat,
+                    sortable: true
+                }, {
+                    field: 'pay_type',
+                    title: '类型',
+                    align: 'center',
+                    width: '150',
+                    valign: 'middle',
+                    formatter:paytypeformat,
+                    sortable: true
+                },  {
+                    field: 'is_pay',
+                    title: '订单状态',
+                    align: 'center',
+                    formatter: payformat
+                }]
+        });
+    }
+    //设置传入参数
+    function queryParams(params) {
+        params.mid=$("[name='mid']").val();
+        params.store_id=$("[name='store_id']").val();
+        params.order_no=$("[name='order_no']").val();
+        params.begin_time=$("[name='begin_time']").val();
+        params.end_time=$("[name='end_time']").val();
+       // alert(JSON.stringify(params));
+        return params
+    }
+    function operateFormatter(value, row, index) {
+        return [
+            '<a class="addStaff" href="javascript:void(0)" title="添加雇员">',
+            '<i class="glyphicon glyphicon-user"></i>',
+            '</a>  ',
+            '<a class="edit" href="javascript:void(0)" title="编辑">',
+            '<i class="glyphicon glyphicon-edit"></i>',
+            '</a>  ',
+            '<a class="remove" href="javascript:void(0)" title="删除">',
+            '<i class="glyphicon glyphicon-remove"></i>',
+            '</a>'
+        ].join('');
+    }
+    window.operateEvents = {
+        'click .addStaff': function (e, value, row, index) {
+            // alert('You click edit action, row: ' + JSON.stringify(row));
+            //$("#tab").bootstrapTable('resetView');
+            editForm("addStaff",row);
+        },
+        'click .edit': function (e, value, row, index) {
+           // alert('You click edit action, row: ' + JSON.stringify(row));
+            //$("#tab").bootstrapTable('resetView');
+            editForm("storeEdit",row);
+        },
+        'click .remove': function (e, value, row, index) {
+            //alert('You click like action, row: ' + JSON.stringify(row));
+           // $("#tab").bootstrapTable('refresh');
+            delte("__CONTROLLER__/delete","mid="+row.mid+"&id="+row.id);
+        }
+    };
+    $(function(){
+        getTab();
+    })
+//============================
+
+
+    function paywayformat(value){
+        var type = value;
+        if(type=='weixin')
+            type='微信'
+        return type;
+    }
+    function paytypeformat(value){
+        var type = value;
+        if(type=='JSAPI')
+                type='自定义二维码支付'
+        return type;
+    }
+    function priceformat(value){
+        return value/100;
+    }
+    function payformat(value){
+
+        return "<span style='padding: 2px 10px;background: #A5DC86;color: #1ab7ea;border-radius: 10px;'>支付成功</span>";
+    }
+
+</script>
+</body>
+</html>

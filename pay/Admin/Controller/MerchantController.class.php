@@ -9,11 +9,12 @@
 namespace Admin\Controller;
 
 use Think\Controller;
+use Util\AuthController;
 use Util\CommonUtil;
 
-class MerchantController extends Controller
+class MerchantController extends AuthController
 {
-    public function merchants(){
+  /*  public function merchants(){
     //limit=10&offset=10&search=1&sort=id&order=desc
         if($_SERVER['REQUEST_METHOD']=="POST"){
             $pager=[];
@@ -32,7 +33,7 @@ class MerchantController extends Controller
         if($_SERVER['REQUEST_METHOD']=="GET"){
             $this->display();
         }
-    }
+    }*/
 
     public function payconfig(){
 
@@ -44,7 +45,7 @@ class MerchantController extends Controller
             $data = $payconfig->where("mid = '%s'",array($mid))->find();
             S("config:".$mid,$data);
             }
-        var_dump(json_decode($data['config'],true));
+        //var_dump(json_decode($data['config'],true));
 
         $this->assign('payconfig',$data);
         $this->assign('config',json_decode($data['config'],true));
@@ -72,6 +73,7 @@ class MerchantController extends Controller
                 'appsecret'=>$_POST['appsecret'],
                 'mchid'=>$_POST['mchid'],
                 'apikey'=>$_POST['apikey'],
+                'domain'=>$_POST['domain'],
                 'apiclient_cert'=>CommonUtil::upload('apiclient_cert', $path),
                 'apiclient_key'=> CommonUtil::upload('apiclient_key', $path),
                 'rootca'=> CommonUtil::upload('rootca', $path)
@@ -92,13 +94,13 @@ class MerchantController extends Controller
                     $config[$_POST['type']][ 'rootca']=$config2[$_POST['type']][ 'rootca'];
                 }
                 //----------------------------------------
-                $payconfig_data=array(
-                    'config'=>json_encode($config),
-                    'wx_status'=>$wx_status
-                );
 
-                $payconfigModel->where("id='%s'",array( $payconfig['id']))->save($payconfig_data);
+                $payconfig['config']=json_encode($config);
+                $payconfig['wx_status']=$wx_status;
+                //var_dump($payconfig);
+                $payconfigModel->where("id='%s'",array( $payconfig['id']))->save($payconfig);
             }else{
+
                 $payconfig_data=array(
                     'config'=>json_encode($config),
                     'mid'=>$mid,
@@ -106,6 +108,8 @@ class MerchantController extends Controller
                 );
                 $payconfigModel->add($payconfig_data);
             }
+            //保存后清除缓存
+            $data = S("config:".$mid,null);
         }
 
 
@@ -117,11 +121,12 @@ class MerchantController extends Controller
         //limit=10&offset=10&search=1&sort=id&order=desc
 
         if($_SERVER['REQUEST_METHOD']=="POST"){
+            if(isset($_SESSION['loginMerchant'])){}
             $db = M('merchant');
             $pager=array();
                 $pager['total']=$db->where("pid='%s'",array($_SESSION['loginMerchant']['id']))->count();
 
-                $pager['rows']=$db->field(array("id",'username','merchantname','email','pid'))->where("pid='%s'",array($_SESSION['loginMerchant']['id']))->order($_POST['sort'])->limit($_POST['offset'].",".$_POST['limit'])->select();
+                $pager['rows']=$db->field(array("id",'username','merchantname','email','pid','salt'))->where("pid='%s'",array($_SESSION['loginMerchant']['id']))->order($_POST['sort'])->limit($_POST['offset'].",".$_POST['limit'])->select();
             $this->ajaxReturn($pager);
 
         }
@@ -138,10 +143,10 @@ class MerchantController extends Controller
             //var_dump($merchant);
             if(!$merchant->create($_POST)){
                 //var_dump($merchant->getError());
-                $this->ajaxReturn(array("result"=>0,"message"=>"fail","data"=>$merchant->getError()));
+                $this->ajaxReturn(array("result"=>"error","message"=>"fail","data"=>$merchant->getError()));
             }else{
                 $merchant->add();
-                $this->ajaxReturn(array("result"=>1,"message"=>"success","data"=>""));
+                $this->ajaxReturn(array("result"=>"success","message"=>"success","data"=>""));
             }
         }
     }
@@ -149,21 +154,28 @@ class MerchantController extends Controller
         if ((!isset($_POST['id']))||(!($_POST['id']==$_SESSION['loginMerchant']['id']))) {
             $pid = M('Merchant')->where("id='%s'", array($_POST['id']))->getField('pid');
             if (!$_SESSION['loginMerchant']['id'] == $pid) {
-                $this->ajaxReturn(array("result" => 0, "message" => "无权修改", "data" => null));
+                $this->ajaxReturn(array("result" => "error", "message" => "无权修改", "data" => null));
             }
         }
 
         if($_SERVER['REQUEST_METHOD']=="POST"){
-            $_POST['salt'] = CommonUtil::genernateNonceStr(8);
 
-            $merchant = new \Admin\Model\MerchantModel();
+            if(trim($_POST['password']=="")){
+                unset($_POST['password']);
+            }else{
+                if((!($_POST['password']==$_POST['repassword'])))
+                    $this->ajaxReturn(array("result"=>"error","message"=>"2次密码不一致","data"=>$_POST['password']==$_POST['repassword']));
+                $_POST['password']=md5($_POST['password'].$_POST['salt']);
+            }
+
+            $merchant = M('merchant');
             //var_dump($merchant);
             if(!$merchant->create($_POST)){
                 //var_dump($merchant->getError());
-                $this->ajaxReturn(array("result"=>0,"message"=>"fail","data"=>$merchant->getError()));
+                $this->ajaxReturn(array("result"=>"error","message"=>"fail","data"=>$merchant->getError()));
             }else{
                 $merchant->save();
-                $this->ajaxReturn(array("result"=>1,"message"=>"success","data"=>""));
+                $this->ajaxReturn(array("result"=>"success","message"=>"修改成功","data"=>""));
             }
         }
     }
@@ -176,7 +188,7 @@ class MerchantController extends Controller
             if ((!isset($_POST['mid']))||(!($_POST['mid']==$_SESSION['loginMerchant']['id']))) {
                 $pid = M('Merchant')->where("id='%s'", array($_POST['mid']))->getField('pid');
                 if (!$_SESSION['loginMerchant']['id'] == $pid) {
-                    $this->ajaxReturn(array("result" => 0, "message" => "无权修改", "data" => null));
+                    $this->ajaxReturn(array("result" => "error", "message" => "无权修改", "data" => null));
                 }
             }
             if (isset($_POST['type']) &&( $_POST['type'] == 'weixin')) {
@@ -192,7 +204,7 @@ class MerchantController extends Controller
                     $payconfig['wx_status']=$wx_status;
 
                     $db->where("id='%s'", array($payconfig['id']))->save($payconfig);
-                    $this->ajaxReturn(array("result" => 1, "message" => "修改成功", "data" =>$payconfig));
+                    $this->ajaxReturn(array("result" => "success", "message" => "修改成功", "data" =>$payconfig));
                 } else {
                     $payconfig = array(
                         'config' => json_encode($config),
@@ -201,7 +213,7 @@ class MerchantController extends Controller
                     );
                     $db->add($payconfig);
                 }
-                $this->ajaxReturn(array("result" => 1, "message" => "修改成功", "data" => null));
+                $this->ajaxReturn(array("result" => "success", "message" => "修改成功", "data" => null));
             }
         }else{
             //get 查询
@@ -211,12 +223,23 @@ class MerchantController extends Controller
             if($payconfig){
                 $configData = json_decode($payconfig['config'],true);
                 $configData['weixin']['mid']=$mid;
-                $this->ajaxReturn(array("result" => 1, "message" => "查询成功", "data" => $configData['weixin']));
+                $this->ajaxReturn(array("result" => "success", "message" => "查询成功", "data" => $configData['weixin']));
             }else{
                 $payconfig['weixin']['mid']=$mid;
-                $this->ajaxReturn(array("result" => 0, "message" => "无记录", "data" => $payconfig['weixin']));
+                $this->ajaxReturn(array("result" =>"error", "message" => "无记录", "data" => $payconfig['weixin']));
             }
         }
-        $this->ajaxReturn(array("result" => 0, "message" => "失败", "data" => null));
+        $this->ajaxReturn(array("result" => "error", "message" => "失败", "data" => null));
+    }
+
+    public function delete(){
+        if ((!isset($_POST['mid']))||(!($_POST['mid']==$_SESSION['loginMerchant']['id']))) {
+            $pid = M('Merchant')->where("id='%s'", array($_POST['mid']))->getField('pid');
+            if (!$_SESSION['loginMerchant']['id'] == $pid) {
+                $this->ajaxReturn(array("result" => "error", "message" => "无权修改", "data" => null));
+            }
+        }
+        M('merchant')->where("id='%s'",array($_POST['mid']))->delete();
+        $this->ajaxReturn(array("result" => "success", "message" => "删除成功", "data" => null));
     }
 }

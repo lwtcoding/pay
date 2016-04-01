@@ -18,7 +18,6 @@ class WechatController extends Controller
 
         $w = new Wechat('dgyl', true);
         if (isset($_GET["echostr"])) {
-
             $w->valid();
         } else {
 
@@ -52,40 +51,45 @@ eot;
                 echo $text;
                 exit();
             }
-            else if( $xml->MsgType == "text"){
+           /* else if( $xml->MsgType == "text"){
                 $commonUtil = new CommonUtil();
                 $access_token = $commonUtil->accessToken();
                 $user_info_url="https://api.weixin.qq.com/cgi-bin/user/info?access_token=".$access_token."&openid=".$xml->FromUserName."&lang=zh_CN";
                 $responseJson = $w->curlget($user_info_url);
                 file_put_contents("post.txt",  $user_info_url);
+            }*/
+            else if( $xml->MsgType == "event"){
+                if($xml->Event=="card_pass_check"){
+                    $card_id = $xml->CardId;
+                    //TODO 更新卡券状态 1
+                    $data = array();
+                    $data['status']=1;
+                    M('wxcoupon')->where("card_id='%s'",array($card_id))->save($data);
+                }
+                else if($xml->Event=="card_not_pass_check"){
+                    $card_id = $xml->CardId;
+                    //TODO 更新卡券状态 2
+                    $data = array();
+                    $data['status']=2;
+                    M('wxcoupon')->where("card_id='%s'",array($card_id))->save($data);
+                }
+                else if($xml->Event=="user_get_card"){
+                    //TODO 减少卡券数量 ，更新领取卡券表
+                    $data=array();
+                    $data["card_id"] = $xml->CardId;
+                    $data["openid"] = $xml->FromUserName;
+                    $wxcoupon = M('wxcoupon')->field(array("mid","quantity"))->where("card_id='%s'",array($data["card_id"]))->find();
+                    $wxcoupon['quantity']=$wxcoupon['quantity']-1;
+                    $data['mid']=$wxcoupon['mid'];
+                    M('wxcoupon')->where("card_id='%s'",array($data["card_id"]))->save($wxcoupon['quantity']);
+
+                    M("wxcoupon_receive")->add($data);
+
+                }
             }
         }
     }
-    public function getImg(){
 
-                $commonUtil = new CommonUtil();
-                /*
-                $access_token=$commonUtil->accessToken();
-
-
-                $w = new Wechat();
-                $a = $w->http( "https://api.weixin.qq.com/cgi-bin/user/info?access_token=Ly17TzgCbOBacq5rJWNEe0DNHhX0x5UNw5xGVI4EZlJVg1lDtnIyc3HXX00zNLkqMpA0p8SNexN4e4Onz20GxyNZ6ZsDXETC6gSe71LwQ4RLY92oPdRvcraHdh4esyKUVJLbAHAPDF&openid=ocMacs3nNC6aMryczG_eHO-v3Tz8&lang=zh_CN","GET");
-                echo $a[0];
-                echo json_decode( $a[1])->headimgurl;
-                */
-                //$newName = $commonUtil->getImg("http://wx.qlogo.cn/mmopen/icqWyfxQicZyBTukPXaiaxk6FwM4jJ1c7lkyB9dSBxmXAVb0o6db0HsI7tT4NSRzs2TcGGghVfZYtR5mGGmlKZyibaxXmWlAaRGG/0");
-                //echo $newName;
-                $commonUtil-> mkThumbnail('./upload/20160310034457.jpg', 100, 100, './upload/20160310034457_thumb.jpg');
-    }
-
-    public function img(){
-        $m1 = imagecreatefromstring(file_get_contents("./upload/src.jpg"));
-        $m2 = imagecreatefromstring(file_get_contents("./upload/20160310034457_thumb.jpg"));
-        var_dump(imagecopy($m1,$m2, 137, 350, 0, 0, 100, 100));
-
-        imagefttext($m1,10,0,137,462,0,"./upload/simsun.ttc","刘文滔");
-        imagejpeg($m1, "./upload/22.jpg");
-    }
 
 
 

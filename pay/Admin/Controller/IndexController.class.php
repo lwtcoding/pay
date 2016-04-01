@@ -1,7 +1,9 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class IndexController extends Controller {
+use Util\BaseAuthController;
+
+class IndexController extends BaseAuthController {
     public function index(){
         $this->assign('merchant',$_SESSION['loginMerchant']);
        $this->display();
