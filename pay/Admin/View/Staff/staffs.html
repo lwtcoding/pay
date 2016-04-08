@@ -56,7 +56,11 @@
                     }
                     ?>
                     <foreach name='stores' item='store'>
-                        <option value="{$store.id}">{$store.name}</option>
+                        <if condition="$store_id eq $store['id']">
+                            <option value="{$store.id}" selected>{$store.name}</option>
+                            <else />
+                            <option value="{$store.id}">{$store.name}</option>
+                        </if>
                     </foreach>
                 </select>
 
@@ -197,7 +201,15 @@
                     width: '100',
                     valign: 'middle',
                     sortable: true
-                }, {
+                },  {
+                    field: 'merchantname',
+                    title: '所属商家',
+                    align: 'center',
+                    width: '100',
+                    valign: 'middle',
+                    formatter:storeFormat,
+                    sortable: true
+                },{
                     field: 'store_id',
                     title: '所属门店',
                     align: 'center',
@@ -219,7 +231,7 @@
 
         params.store_id=$("[name='store_id']").val();
         params.nickname=$("[name='nickname']").val();
-
+        params.mid={$mid};
        // alert(JSON.stringify(params));
         return params
     }

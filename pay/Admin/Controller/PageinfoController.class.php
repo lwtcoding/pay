@@ -17,7 +17,7 @@ class PageinfoController extends BaseAuthController
 {
     public function pageinfo(){
         if($_SERVER['REQUEST_METHOD']=="POST"){
-            if(isset($_POST['id'])) {
+            if(isset($_POST['id'])&&(!(trim($_POST['id'])==""))) {
                 M('pageinfo')->save($_POST);
             }else{
                 M('pageinfo')->add($_POST);

@@ -180,6 +180,54 @@ class CommonUtil
             }
         }
     }
+
+    public static function  curl_post_ssl($url, $data, $wxconfig,$second=30,$aHeader=array())
+    {
+        $ch = curl_init();
+        //超时时间
+        curl_setopt($ch,CURLOPT_TIMEOUT,$second);
+        curl_setopt($ch,CURLOPT_RETURNTRANSFER, 1);
+        //这里设置代理，如果有的话
+        //curl_setopt($ch,CURLOPT_PROXY, '10.206.30.98');
+        //curl_setopt($ch,CURLOPT_PROXYPORT, 8080);
+        curl_setopt($ch,CURLOPT_URL,$url);
+        curl_setopt($ch,CURLOPT_SSL_VERIFYPEER,false);
+        curl_setopt($ch,CURLOPT_SSL_VERIFYHOST,false);
+
+        //以下两种方式需选择一种
+
+        //第一种方法，cert 与 key 分别属于两个.pem文件
+        //默认格式为PEM，可以注释
+        curl_setopt($ch,CURLOPT_SSLCERTTYPE,'PEM');
+        curl_setopt($ch,CURLOPT_SSLCERT,APP_PATH.'Uploads/'.$wxconfig['apiclient_cert']);
+        //默认格式为PEM，可以注释
+        curl_setopt($ch,CURLOPT_SSLKEYTYPE,'PEM');
+        curl_setopt($ch,CURLOPT_SSLKEY,APP_PATH.'Uploads/'.$wxconfig['apiclient_key']);
+        curl_setopt($ch,CURLOPT_SSLKEYTYPE,'PEM');
+        curl_setopt($ch,CURLOPT_CAINFO,APP_PATH.'Uploads/'.$wxconfig['rootca']);
+
+        //第二种方式，两个文件合成一个.pem文件
+        //curl_setopt($ch,CURLOPT_SSLCERT,getcwd().'/all.pem');
+
+        if( count($aHeader) >= 1 ){
+            curl_setopt($ch, CURLOPT_HTTPHEADER, $aHeader);
+        }
+
+        curl_setopt($ch,CURLOPT_POST, 1);
+        curl_setopt($ch,CURLOPT_POSTFIELDS,$data);
+        $result = curl_exec($ch);
+        if( $result ){
+            curl_close($ch);
+            return  $result ;
+        }
+        else {
+            $error = curl_errno($ch);
+            echo "call faild, errorCode:$error\n";
+            curl_close($ch);
+            return array("error"=>$error);
+        }
+    }
+
     public static function createOrderNo(){
         return date("YmdHis",time()).self::genernateNumNonceStr(10);
     }
@@ -226,7 +274,16 @@ class CommonUtil
         $array_data = json_decode(json_encode(simplexml_load_string($xml, 'SimpleXMLElement', LIBXML_NOCDATA)), true);
         return $array_data;
     }
+    public static function arrToXml($arr)
+    {
+        $xml = "<xml>";
+       foreach($arr as $k=>$v){
 
+            $xml .= "<".$k.">".$v."</".$k.">";
+       }
+        $xml .= "</xml>";
+        return $xml;
+    }
     public static function muban($openid,$detail_url,$pay_type,$order_no,$total_fee){
         $wechat = new WeChatUtil(CommonUtil::getMerchantConfig(5),5);
         $access_token = $wechat->accessToken();

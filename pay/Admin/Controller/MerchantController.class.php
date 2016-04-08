@@ -58,9 +58,9 @@ class MerchantController extends AuthController
         $mid=$_POST['mid'];
 
         if ((!isset($_POST['mid']))||(!($_POST['mid']==$_SESSION['loginMerchant']['id']))) {
-            $pid = M('Merchant')->where("id='%s'",array($_POST['mid']))->getField('pid');
-            if(!$_SESSION['loginMerchant']['id']==$pid){
-                $this->error('无权修改','payconfig');
+            $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_POST['mid']))->find();
+            if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
+                $this->error("无权修改","payconfig");
             }
         }
       //  $mid=$_SESSION['loginMerchant']['id'];
@@ -121,16 +121,39 @@ class MerchantController extends AuthController
         //limit=10&offset=10&search=1&sort=id&order=desc
 
         if($_SERVER['REQUEST_METHOD']=="POST"){
-            if(isset($_SESSION['loginMerchant'])){}
-            $db = M('merchant');
-            $pager=array();
-                $pager['total']=$db->where("pid='%s'",array($_SESSION['loginMerchant']['id']))->count();
 
-                $pager['rows']=$db->field(array("id",'username','merchantname','email','pid','salt'))->where("pid='%s'",array($_SESSION['loginMerchant']['id']))->order($_POST['sort'])->limit($_POST['offset'].",".$_POST['limit'])->select();
+            $db = M('merchant');
+            $condition="1=1";
+            if(isset($_POST['pid'])&&(!(trim($_POST['pid'])=="")))
+                $condition.=" AND pid=".$_POST['pid'];
+            if(isset($_POST['parent_id'])&&(!(trim($_POST['parent_id'])=="")))
+                $condition.=" AND parent_id=".$_POST['parent_id'];
+            $pager=array();
+                $pager['total']=$db->where($condition)->count();
+
+                $pager['rows']=$db->field(array("id",'username','merchantname','email','pid','salt','parent_id'))->where($condition)->order($_POST['sort'])->limit($_POST['offset'].",".$_POST['limit'])->select();
             $this->ajaxReturn($pager);
 
         }
         if($_SERVER['REQUEST_METHOD']=="GET"){
+            if(!isset($_GET['id'])){
+                if($_SESSION['loginMerchant']['is_proxy']==1) {
+                    $this->assign("pid",$_SESSION['loginMerchant']['id']);
+                    $this->assign("parent_id", 0);
+                }else{
+                    $this->assign("pid",$_SESSION['loginMerchant']['pid']);
+                    $this->assign("parent_id",$_SESSION['loginMerchant']['id']);
+                }
+            }else{
+                //TODO 验证
+                $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_GET['id']))->find();
+                if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
+                    $this->display("Error:403");
+                    exit();
+                }
+                $this->assign("pid",$_GET['pid']);
+                $this->assign("parent_id",$_GET['id']);
+            }
             $this->display();
         }
     }
@@ -146,15 +169,15 @@ class MerchantController extends AuthController
                 $this->ajaxReturn(array("result"=>"error","message"=>"fail","data"=>$merchant->getError()));
             }else{
                 $merchant->add();
-                $this->ajaxReturn(array("result"=>"success","message"=>"success","data"=>""));
+                $this->ajaxReturn(array("result"=>"success","message"=>"添加成功","data"=>""));
             }
         }
     }
     public function edit(){
-        if ((!isset($_POST['id']))||(!($_POST['id']==$_SESSION['loginMerchant']['id']))) {
-            $pid = M('Merchant')->where("id='%s'", array($_POST['id']))->getField('pid');
-            if (!$_SESSION['loginMerchant']['id'] == $pid) {
-                $this->ajaxReturn(array("result" => "error", "message" => "无权修改", "data" => null));
+        if ((!($_POST['id']==$_SESSION['loginMerchant']['id']))) {
+            $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_POST['id']))->find();
+            if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
+                $this->ajaxReturn(array("result" =>"error", "message" => "无权查看", "data" => null));
             }
         }
 
@@ -186,9 +209,9 @@ class MerchantController extends AuthController
             $mid = $_POST['mid'];
 
             if ((!isset($_POST['mid']))||(!($_POST['mid']==$_SESSION['loginMerchant']['id']))) {
-                $pid = M('Merchant')->where("id='%s'", array($_POST['mid']))->getField('pid');
-                if (!$_SESSION['loginMerchant']['id'] == $pid) {
-                    $this->ajaxReturn(array("result" => "error", "message" => "无权修改", "data" => null));
+                $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_POST['mid']))->find();
+                if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
+                    $this->ajaxReturn(array("result" => 0, "message" => "无权修改", "data" => ""));
                 }
             }
             if (isset($_POST['type']) &&( $_POST['type'] == 'weixin')) {
@@ -204,7 +227,7 @@ class MerchantController extends AuthController
                     $payconfig['wx_status']=$wx_status;
 
                     $db->where("id='%s'", array($payconfig['id']))->save($payconfig);
-                    $this->ajaxReturn(array("result" => "success", "message" => "修改成功", "data" =>$payconfig));
+                    $this->ajaxReturn(array("result" => "success", "message" => "修改成功", "data" =>""));
                 } else {
                     $payconfig = array(
                         'config' => json_encode($config),
@@ -223,20 +246,20 @@ class MerchantController extends AuthController
             if($payconfig){
                 $configData = json_decode($payconfig['config'],true);
                 $configData['weixin']['mid']=$mid;
-                $this->ajaxReturn(array("result" => "success", "message" => "查询成功", "data" => $configData['weixin']));
+                $this->ajaxReturn(array("result" => "success", "message" => "查询成功", "data" =>""));
             }else{
                 $payconfig['weixin']['mid']=$mid;
-                $this->ajaxReturn(array("result" =>"error", "message" => "无记录", "data" => $payconfig['weixin']));
+                $this->ajaxReturn(array("result" =>"error", "message" => "无记录", "data" =>""));
             }
         }
         $this->ajaxReturn(array("result" => "error", "message" => "失败", "data" => null));
     }
 
     public function delete(){
-        if ((!isset($_POST['mid']))||(!($_POST['mid']==$_SESSION['loginMerchant']['id']))) {
-            $pid = M('Merchant')->where("id='%s'", array($_POST['mid']))->getField('pid');
-            if (!$_SESSION['loginMerchant']['id'] == $pid) {
-                $this->ajaxReturn(array("result" => "error", "message" => "无权修改", "data" => null));
+        if ((!($_POST['mid']==$_SESSION['loginMerchant']['id']))) {
+            $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_POST['mid']))->find();
+            if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
+                $this->ajaxReturn(array("result" => 0, "message" => "无权查看", "data" => null));
             }
         }
         M('merchant')->where("id='%s'",array($_POST['mid']))->delete();

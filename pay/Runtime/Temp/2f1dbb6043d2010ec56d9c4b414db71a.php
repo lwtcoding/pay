@@ -1,3 +1,3 @@
 <?php
-//000000000000a:5:{s:2:"id";s:1:"5";s:6:"config";s:277:"{"weixin":{"appid":"213213123123","appsecret":"1231231231231","mchid":"1231231231","apikey":"1231231231232131","apiclient_cert":"cert\/5\/2016-03-21\/56efb039bb8de.pem","apiclient_key":"cert\/5\/2016-03-21\/56efb039bc87e.pem","rootca":"cert\/5\/2016-03-21\/56efb039bd04e.pem"}}";s:3:"mid";s:1:"5";s:9:"wx_status";s:1:"1";s:10:"ali_status";s:1:"0";}
+//000000000000a:5:{s:2:"id";s:1:"5";s:6:"config";s:348:"{"weixin":{"appid":"wx9d690b35ec3cfced","appsecret":"42dda2fdb37479994c57645b33e30c59","mchid":"1264847201","apikey":"DGSYLTGDZSKJZLFWYXGS224935808888","domain":"lwtcoding.wicp.net","apiclient_cert":"cert\/5\/2016-03-21\/56efb039bb8de.pem","apiclient_key":"cert\/5\/2016-03-21\/56efb039bc87e.pem","rootca":"cert\/5\/2016-03-21\/56efb039bd04e.pem"}}";s:3:"mid";s:1:"5";s:9:"wx_status";s:1:"1";s:10:"ali_status";s:1:"0";}
 ?>

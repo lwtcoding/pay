@@ -1,0 +1,2692 @@
+[ 2016-03-29T09:47:49+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T09:47:49+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T09:48:27+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T09:48:27+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T09:48:31+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: Method Admin\Controller\CardController::__call() does not exist
+
+[ 2016-03-29T09:49:22+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T09:49:56+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T09:49:57+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T09:49:59+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T09:50:05+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T09:59:29+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T09:59:29+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T09:59:32+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T10:00:45+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T10:00:47+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T10:00:48+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T10:04:14+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T10:04:32+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T10:04:32+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T10:04:40+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T10:08:15+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T10:08:16+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T10:08:20+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T10:21:35+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'tgyx.tgyx_cashier_wxcoupon_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tgyx_cashier_wxcoupon_common`
+
+[ 2016-03-29T10:26:21+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'tgyx.tgyx_cashier_wxcoupon_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tgyx_cashier_wxcoupon_common`
+
+[ 2016-03-29T10:26:25+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'tgyx.tgyx_cashier_wxcoupon_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tgyx_cashier_wxcoupon_common`
+
+[ 2016-03-29T10:26:52+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: Think\Model:get_one方法不存在！
+
+[ 2016-03-29T10:27:35+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T10:30:00+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T10:31:07+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T10:32:12+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T10:34:09+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T10:34:10+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T10:34:14+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T10:34:45+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T10:34:49+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T10:35:33+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T10:43:55+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T10:49:30+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T10:51:16+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T10:53:46+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T10:55:08+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T10:56:21+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-29T10:56:39+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T11:00:33+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T11:00:59+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:01:48+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T11:03:13+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:03:37+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:05:15+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:05:15+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:05:19+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T11:05:44+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:07:31+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T11:08:58+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:09:35+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T11:10:20+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:11:11+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:12:20+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:13:39+08:00 ] ::1 /index.php/admin/Card/card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:44:24+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:44:25+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T11:44:32+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:44:59+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T11:45:02+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T11:45:03+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T11:45:04+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:45:09+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:49:05+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T11:49:05+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T11:49:13+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:49:44+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:49:44+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T11:49:55+08:00 ] ::1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T11:49:55+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T11:49:57+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 AND store_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 33 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 AND store_id=1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-29T11:49:59+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T13:43:27+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T13:43:27+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T13:43:34+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T13:43:39+08:00 ] ::1 /index.php/admin/Card/add?m=User&c=wxCoupon&a=docreateKq&typeid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_common` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_common` WHERE `mid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T13:44:34+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T13:44:35+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T13:44:38+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T13:49:26+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T13:49:28+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T13:49:28+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T13:49:33+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T13:49:47+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T13:51:38+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-29T13:51:38+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T13:51:42+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T13:51:52+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T13:52:25+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T13:52:25+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T13:52:33+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T13:52:58+08:00 ] ::1 /index.php/admin/Card/add?m=User&c=wxCoupon&a=docreateKq&typeid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_common` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_common` WHERE `mid` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T13:54:19+08:00 ] ::1 /index.php/admin/Card/add?m=User&c=wxCoupon&a=uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_common` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_common` WHERE `mid` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T14:04:19+08:00 ] ::1 /index.php/admin/Card/add?m=User&c=wxCoupon&a=uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_common` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_common` WHERE `mid` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T14:14:14+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T14:18:50+08:00 ] ::1 /index.php/admin/Card/add?m=User&c=wxCoupon&a=uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_common` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_common` WHERE `mid` = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T14:21:28+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T14:21:35+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] opendir(./Uploads/card/5/,./Uploads/card/5/):  E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 33 行.
+NOTIC: [2] opendir(./Uploads/card/5/): failed to open dir: No such file or directory E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 33 行.
+NOTIC: [2] readdir() expects parameter 1 to be resource, boolean given E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 34 行.
+NOTIC: [2] closedir() expects parameter 1 to be resource, boolean given E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 45 行.
+NOTIC: [2] rmdir(./Uploads/card/5/): No such file or directory E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 47 行.
+NOTIC: [8] Undefined index: logo_temp E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 87 行.
+NOTIC: [8] Undefined index: error E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2016-03-29T14:22:18+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: logo_temp E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 87 行.
+NOTIC: [8] Undefined index: error E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2016-03-29T14:23:40+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: base_info[logo_url] E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 87 行.
+NOTIC: [8] Undefined index: error E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2016-03-29T14:24:18+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-03-29T14:59:57+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T14:59:58+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( mid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: offset E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: limit E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( mid='5' ) ORDER BY id  [ RunTime:0.0000s ]
+
+[ 2016-03-29T15:00:04+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T15:00:05+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND store_id=1 AND FROM_UNIXTIME(create_time,'%Y%m%d')=FROM_UNIXTIME(1459180800,'%Y%m%d') GROUP BY labels [ RunTime:0.0000s ]
+
+[ 2016-03-29T15:00:06+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0050s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND store_id=1 AND FROM_UNIXTIME(create_time,'%Y%m')=FROM_UNIXTIME(1459180800,'%Y%m') GROUP BY labels [ RunTime:0.0020s ]
+
+[ 2016-03-29T15:00:07+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND store_id=1 AND FROM_UNIXTIME(create_time,'%Y')=FROM_UNIXTIME(1459180800,'%Y') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-29T15:00:23+08:00 ] ::1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T15:00:23+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T15:00:24+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 AND store_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 33 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 AND store_id=1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-29T15:02:11+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T15:02:24+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T15:02:29+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T15:02:31+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( mid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: offset E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: limit E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( mid='5' ) ORDER BY id  [ RunTime:0.0000s ]
+
+[ 2016-03-29T15:02:56+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T15:02:57+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( mid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: offset E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: limit E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( mid='5' ) ORDER BY id  [ RunTime:0.0000s ]
+
+[ 2016-03-29T15:03:11+08:00 ] ::1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T15:03:12+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+NOTIC: [8] Undefined index: offset E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+NOTIC: [8] Undefined index: limit E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid` FROM `tgyx_merchant` WHERE ( pid='5' )  [ RunTime:0.0000s ]
+
+[ 2016-03-29T15:03:16+08:00 ] ::1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T15:03:17+08:00 ] ::1 /index.php/admin/Order/orders?qrcode=1&mid=5&store_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T15:03:18+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 33 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-29T15:03:40+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T15:08:20+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-03-29T15:21:00+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-03-29T15:21:23+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+NOTIC: [8] Undefined variable: inserData E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 110 行.
+
+[ 2016-03-29T15:21:38+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T15:21:44+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+NOTIC: [8] Undefined variable: inserData E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 110 行.
+
+[ 2016-03-29T15:23:11+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+NOTIC: [8] Undefined variable: inserData E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 110 行.
+
+[ 2016-03-29T15:24:52+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+NOTIC: [8] Undefined variable: inserData E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 110 行.
+
+[ 2016-03-29T15:26:28+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T15:26:34+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+NOTIC: [8] Undefined variable: inserData E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 110 行.
+
+[ 2016-03-29T15:26:47+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T15:26:47+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T15:26:51+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T15:26:58+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+NOTIC: [8] Undefined variable: inserData E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 110 行.
+
+[ 2016-03-29T15:27:50+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T15:27:51+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T15:28:01+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T15:28:10+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+NOTIC: [8] Undefined variable: inserData E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 110 行.
+
+[ 2016-03-29T15:28:31+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T15:28:31+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T15:28:36+08:00 ] ::1 /index.php/admin/index/invoice.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:invoice
+
+[ 2016-03-29T15:28:39+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T15:28:45+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+NOTIC: [8] Undefined variable: inserData E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 110 行.
+
+[ 2016-03-29T15:29:53+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+NOTIC: [8] Undefined variable: inserData E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 110 行.
+
+[ 2016-03-29T15:35:39+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-29T15:39:10+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: inserData E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 111 行.
+
+[ 2016-03-29T15:42:30+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+
+[ 2016-03-29T15:45:17+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T15:45:18+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T15:45:23+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T15:45:30+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-29T15:46:40+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-29T15:47:35+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-29T15:49:39+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-29T15:53:19+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-29T15:54:51+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 167 行.
+
+[ 2016-03-29T15:56:03+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 167 行.
+NOTIC: [8] Array to string conversion E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 90 行.
+
+[ 2016-03-29T15:56:37+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 167 行.
+
+[ 2016-03-29T15:58:39+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 167 行.
+
+[ 2016-03-29T16:25:09+08:00 ] ::1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T16:25:11+08:00 ] ::1 /index.php/admin/Order/orders?qrcode=1&mid=5&store_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T16:25:12+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 33 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-29T16:26:08+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T16:26:09+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( mid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: offset E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: limit E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( mid='5' ) ORDER BY id  [ RunTime:0.0000s ]
+
+[ 2016-03-29T16:26:29+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T16:26:52+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T16:27:13+08:00 ] ::1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T16:27:14+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T16:27:15+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 AND store_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 33 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 AND store_id=1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-29T16:27:18+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T16:27:39+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T16:47:50+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 167 行.
+
+[ 2016-03-29T16:47:58+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 167 行.
+
+[ 2016-03-29T16:51:16+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 168 行.
+
+[ 2016-03-29T16:56:13+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-29T16:58:12+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-29T16:59:17+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T16:59:17+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T16:59:20+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T16:59:27+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-29T17:03:10+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-29T17:05:59+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-29T17:07:39+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: errcode E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 176 行.
+
+[ 2016-03-29T17:09:31+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: errcode E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_common` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_common` WHERE ( mid =5 ) LIMIT 1   [ RunTime:0.0010s ]
+ERR: 1364:Field 'logourl' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_wxcoupon_common` (`wxlogurl`,`mid`) VALUES ('http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0','5')
+ERR: 1364:Field 'logourl' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_wxcoupon_common` (`wxlogurl`,`mid`) VALUES ('http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0','5')
+
+[ 2016-03-29T17:13:18+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: errcode E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_common` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_common` WHERE ( mid =5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `tgyx_wxcoupon_common` (`wxlogurl`,`mid`) VALUES ('http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0','5') [ RunTime:0.0940s ]
+
+[ 2016-03-29T17:17:45+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:17:46+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:17:52+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:18:36+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:20:37+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:21:09+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:21:28+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:22:30+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: errcode E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_common` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_common` WHERE ( mid =5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tgyx_wxcoupon_common` SET `logourl`='card/5/2016-03-29/56fa495429b99.png',`wxlogourl`='http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0' WHERE ( id = 1 ) [ RunTime:0.0440s ]
+
+[ 2016-03-29T17:23:34+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:23:34+08:00 ] ::1 /index.php/admin/Card/card/5/2016-03-29/56fa495429b99.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:24:19+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:24:19+08:00 ] ::1 /index.php/admin/Card/card/5/2016-03-29/56fa495429b99.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:24:23+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:24:23+08:00 ] ::1 /index.php/admin/Card/card/5/2016-03-29/56fa495429b99.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:24:34+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: errcode E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_common` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_common` WHERE ( mid =5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tgyx_wxcoupon_common` SET `logourl`='card/5/2016-03-29/56fa49cfafc64.png',`wxlogourl`='http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0' WHERE ( id = 1 ) [ RunTime:0.0600s ]
+
+[ 2016-03-29T17:25:04+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:25:04+08:00 ] ::1 /index.php/admin/Card/card/5/2016-03-29/56fa49cfafc64.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:25:48+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:25:48+08:00 ] ::1 /index.php/admin/Card/Uploads/card/5/2016-03-29/56fa49cfafc64.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:26:01+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:26:16+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: errcode E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_common` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_common` WHERE ( mid =5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tgyx_wxcoupon_common` SET `logourl`='card/5/2016-03-29/56fa4a361eb85.png',`wxlogourl`='http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1FafviapWib9ATMZRKI59KxpOo47YyPBPb5ZOcFo0vLwZLUxerOUMLorQ/0' WHERE ( id = 1 ) [ RunTime:0.0540s ]
+
+[ 2016-03-29T17:26:16+08:00 ] ::1 /index.php/admin/Card/Uploads/card/5/2016-03-29/56fa4a361eb85.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:26:25+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:27:37+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:28:03+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:28:21+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:28:31+08:00 ] ::1 /index.php/admin/card/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: errcode E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_common` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_common` WHERE ( mid =5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tgyx_wxcoupon_common` SET `logourl`='card/5/2016-03-29/56fa4abd58844.png',`wxlogourl`='http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0' WHERE ( id = 1 ) [ RunTime:0.0690s ]
+
+[ 2016-03-29T17:29:35+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-29T17:30:16+08:00 ] ::1 /index.php/admin/Card/add?m=User&c=wxCoupon&a=docreateKq&typeid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_common` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_common` WHERE ( mid = 5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: logurl E:\PhpstormProjects\pay\pay\Runtime\Cache\Admin\ad1cef48ea6a4d5d525f578db7b5ed05.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:35:40+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:35:40+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:35:45+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:35:49+08:00 ] ::1 /index.php/admin/card/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index
+
+[ 2016-03-29T17:36:55+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:37:00+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:clear_html方法不存在！
+
+[ 2016-03-29T17:38:37+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:FiltrationData方法不存在！
+
+[ 2016-03-29T17:39:05+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Think\Controller:dexit方法不存在！
+
+[ 2016-03-29T17:39:10+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Think\Controller:dexit方法不存在！
+
+[ 2016-03-29T17:40:01+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:40:08+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:41:04+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:41:25+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:41:56+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: discount E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 197 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 210 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 212 行.
+NOTIC: [8] Undefined index: supply_balance E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 224 行.
+
+[ 2016-03-29T17:42:19+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: discount E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 197 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 210 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 212 行.
+NOTIC: [8] Undefined index: supply_balance E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 224 行.
+
+[ 2016-03-29T17:45:04+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: discount E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 197 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 210 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 212 行.
+NOTIC: [8] Undefined index: supply_balance E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 224 行.
+
+[ 2016-03-29T17:45:06+08:00 ] ::1 /index.php/admin/Card/add?m=User&c=wxCoupon&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:56:27+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:56:42+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T17:57:15+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:58:37+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T17:58:38+08:00 ] ::1 /index.php/admin/Card/add?m=User&c=wxCoupon&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:00:05+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:00:34+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: discount E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 199 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 212 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 214 行.
+NOTIC: [8] Undefined index: supply_balance E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 226 行.
+
+[ 2016-03-29T18:01:40+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: discount E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 198 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 211 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 213 行.
+NOTIC: [8] Undefined index: supply_balance E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 225 行.
+
+[ 2016-03-29T18:01:41+08:00 ] ::1 /index.php/admin/Card/add?m=User&c=wxCoupon&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:06:19+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: discount E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 201 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 214 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 216 行.
+NOTIC: [8] Undefined index: supply_balance E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 228 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 287 行.
+
+[ 2016-03-29T18:07:09+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: discount E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 201 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 214 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 216 行.
+NOTIC: [8] Undefined index: supply_balance E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 228 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+
+[ 2016-03-29T18:07:10+08:00 ] ::1 /index.php/admin/Card/add?m=User&c=wxCoupon&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:23:43+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:27:27+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:31:43+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: discount E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 201 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 214 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 216 行.
+NOTIC: [8] Undefined index: supply_balance E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 228 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0040s ]
+ERR: 1364:Field 'status' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_wxcoupon` (`mid`,`card_type`,`card_title`,`begin_timestamp`,`end_timestamp`,`activate`,`quantity`,`get_limit`,`kqcontent`,`kqexpand`,`card_id`,`addtime`) VALUES ('0','5','至尊卡','0','0',NULL,'100','50','a:24:{s:8:\"logo_url\";s:117:\"http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0\";s:10:\"brand_name\";s:12:\"银联通莞\";s:5:\"color\";s:8:\"Color010\";s:5:\"title\";s:9:\"至尊卡\";s:9:\"sub_title\";s:0:\"\";s:9:\"get_limit\";i:50;s:9:\"can_share\";b:0;s:15:\"can_give_friend\";b:1;s:6:\"notice\";s:27:\"享受本商户9.9折优惠\";s:11:\"description\";s:39:\"无需出示，微信支付直接打折\";s:13:\"service_phone\";s:0:\"\";s:15:\"custom_url_name\";s:12:\"绑定会员\";s:20:\"custom_url_sub_title\";s:12:\"立享优惠\";s:10:\"custom_url\";s:16:\"http://baidu.com\";s:18:\"promotion_url_name\";s:0:\"\";s:23:\"promotion_url_sub_title\";s:0:\"\";s:13:\"promotion_url\";s:0:\"\";s:9:\"code_type\";s:16:\"CODE_TYPE_QRCODE\";s:9:\"date_info\";a:1:{s:4:\"type\";s:19:\"DATE_TYPE_PERMANENT\";}s:3:\"sku\";a:1:{s:8:\"quantity\";i:100;}s:15:\"use_custom_code\";b:0;s:11:\"bind_openid\";b:0;s:16:\"location_id_list\";s:10:\"Jsarray[0]\";s:6:\"source\";s:12:\"银联通莞\";}','a:9:{s:11:\"prerogative\";s:39:\"无需出示，微信支付直接打折\";s:13:\"auto_activate\";b:1;s:14:\"supply_balance\";b:0;s:12:\"supply_bonus\";b:1;s:9:\"bonus_url\";s:16:\"http://baidu.com\";s:11:\"bonus_rules\";s:0:\"\";s:13:\"bonus_cleared\";s:0:\"\";s:10:\"bonus_rule\";a:4:{s:15:\"cost_money_unit\";i:0;s:14:\"increase_bonus\";i:0;s:18:\"max_increase_bonus\";i:0;s:19:\"init_increase_bonus\";i:0;}s:12:\"custom_cell1\";a:3:{s:4:\"name\";s:0:\"\";s:4:\"tips\";s:0:\"\";s:3:\"url\";s:0:\"\";}}','pcMacs1QfEK0zkv0LmlxhZRGGmlg','1459247503')
+ERR: 1364:Field 'status' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_wxcoupon` (`mid`,`card_type`,`card_title`,`begin_timestamp`,`end_timestamp`,`activate`,`quantity`,`get_limit`,`kqcontent`,`kqexpand`,`card_id`,`addtime`) VALUES ('0','5','至尊卡','0','0',NULL,'100','50','a:24:{s:8:\"logo_url\";s:117:\"http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0\";s:10:\"brand_name\";s:12:\"银联通莞\";s:5:\"color\";s:8:\"Color010\";s:5:\"title\";s:9:\"至尊卡\";s:9:\"sub_title\";s:0:\"\";s:9:\"get_limit\";i:50;s:9:\"can_share\";b:0;s:15:\"can_give_friend\";b:1;s:6:\"notice\";s:27:\"享受本商户9.9折优惠\";s:11:\"description\";s:39:\"无需出示，微信支付直接打折\";s:13:\"service_phone\";s:0:\"\";s:15:\"custom_url_name\";s:12:\"绑定会员\";s:20:\"custom_url_sub_title\";s:12:\"立享优惠\";s:10:\"custom_url\";s:16:\"http://baidu.com\";s:18:\"promotion_url_name\";s:0:\"\";s:23:\"promotion_url_sub_title\";s:0:\"\";s:13:\"promotion_url\";s:0:\"\";s:9:\"code_type\";s:16:\"CODE_TYPE_QRCODE\";s:9:\"date_info\";a:1:{s:4:\"type\";s:19:\"DATE_TYPE_PERMANENT\";}s:3:\"sku\";a:1:{s:8:\"quantity\";i:100;}s:15:\"use_custom_code\";b:0;s:11:\"bind_openid\";b:0;s:16:\"location_id_list\";s:10:\"Jsarray[0]\";s:6:\"source\";s:12:\"银联通莞\";}','a:9:{s:11:\"prerogative\";s:39:\"无需出示，微信支付直接打折\";s:13:\"auto_activate\";b:1;s:14:\"supply_balance\";b:0;s:12:\"supply_bonus\";b:1;s:9:\"bonus_url\";s:16:\"http://baidu.com\";s:11:\"bonus_rules\";s:0:\"\";s:13:\"bonus_cleared\";s:0:\"\";s:10:\"bonus_rule\";a:4:{s:15:\"cost_money_unit\";i:0;s:14:\"increase_bonus\";i:0;s:18:\"max_increase_bonus\";i:0;s:19:\"init_increase_bonus\";i:0;}s:12:\"custom_cell1\";a:3:{s:4:\"name\";s:0:\"\";s:4:\"tips\";s:0:\"\";s:3:\"url\";s:0:\"\";}}','pcMacs1QfEK0zkv0LmlxhZRGGmlg','1459247503')
+
+[ 2016-03-29T18:32:45+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: discount E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 201 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 214 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 216 行.
+NOTIC: [8] Undefined index: supply_balance E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 228 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0040s ]
+ERR: 1364:Field 'receivenum' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_wxcoupon` (`mid`,`card_type`,`card_title`,`begin_timestamp`,`end_timestamp`,`activate`,`quantity`,`get_limit`,`kqcontent`,`kqexpand`,`card_id`,`addtime`) VALUES ('0','5','至尊卡','0','0',NULL,'100','50','a:24:{s:8:\"logo_url\";s:117:\"http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0\";s:10:\"brand_name\";s:12:\"银联通莞\";s:5:\"color\";s:8:\"Color010\";s:5:\"title\";s:9:\"至尊卡\";s:9:\"sub_title\";s:0:\"\";s:9:\"get_limit\";i:50;s:9:\"can_share\";b:0;s:15:\"can_give_friend\";b:1;s:6:\"notice\";s:27:\"享受本商户9.9折优惠\";s:11:\"description\";s:39:\"无需出示，微信支付直接打折\";s:13:\"service_phone\";s:0:\"\";s:15:\"custom_url_name\";s:12:\"绑定会员\";s:20:\"custom_url_sub_title\";s:12:\"立享优惠\";s:10:\"custom_url\";s:16:\"http://baidu.com\";s:18:\"promotion_url_name\";s:0:\"\";s:23:\"promotion_url_sub_title\";s:0:\"\";s:13:\"promotion_url\";s:0:\"\";s:9:\"code_type\";s:16:\"CODE_TYPE_QRCODE\";s:9:\"date_info\";a:1:{s:4:\"type\";s:19:\"DATE_TYPE_PERMANENT\";}s:3:\"sku\";a:1:{s:8:\"quantity\";i:100;}s:15:\"use_custom_code\";b:0;s:11:\"bind_openid\";b:0;s:16:\"location_id_list\";s:10:\"Jsarray[0]\";s:6:\"source\";s:12:\"银联通莞\";}','a:9:{s:11:\"prerogative\";s:39:\"无需出示，微信支付直接打折\";s:13:\"auto_activate\";b:1;s:14:\"supply_balance\";b:0;s:12:\"supply_bonus\";b:1;s:9:\"bonus_url\";s:16:\"http://baidu.com\";s:11:\"bonus_rules\";s:0:\"\";s:13:\"bonus_cleared\";s:0:\"\";s:10:\"bonus_rule\";a:4:{s:15:\"cost_money_unit\";i:0;s:14:\"increase_bonus\";i:0;s:18:\"max_increase_bonus\";i:0;s:19:\"init_increase_bonus\";i:0;}s:12:\"custom_cell1\";a:3:{s:4:\"name\";s:0:\"\";s:4:\"tips\";s:0:\"\";s:3:\"url\";s:0:\"\";}}','pcMacs2UxPtSgLUXszHAi-yKTokY','1459247565')
+ERR: 1364:Field 'receivenum' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_wxcoupon` (`mid`,`card_type`,`card_title`,`begin_timestamp`,`end_timestamp`,`activate`,`quantity`,`get_limit`,`kqcontent`,`kqexpand`,`card_id`,`addtime`) VALUES ('0','5','至尊卡','0','0',NULL,'100','50','a:24:{s:8:\"logo_url\";s:117:\"http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0\";s:10:\"brand_name\";s:12:\"银联通莞\";s:5:\"color\";s:8:\"Color010\";s:5:\"title\";s:9:\"至尊卡\";s:9:\"sub_title\";s:0:\"\";s:9:\"get_limit\";i:50;s:9:\"can_share\";b:0;s:15:\"can_give_friend\";b:1;s:6:\"notice\";s:27:\"享受本商户9.9折优惠\";s:11:\"description\";s:39:\"无需出示，微信支付直接打折\";s:13:\"service_phone\";s:0:\"\";s:15:\"custom_url_name\";s:12:\"绑定会员\";s:20:\"custom_url_sub_title\";s:12:\"立享优惠\";s:10:\"custom_url\";s:16:\"http://baidu.com\";s:18:\"promotion_url_name\";s:0:\"\";s:23:\"promotion_url_sub_title\";s:0:\"\";s:13:\"promotion_url\";s:0:\"\";s:9:\"code_type\";s:16:\"CODE_TYPE_QRCODE\";s:9:\"date_info\";a:1:{s:4:\"type\";s:19:\"DATE_TYPE_PERMANENT\";}s:3:\"sku\";a:1:{s:8:\"quantity\";i:100;}s:15:\"use_custom_code\";b:0;s:11:\"bind_openid\";b:0;s:16:\"location_id_list\";s:10:\"Jsarray[0]\";s:6:\"source\";s:12:\"银联通莞\";}','a:9:{s:11:\"prerogative\";s:39:\"无需出示，微信支付直接打折\";s:13:\"auto_activate\";b:1;s:14:\"supply_balance\";b:0;s:12:\"supply_bonus\";b:1;s:9:\"bonus_url\";s:16:\"http://baidu.com\";s:11:\"bonus_rules\";s:0:\"\";s:13:\"bonus_cleared\";s:0:\"\";s:10:\"bonus_rule\";a:4:{s:15:\"cost_money_unit\";i:0;s:14:\"increase_bonus\";i:0;s:18:\"max_increase_bonus\";i:0;s:19:\"init_increase_bonus\";i:0;}s:12:\"custom_cell1\";a:3:{s:4:\"name\";s:0:\"\";s:4:\"tips\";s:0:\"\";s:3:\"url\";s:0:\"\";}}','pcMacs2UxPtSgLUXszHAi-yKTokY','1459247565')
+
+[ 2016-03-29T18:33:26+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: discount E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 201 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 214 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 216 行.
+NOTIC: [8] Undefined index: supply_balance E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 228 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0060s ]
+ERR: 1364:Field 'checktime' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_wxcoupon` (`mid`,`card_type`,`card_title`,`begin_timestamp`,`end_timestamp`,`activate`,`quantity`,`get_limit`,`kqcontent`,`kqexpand`,`card_id`,`addtime`) VALUES ('0','5','至尊卡','0','0',NULL,'100','50','a:24:{s:8:\"logo_url\";s:117:\"http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0\";s:10:\"brand_name\";s:12:\"银联通莞\";s:5:\"color\";s:8:\"Color010\";s:5:\"title\";s:9:\"至尊卡\";s:9:\"sub_title\";s:0:\"\";s:9:\"get_limit\";i:50;s:9:\"can_share\";b:0;s:15:\"can_give_friend\";b:1;s:6:\"notice\";s:27:\"享受本商户9.9折优惠\";s:11:\"description\";s:39:\"无需出示，微信支付直接打折\";s:13:\"service_phone\";s:0:\"\";s:15:\"custom_url_name\";s:12:\"绑定会员\";s:20:\"custom_url_sub_title\";s:12:\"立享优惠\";s:10:\"custom_url\";s:16:\"http://baidu.com\";s:18:\"promotion_url_name\";s:0:\"\";s:23:\"promotion_url_sub_title\";s:0:\"\";s:13:\"promotion_url\";s:0:\"\";s:9:\"code_type\";s:16:\"CODE_TYPE_QRCODE\";s:9:\"date_info\";a:1:{s:4:\"type\";s:19:\"DATE_TYPE_PERMANENT\";}s:3:\"sku\";a:1:{s:8:\"quantity\";i:100;}s:15:\"use_custom_code\";b:0;s:11:\"bind_openid\";b:0;s:16:\"location_id_list\";s:10:\"Jsarray[0]\";s:6:\"source\";s:12:\"银联通莞\";}','a:9:{s:11:\"prerogative\";s:39:\"无需出示，微信支付直接打折\";s:13:\"auto_activate\";b:1;s:14:\"supply_balance\";b:0;s:12:\"supply_bonus\";b:1;s:9:\"bonus_url\";s:16:\"http://baidu.com\";s:11:\"bonus_rules\";s:0:\"\";s:13:\"bonus_cleared\";s:0:\"\";s:10:\"bonus_rule\";a:4:{s:15:\"cost_money_unit\";i:0;s:14:\"increase_bonus\";i:0;s:18:\"max_increase_bonus\";i:0;s:19:\"init_increase_bonus\";i:0;}s:12:\"custom_cell1\";a:3:{s:4:\"name\";s:0:\"\";s:4:\"tips\";s:0:\"\";s:3:\"url\";s:0:\"\";}}','pcMacs5bvRU__f4o8B2DMmD8SOWM','1459247606')
+ERR: 1364:Field 'checktime' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_wxcoupon` (`mid`,`card_type`,`card_title`,`begin_timestamp`,`end_timestamp`,`activate`,`quantity`,`get_limit`,`kqcontent`,`kqexpand`,`card_id`,`addtime`) VALUES ('0','5','至尊卡','0','0',NULL,'100','50','a:24:{s:8:\"logo_url\";s:117:\"http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0\";s:10:\"brand_name\";s:12:\"银联通莞\";s:5:\"color\";s:8:\"Color010\";s:5:\"title\";s:9:\"至尊卡\";s:9:\"sub_title\";s:0:\"\";s:9:\"get_limit\";i:50;s:9:\"can_share\";b:0;s:15:\"can_give_friend\";b:1;s:6:\"notice\";s:27:\"享受本商户9.9折优惠\";s:11:\"description\";s:39:\"无需出示，微信支付直接打折\";s:13:\"service_phone\";s:0:\"\";s:15:\"custom_url_name\";s:12:\"绑定会员\";s:20:\"custom_url_sub_title\";s:12:\"立享优惠\";s:10:\"custom_url\";s:16:\"http://baidu.com\";s:18:\"promotion_url_name\";s:0:\"\";s:23:\"promotion_url_sub_title\";s:0:\"\";s:13:\"promotion_url\";s:0:\"\";s:9:\"code_type\";s:16:\"CODE_TYPE_QRCODE\";s:9:\"date_info\";a:1:{s:4:\"type\";s:19:\"DATE_TYPE_PERMANENT\";}s:3:\"sku\";a:1:{s:8:\"quantity\";i:100;}s:15:\"use_custom_code\";b:0;s:11:\"bind_openid\";b:0;s:16:\"location_id_list\";s:10:\"Jsarray[0]\";s:6:\"source\";s:12:\"银联通莞\";}','a:9:{s:11:\"prerogative\";s:39:\"无需出示，微信支付直接打折\";s:13:\"auto_activate\";b:1;s:14:\"supply_balance\";b:0;s:12:\"supply_bonus\";b:1;s:9:\"bonus_url\";s:16:\"http://baidu.com\";s:11:\"bonus_rules\";s:0:\"\";s:13:\"bonus_cleared\";s:0:\"\";s:10:\"bonus_rule\";a:4:{s:15:\"cost_money_unit\";i:0;s:14:\"increase_bonus\";i:0;s:18:\"max_increase_bonus\";i:0;s:19:\"init_increase_bonus\";i:0;}s:12:\"custom_cell1\";a:3:{s:4:\"name\";s:0:\"\";s:4:\"tips\";s:0:\"\";s:3:\"url\";s:0:\"\";}}','pcMacs5bvRU__f4o8B2DMmD8SOWM','1459247606')
+
+[ 2016-03-29T18:34:10+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: discount E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 201 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 214 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 216 行.
+NOTIC: [8] Undefined index: supply_balance E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 228 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0040s ]
+ERR: 1364:Field 'is_open_cell' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_wxcoupon` (`mid`,`card_type`,`card_title`,`begin_timestamp`,`end_timestamp`,`activate`,`quantity`,`get_limit`,`kqcontent`,`kqexpand`,`card_id`,`addtime`) VALUES ('0','5','至尊卡','0','0',NULL,'100','50','a:24:{s:8:\"logo_url\";s:117:\"http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0\";s:10:\"brand_name\";s:12:\"银联通莞\";s:5:\"color\";s:8:\"Color010\";s:5:\"title\";s:9:\"至尊卡\";s:9:\"sub_title\";s:0:\"\";s:9:\"get_limit\";i:50;s:9:\"can_share\";b:0;s:15:\"can_give_friend\";b:1;s:6:\"notice\";s:27:\"享受本商户9.9折优惠\";s:11:\"description\";s:39:\"无需出示，微信支付直接打折\";s:13:\"service_phone\";s:0:\"\";s:15:\"custom_url_name\";s:12:\"绑定会员\";s:20:\"custom_url_sub_title\";s:12:\"立享优惠\";s:10:\"custom_url\";s:16:\"http://baidu.com\";s:18:\"promotion_url_name\";s:0:\"\";s:23:\"promotion_url_sub_title\";s:0:\"\";s:13:\"promotion_url\";s:0:\"\";s:9:\"code_type\";s:16:\"CODE_TYPE_QRCODE\";s:9:\"date_info\";a:1:{s:4:\"type\";s:19:\"DATE_TYPE_PERMANENT\";}s:3:\"sku\";a:1:{s:8:\"quantity\";i:100;}s:15:\"use_custom_code\";b:0;s:11:\"bind_openid\";b:0;s:16:\"location_id_list\";s:10:\"Jsarray[0]\";s:6:\"source\";s:12:\"银联通莞\";}','a:9:{s:11:\"prerogative\";s:39:\"无需出示，微信支付直接打折\";s:13:\"auto_activate\";b:1;s:14:\"supply_balance\";b:0;s:12:\"supply_bonus\";b:1;s:9:\"bonus_url\";s:16:\"http://baidu.com\";s:11:\"bonus_rules\";s:0:\"\";s:13:\"bonus_cleared\";s:0:\"\";s:10:\"bonus_rule\";a:4:{s:15:\"cost_money_unit\";i:0;s:14:\"increase_bonus\";i:0;s:18:\"max_increase_bonus\";i:0;s:19:\"init_increase_bonus\";i:0;}s:12:\"custom_cell1\";a:3:{s:4:\"name\";s:0:\"\";s:4:\"tips\";s:0:\"\";s:3:\"url\";s:0:\"\";}}','pcMacs6oRZLuOwq69RBFgJutP8eE','1459247650')
+ERR: 1364:Field 'is_open_cell' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_wxcoupon` (`mid`,`card_type`,`card_title`,`begin_timestamp`,`end_timestamp`,`activate`,`quantity`,`get_limit`,`kqcontent`,`kqexpand`,`card_id`,`addtime`) VALUES ('0','5','至尊卡','0','0',NULL,'100','50','a:24:{s:8:\"logo_url\";s:117:\"http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0\";s:10:\"brand_name\";s:12:\"银联通莞\";s:5:\"color\";s:8:\"Color010\";s:5:\"title\";s:9:\"至尊卡\";s:9:\"sub_title\";s:0:\"\";s:9:\"get_limit\";i:50;s:9:\"can_share\";b:0;s:15:\"can_give_friend\";b:1;s:6:\"notice\";s:27:\"享受本商户9.9折优惠\";s:11:\"description\";s:39:\"无需出示，微信支付直接打折\";s:13:\"service_phone\";s:0:\"\";s:15:\"custom_url_name\";s:12:\"绑定会员\";s:20:\"custom_url_sub_title\";s:12:\"立享优惠\";s:10:\"custom_url\";s:16:\"http://baidu.com\";s:18:\"promotion_url_name\";s:0:\"\";s:23:\"promotion_url_sub_title\";s:0:\"\";s:13:\"promotion_url\";s:0:\"\";s:9:\"code_type\";s:16:\"CODE_TYPE_QRCODE\";s:9:\"date_info\";a:1:{s:4:\"type\";s:19:\"DATE_TYPE_PERMANENT\";}s:3:\"sku\";a:1:{s:8:\"quantity\";i:100;}s:15:\"use_custom_code\";b:0;s:11:\"bind_openid\";b:0;s:16:\"location_id_list\";s:10:\"Jsarray[0]\";s:6:\"source\";s:12:\"银联通莞\";}','a:9:{s:11:\"prerogative\";s:39:\"无需出示，微信支付直接打折\";s:13:\"auto_activate\";b:1;s:14:\"supply_balance\";b:0;s:12:\"supply_bonus\";b:1;s:9:\"bonus_url\";s:16:\"http://baidu.com\";s:11:\"bonus_rules\";s:0:\"\";s:13:\"bonus_cleared\";s:0:\"\";s:10:\"bonus_rule\";a:4:{s:15:\"cost_money_unit\";i:0;s:14:\"increase_bonus\";i:0;s:18:\"max_increase_bonus\";i:0;s:19:\"init_increase_bonus\";i:0;}s:12:\"custom_cell1\";a:3:{s:4:\"name\";s:0:\"\";s:4:\"tips\";s:0:\"\";s:3:\"url\";s:0:\"\";}}','pcMacs6oRZLuOwq69RBFgJutP8eE','1459247650')
+
+[ 2016-03-29T18:34:40+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: discount E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 201 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 214 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 216 行.
+NOTIC: [8] Undefined index: supply_balance E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 228 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0030s ]
+ERR: 1048:Column 'activate' cannot be null
+ [ SQL语句 ] : INSERT INTO `tgyx_wxcoupon` (`mid`,`card_type`,`card_title`,`begin_timestamp`,`end_timestamp`,`activate`,`quantity`,`get_limit`,`kqcontent`,`kqexpand`,`card_id`,`addtime`) VALUES ('0','5','至尊卡','0','0',NULL,'100','50','a:24:{s:8:\"logo_url\";s:117:\"http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0\";s:10:\"brand_name\";s:12:\"银联通莞\";s:5:\"color\";s:8:\"Color010\";s:5:\"title\";s:9:\"至尊卡\";s:9:\"sub_title\";s:0:\"\";s:9:\"get_limit\";i:50;s:9:\"can_share\";b:0;s:15:\"can_give_friend\";b:1;s:6:\"notice\";s:27:\"享受本商户9.9折优惠\";s:11:\"description\";s:39:\"无需出示，微信支付直接打折\";s:13:\"service_phone\";s:0:\"\";s:15:\"custom_url_name\";s:12:\"绑定会员\";s:20:\"custom_url_sub_title\";s:12:\"立享优惠\";s:10:\"custom_url\";s:16:\"http://baidu.com\";s:18:\"promotion_url_name\";s:0:\"\";s:23:\"promotion_url_sub_title\";s:0:\"\";s:13:\"promotion_url\";s:0:\"\";s:9:\"code_type\";s:16:\"CODE_TYPE_QRCODE\";s:9:\"date_info\";a:1:{s:4:\"type\";s:19:\"DATE_TYPE_PERMANENT\";}s:3:\"sku\";a:1:{s:8:\"quantity\";i:100;}s:15:\"use_custom_code\";b:0;s:11:\"bind_openid\";b:0;s:16:\"location_id_list\";s:10:\"Jsarray[0]\";s:6:\"source\";s:12:\"银联通莞\";}','a:9:{s:11:\"prerogative\";s:39:\"无需出示，微信支付直接打折\";s:13:\"auto_activate\";b:1;s:14:\"supply_balance\";b:0;s:12:\"supply_bonus\";b:1;s:9:\"bonus_url\";s:16:\"http://baidu.com\";s:11:\"bonus_rules\";s:0:\"\";s:13:\"bonus_cleared\";s:0:\"\";s:10:\"bonus_rule\";a:4:{s:15:\"cost_money_unit\";i:0;s:14:\"increase_bonus\";i:0;s:18:\"max_increase_bonus\";i:0;s:19:\"init_increase_bonus\";i:0;}s:12:\"custom_cell1\";a:3:{s:4:\"name\";s:0:\"\";s:4:\"tips\";s:0:\"\";s:3:\"url\";s:0:\"\";}}','pcMacs9UbrIu-vepDosA5YzN6tyM','1459247680')
+ERR: 1048:Column 'activate' cannot be null
+ [ SQL语句 ] : INSERT INTO `tgyx_wxcoupon` (`mid`,`card_type`,`card_title`,`begin_timestamp`,`end_timestamp`,`activate`,`quantity`,`get_limit`,`kqcontent`,`kqexpand`,`card_id`,`addtime`) VALUES ('0','5','至尊卡','0','0',NULL,'100','50','a:24:{s:8:\"logo_url\";s:117:\"http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0\";s:10:\"brand_name\";s:12:\"银联通莞\";s:5:\"color\";s:8:\"Color010\";s:5:\"title\";s:9:\"至尊卡\";s:9:\"sub_title\";s:0:\"\";s:9:\"get_limit\";i:50;s:9:\"can_share\";b:0;s:15:\"can_give_friend\";b:1;s:6:\"notice\";s:27:\"享受本商户9.9折优惠\";s:11:\"description\";s:39:\"无需出示，微信支付直接打折\";s:13:\"service_phone\";s:0:\"\";s:15:\"custom_url_name\";s:12:\"绑定会员\";s:20:\"custom_url_sub_title\";s:12:\"立享优惠\";s:10:\"custom_url\";s:16:\"http://baidu.com\";s:18:\"promotion_url_name\";s:0:\"\";s:23:\"promotion_url_sub_title\";s:0:\"\";s:13:\"promotion_url\";s:0:\"\";s:9:\"code_type\";s:16:\"CODE_TYPE_QRCODE\";s:9:\"date_info\";a:1:{s:4:\"type\";s:19:\"DATE_TYPE_PERMANENT\";}s:3:\"sku\";a:1:{s:8:\"quantity\";i:100;}s:15:\"use_custom_code\";b:0;s:11:\"bind_openid\";b:0;s:16:\"location_id_list\";s:10:\"Jsarray[0]\";s:6:\"source\";s:12:\"银联通莞\";}','a:9:{s:11:\"prerogative\";s:39:\"无需出示，微信支付直接打折\";s:13:\"auto_activate\";b:1;s:14:\"supply_balance\";b:0;s:12:\"supply_bonus\";b:1;s:9:\"bonus_url\";s:16:\"http://baidu.com\";s:11:\"bonus_rules\";s:0:\"\";s:13:\"bonus_cleared\";s:0:\"\";s:10:\"bonus_rule\";a:4:{s:15:\"cost_money_unit\";i:0;s:14:\"increase_bonus\";i:0;s:18:\"max_increase_bonus\";i:0;s:19:\"init_increase_bonus\";i:0;}s:12:\"custom_cell1\";a:3:{s:4:\"name\";s:0:\"\";s:4:\"tips\";s:0:\"\";s:3:\"url\";s:0:\"\";}}','pcMacs9UbrIu-vepDosA5YzN6tyM','1459247680')
+
+[ 2016-03-29T18:35:06+08:00 ] ::1 /index.php/admin/card/docreateKq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: discount E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 201 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 214 行.
+NOTIC: [8] Undefined index: activate E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 216 行.
+NOTIC: [8] Undefined index: supply_balance E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 228 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tgyx_wxcoupon` (`mid`,`card_type`,`card_title`,`begin_timestamp`,`end_timestamp`,`activate`,`quantity`,`get_limit`,`kqcontent`,`kqexpand`,`card_id`,`addtime`) VALUES ('0','5','至尊卡','0','0',NULL,'100','50','a:24:{s:8:\"logo_url\";s:117:\"http://mmbiz.qpic.cn/mmbiz/GLwxabseOoY2DtRvVBxDggBzT3t8krib1jHmtpk4elnTKyKr0iaLXhvTE0wOTxU8MSUrfHSPrc0Oke8lKl1Fe2gQ/0\";s:10:\"brand_name\";s:12:\"银联通莞\";s:5:\"color\";s:8:\"Color010\";s:5:\"title\";s:9:\"至尊卡\";s:9:\"sub_title\";s:0:\"\";s:9:\"get_limit\";i:50;s:9:\"can_share\";b:0;s:15:\"can_give_friend\";b:1;s:6:\"notice\";s:27:\"享受本商户9.9折优惠\";s:11:\"description\";s:39:\"无需出示，微信支付直接打折\";s:13:\"service_phone\";s:0:\"\";s:15:\"custom_url_name\";s:12:\"绑定会员\";s:20:\"custom_url_sub_title\";s:12:\"立享优惠\";s:10:\"custom_url\";s:16:\"http://baidu.com\";s:18:\"promotion_url_name\";s:0:\"\";s:23:\"promotion_url_sub_title\";s:0:\"\";s:13:\"promotion_url\";s:0:\"\";s:9:\"code_type\";s:16:\"CODE_TYPE_QRCODE\";s:9:\"date_info\";a:1:{s:4:\"type\";s:19:\"DATE_TYPE_PERMANENT\";}s:3:\"sku\";a:1:{s:8:\"quantity\";i:100;}s:15:\"use_custom_code\";b:0;s:11:\"bind_openid\";b:0;s:16:\"location_id_list\";s:10:\"Jsarray[0]\";s:6:\"source\";s:12:\"银联通莞\";}','a:9:{s:11:\"prerogative\";s:39:\"无需出示，微信支付直接打折\";s:13:\"auto_activate\";b:1;s:14:\"supply_balance\";b:0;s:12:\"supply_bonus\";b:1;s:9:\"bonus_url\";s:16:\"http://baidu.com\";s:11:\"bonus_rules\";s:0:\"\";s:13:\"bonus_cleared\";s:0:\"\";s:10:\"bonus_rule\";a:4:{s:15:\"cost_money_unit\";i:0;s:14:\"increase_bonus\";i:0;s:18:\"max_increase_bonus\";i:0;s:19:\"init_increase_bonus\";i:0;}s:12:\"custom_cell1\";a:3:{s:4:\"name\";s:0:\"\";s:4:\"tips\";s:0:\"\";s:3:\"url\";s:0:\"\";}}','pcMacswhk2IxnlridQ0yFxUzCKvw','1459247706') [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_common` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_common` WHERE (  mid=5 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `tgyx_wxcoupon_common` SET `mname`='银联通莞' WHERE (  mid=5 ) [ RunTime:0.0390s ]
+
+[ 2016-03-29T18:35:07+08:00 ] ::1 /index.php/admin/Card/add?m=User&c=wxCoupon&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:48:04+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:48:05+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( mid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: offset E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: limit E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( mid='5' ) ORDER BY id  [ RunTime:0.0000s ]
+
+[ 2016-03-29T18:48:08+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:48:09+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-29T18:50:01+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:50:03+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-29T18:51:07+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:51:07+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:51:11+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:51:19+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:51:21+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:51:23+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:51:23+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:51:25+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:51:35+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:51:36+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( mid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: offset E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: limit E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( mid='5' ) ORDER BY id  [ RunTime:0.0000s ]
+
+[ 2016-03-29T18:51:37+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:51:38+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:51:40+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-29T18:51:41+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:51:42+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-29T18:52:14+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:52:15+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-29T18:52:17+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:53:13+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:53:14+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( mid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: offset E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: limit E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( mid='5' ) ORDER BY id  [ RunTime:0.0000s ]
+
+[ 2016-03-29T18:53:16+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:53:17+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-29T18:53:19+08:00 ] ::1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:53:20+08:00 ] ::1 /index.php/admin/Order/orders?qrcode=1&mid=5&store_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:53:21+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 33 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-29T18:53:23+08:00 ] ::1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:53:25+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+NOTIC: [8] Undefined index: offset E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+NOTIC: [8] Undefined index: limit E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid` FROM `tgyx_merchant` WHERE ( pid='5' )  [ RunTime:0.0000s ]
+
+[ 2016-03-29T18:53:26+08:00 ] ::1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:53:27+08:00 ] ::1 /index.php/admin/Order/orders?qrcode=1&mid=5&store_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:53:28+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 33 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-29T18:53:28+08:00 ] ::1 /index.php/admin/index/invoice.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:invoice
+
+[ 2016-03-29T18:53:31+08:00 ] ::1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:53:31+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:53:32+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 AND store_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 33 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 AND store_id=1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-29T18:53:40+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:53:42+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND store_id=1 AND FROM_UNIXTIME(create_time,'%Y%m%d')=FROM_UNIXTIME(1459180800,'%Y%m%d') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-29T18:53:43+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND store_id=1 AND FROM_UNIXTIME(create_time,'%Y%m')=FROM_UNIXTIME(1459180800,'%Y%m') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-29T18:53:44+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND store_id=1 AND FROM_UNIXTIME(create_time,'%Y')=FROM_UNIXTIME(1459180800,'%Y') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-29T18:53:47+08:00 ] ::1 /index.php/admin/index/blank.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:blank
+
+[ 2016-03-29T18:53:53+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:54:45+08:00 ] ::1 /index.php/admin/index/form-advance.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:form-advance
+
+[ 2016-03-29T18:54:47+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:56:21+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:56:21+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:56:57+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:57:00+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:57:03+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T18:57:04+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( mid='5' ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: offset E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: limit E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( mid='5' ) ORDER BY id  [ RunTime:0.0000s ]
+
+[ 2016-03-29T18:57:06+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T18:57:07+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-29T19:05:20+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T19:07:08+08:00 ] ::1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T19:07:09+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+NOTIC: [8] Undefined index: offset E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+NOTIC: [8] Undefined index: limit E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid` FROM `tgyx_merchant` WHERE ( pid='5' )  [ RunTime:0.0000s ]
+
+[ 2016-03-29T19:07:13+08:00 ] ::1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T19:07:14+08:00 ] ::1 /index.php/admin/Order/orders?qrcode=1&mid=5&store_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T19:07:15+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 33 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-29T19:07:40+08:00 ] ::1 /index.php/admin/order/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:delete
+
+[ 2016-03-29T19:10:42+08:00 ] ::1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T19:10:43+08:00 ] ::1 /index.php/admin/Order/orders?qrcode=1&mid=5&store_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T19:10:44+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 33 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-29T19:11:06+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T19:11:08+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( mid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: offset E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+NOTIC: [8] Undefined index: limit E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 24 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( mid='5' ) ORDER BY id  [ RunTime:0.0000s ]
+
+[ 2016-03-29T19:11:12+08:00 ] ::1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-29T19:11:13+08:00 ] ::1 /index.php/admin/Order/orders?qrcode=1&mid=5&store_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T19:11:14+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 33 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-29T19:11:15+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T19:11:16+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND store_id=1 AND FROM_UNIXTIME(create_time,'%Y%m%d')=FROM_UNIXTIME(1459180800,'%Y%m%d') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-29T19:11:17+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0040s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND store_id=1 AND FROM_UNIXTIME(create_time,'%Y%m')=FROM_UNIXTIME(1459180800,'%Y%m') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-29T19:11:18+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND store_id=1 AND FROM_UNIXTIME(create_time,'%Y')=FROM_UNIXTIME(1459180800,'%Y') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-29T19:11:19+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-29T19:11:21+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+

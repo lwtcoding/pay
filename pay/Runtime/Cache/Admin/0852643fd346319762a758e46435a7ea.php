@@ -11,6 +11,7 @@
     <link href="/Public/css/font-awesome.css" rel="stylesheet" />
     <!--CUSTOM BASIC STYLES-->
     <link href="/Public/css/basic.css" rel="stylesheet" />
+    <link href="/Public/css/app.css?var=<?php echo time() ?>" rel="stylesheet" />
     <!--CUSTOM MAIN STYLES-->
     <link href="/Public/css/custom.css?var=<?php echo time() ?>" rel="stylesheet" />
     <!-- GOOGLE FONTS
@@ -24,14 +25,8 @@
 
         <div class="col-md-12">
             <div id="preload" ></div>
-            <h1 class="page-head-line">首页</h1>
-            <div>
-                <ol class="breadcrumb">
-                    <li><a href="/index.php/Home/Index/left">Home</a></li>
-                    <li><a href="#">2013</a></li>
-                    <li class="active">十一月</li>
-                </ol>
-            </div>
+            <h1 class="page-head-line">控制台</h1>
+
             <hr/>
 
         </div>
@@ -39,101 +34,40 @@
     <!-- /. ROW  -->
     <div class="row">
 
-        <div class="col-md-3 ">
-            <a href="#">
-                <div class="alert alert-success text-center">
-                    <i class="fa fa-bars fa-5x"></i>
-                    <h3>300+ Tasks</h3>
-                    Pending For New Events
-                </div>
-            </a>
+        <div class="row wrapper page-heading iconList">
+            <ul>
+                <li class="col-xs-4">
+                    <a href="/index.php/admin/Pay/jspay"><i class="fa fa-inbox animated bounceIn"></i>二维码收款</a>
+                </li>
+
+                <li class="col-xs-4">
+                    <a href="/index.php/admin/Order/orders"><i class="fa fa-pencil animated bounceIn"></i>收款记录</a>
+                </li>
+                <!--
+                <li class="col-xs-4">
+                    <a href="/merchants.php?m=User&c=wxCoupon&a=wxReceiveList"><i class="fa fa-file-text-o animated bounceIn"></i>核销记录</a>
+                </li>
+                <li class="col-xs-4">
+                    <a href="/merchants.php?m=User&c=cashier&a=payment&type=2"><i class="fa fa-undo animated bounceIn"></i>退款</a>
+                </li>
+                <li class="col-xs-4">
+                    <a href="/merchants.php?m=User&c=wxCoupon&a=consumeCard"><i class="fa fa-money animated bounceIn"></i>卡券核销</a>
+                </li>
+                <li class="col-xs-4">
+                    <a href="/merchants.php?m=User&c=cashier&a=index"><i class="fa fa-qrcode animated bounceIn"></i>收款二维码</a>
+                </li>
+                <li class="col-xs-4">
+                    <a href="/merchants.php?m=User&c=index&a=ModifyPwd"><i class="fa  fa-unlock-alt animated bounceIn"></i>修改密码</a>
+                </li>
+                -->
+            </ul>
         </div>
 
     </div>
     <!-- /. ROW  -->
     <hr/>
 
-    <div class="row">
-        <div class="col-md-8">
-            <div class="row">
-                <div class="col-md-12">
-                    todo something
 
-
-                </div>
-
-            </div>
-            <!-- /. ROW  -->
-        </div>
-        <!-- /.REVIEWS &  SLIDESHOW  -->
-        <div class="col-md-4">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Recent Chat History
-                        </div>
-                        <div class="panel-body" >
-                            <div class="chat-widget-main">
-
-                                <div class="chat-widget-name-right">
-                                    <h4>Donim Cruseia </h4>
-                                </div>
-                                <div class="chat-widget-left">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="panel-footer">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Enter Message" />
-                                                <span class="input-group-btn">
-                                                    <button class="btn btn-success" type="button">SEND</button>
-                                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="panel panel-info">
-                        <div class="panel-heading">
-                            <i class="fa fa-bell fa-fw"></i>Notifications Panel
-                        </div>
-
-                        <div class="panel-body">
-                            <div class="list-group">
-
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-twitter fa-fw"></i>3 New Followers
-                                        <span class="pull-right text-muted small"><em>12 minutes ago</em>
-                                        </span>
-                                </a>
-
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-shopping-cart fa-fw"></i>New Order Placed
-                                        <span class="pull-right text-muted small"><em>9:49 AM</em>
-                                        </span>
-                                </a>
-
-
-                            </div>
-                            <!-- /.list-group -->
-                            <a href="#" class="btn btn-info btn-block">View All Alerts</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!--/.Chat Panel End-->
-    </div>
-    <!-- /. ROW  -->
-    <hr />
 
 </div>
 <script language="javascript">

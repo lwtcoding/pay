@@ -80,6 +80,10 @@ class AuthConfig
             "value"=>"Order-orders"
         ),
         array(
+            "name"=>"订单退款",
+            "value"=>"Order-refund"
+        ),
+        array(
             "name"=>"代理商订单流水",
             "value"=>"Order-proxyorders"
         ),

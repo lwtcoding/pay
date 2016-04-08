@@ -20,23 +20,35 @@ class StoreController extends AuthController
             $db = M('store');
             $pager = array();
             $condition = "1=1";
-            $condition .= " AND mid=" . $_SESSION['loginMerchant']['id'];
+
+            $condition .= " AND mid=" . $_POST['mid'];
             if(isset($_POST['name'])&&(!(trim($_POST['name'])=="")))
                 $condition.=" AND name like '%".$_POST['name']."%'";
-
             $pager['total'] = $db->where($condition)->count();
             $pager['rows'] = $db->where($condition)->order(($_POST['sort']==''?'id':$_POST['sort']).' '.$_POST['order'])->limit($_POST['offset'] . "," . $_POST['limit'])->select();
             $this->ajaxReturn($pager);
         }
         if($_SERVER['REQUEST_METHOD']=="GET"){
             $this->assign('auths',AuthConfig::$auth);
+            if(!isset($_GET['mid'])){
+                $this->assign('mid',$_SESSION['loginMerchant']['id']);
+            }else{
+                //TODO 验证
+                $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_GET['mid']))->find();
+                if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
+                    $this->display("Error:403");
+                    exit();
+                }
+                $this->assign('mid',$_GET['mid']);
+            }
             $this->display();
         }
     }
     public function add(){
         $db = M('store');
         $_POST['salt']=CommonUtil::genernateNonceStr(12);
-
+        $merchantname  = M('merchant')->where('id='.$_POST['mid'])->getField('merchantname');
+        $_POST['merchantname']=$merchantname;
         if (!$db->create($_POST)){
             // 如果创建失败 表示验证没有通过 输出错误提示信息
             $this->ajaxReturn(array("result"=>"error","message"=>"添加失败！","data"=>""));

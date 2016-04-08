@@ -23,16 +23,15 @@ class StaffController extends AuthController
             $db = M('staff');
             $pager = array();
             $condition = "1=1";
-            $condition .= " AND mid=" . $_SESSION['loginMerchant']['id'];
+            $condition .= " AND mid=" . $_POST['mid'];
 
             if(isset($_POST['store_id'])&&(!(trim($_POST['store_id'])=="")))
                 $condition.=" AND store_id=".$_POST['store_id'];
             if(isset($_POST['nickname'])&&(!(trim($_POST['nickname'])=="")))
                 $condition.=" AND nickname like '%".$_POST['nickname']."%'";
 
-
             $pager['total'] = $db->where($condition)->count();
-            $staffs = $db->field(array('id','username','nickname','mid','auths','store_id','salt'))->where($condition)->order(($_POST['sort']==''?'id':$_POST['sort']).' '.$_POST['order'])->limit($_POST['offset'] . "," . $_POST['limit'])->select();
+            $staffs = $db->field(array('id','username','nickname','mid','auths','store_id','salt','merchantname'))->where($condition)->order(($_POST['sort']==''?'id':$_POST['sort']).' '.$_POST['order'])->limit($_POST['offset'] . "," . $_POST['limit'])->select();
             for($i=0;$i<count($staffs);$i++){
                 $staffs[$i]['auths']=json_decode($staffs[$i]['auths'],true);
             }
@@ -40,7 +39,21 @@ class StaffController extends AuthController
             $this->ajaxReturn($pager);
         }
         if($_SERVER['REQUEST_METHOD']=="GET"){
-            $stores = M('store')->field(array('id','mid','name'))->where("mid = '%s'",array($_SESSION['loginMerchant']['id']))->select();
+            if(isset($_GET['mid'])){
+                //TODO 验证
+                $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_GET['mid']))->find();
+                if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
+                    $this->display("Error:403");
+                    exit();
+                }
+                $stores = M('store')->field(array('id','mid','name'))->where("mid = '%s'",array($_GET['mid']))->select();
+                $this->assign("mid",$_GET['mid']);
+                $this->assign("store_id",$_GET['id']);
+            }else{
+                $stores = M('store')->field(array('id','mid','name'))->where("mid = '%s'",array($_SESSION['loginMerchant']['id']))->select();
+                $this->assign("mid",$_SESSION['loginMerchant']['id']);
+            }
+
             $this->assign("stores",$stores);
             $this->assign('auths',AuthConfig::$auth);
             $this->display();
@@ -61,6 +74,8 @@ class StaffController extends AuthController
            }
             $_POST['password']=md5($_POST['password'].$_POST['salt']);
             $_POST['store_id']=$_POST['id'];
+            $_POST['storename']=$_POST['name'];
+            unset($_POST['name']);
             unset($_POST['id']);
 
             //var_dump($merchant);

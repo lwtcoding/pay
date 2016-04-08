@@ -3,14 +3,14 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>chinaz</title>
+    <title>银联通莞</title>
 
     <!-- BOOTSTRAP STYLES-->
     <link href="/Public/css/bootstrap.css" rel="stylesheet" />
     <!-- FONTAWESOME STYLES-->
     <link href="/Public/css/font-awesome.css" rel="stylesheet" />
     <!--CUSTOM BASIC STYLES-->
-    <link href="/Public/css/basic.css" rel="stylesheet" />
+    <link href="/Public/css/basic.css?var=<?php echo time(); ?>" rel="stylesheet" />
     <!--CUSTOM MAIN STYLES-->
     <link href="/Public/css/custom.css" rel="stylesheet" />
     <!-- GOOGLE FONTS
@@ -32,15 +32,15 @@
     <!-- FONTAWESOME STYLES-->
     <link href="/Public/css/font-awesome.css" rel="stylesheet" />
     <!--CUSTOM BASIC STYLES-->
-    <link href="/Public/css/basic.css" rel="stylesheet" />
+    <link href="/Public/css/basic.css?var=<?php echo time(); ?>" rel="stylesheet" />
     <!--CUSTOM MAIN STYLES-->
-    <link href="/Public/css/custom.css" rel="stylesheet" />
+    <link href="/Public/css/custom.css?var=<?php echo time(); ?>" rel="stylesheet" />
     <!-- GOOGLE FONTS
     <link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     -->
 </head>
 <body>
-<nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+<nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0;background: #5bc0de;">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -49,151 +49,126 @@
             <span class="icon-bar"></span>
         </button>
 
-        <a class="navbar-brand" href="index.html">
-            <img src="/Public/img/logo.png" class="img-thumbnail" width="50px" style="border-radius: 90%;background: none;border: none;" />
+        <a class="navbar-brand" href="#" style="background: #5bc0de;">
+        <img src='/Public/img/logo.png' class='img-thumbnail' width='50px' style='border-radius: 90%;background: none;border: none;' />
             通莞营销
         </a>
 
     </div>
 
-    <div class="header-right">
 
-        <a href="message-task.html" title="New Message"><i class="fa fa-envelope-o fa-2x"></i><span class="badge">50</span></a>
-        <a href="message-task.html"  title="New Task"><i class="fa fa-bars fa-2x"><span class="badge">50</span></i></a>
-        <a href="/index.php/Home/Index/logout"  title="Logout"><i class="fa fa-exclamation-circle fa-2x"></i></a>
+    <div class='header-right'>
+
+        <a href='#' title='New Message'><i class='fa fa-envelope-o fa-2x'></i><span class='badge'>50</span></a>
+        <a href='#'  title='New Task'><i class='fa fa-bars fa-2x'><span class='badge'>50</span></i></a>
+        <a href='/index.php/Home/Index/logout'  title='Logout'><i class='fa fa-exclamation-circle fa-2x'></i></a>
 
     </div>
 </nav>
 <!-- /. NAV TOP  -->
-<nav class="navbar-default navbar-side" role="navigation">
+<nav class="navbar-default navbar-side" role="navigation" >
     <div class="sidebar-collapse">
         <ul class="nav" id="main-menu">
+            <!--
             <li>
-                <div class="user-img-div">
-                    <img src="/Public/img/user.png" class="img-thumbnail" />
+                <div class="user-img-div"  >
+                    <img src="/Public/img/logo.png" class="img-thumbnail img-circle" />
 
                     <div class="inner-text">
                         <?php echo ($merchant["merchantname"]); ?>
                         <br />
-                        <small>Last Login : 2 Weeks Ago </small>
+                        <small> </small>
                     </div>
                 </div>
 
             </li>
-
+-->
 
             <li>
-                <a class="active-menu" href="/index.php/admin/Index/body"><i class="fa fa-dashboard "></i>控制台</a>
+                <a  href="/index.php/admin/Index/body"><i class="glyphicon glyphicon-home"></i>控制台</a>
             </li>
             <li>
-                <a href="/index.php/admin/Merchant/payconfig"><i class="fa fa-anchor "></i>支付配置</a>
-            </li>
-            <li>
-                <a href="#"><i class="fa fa-desktop "></i>商家管理<span class="fa arrow"></span></a>
+                <a href="javascript:void(0)"><i class="glyphicon glyphicon-wrench"></i>系统配置<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
+                    <?php if($_SESSION['loginMerchant']['is_proxy']==1) { ?>
                     <li>
-                        <a href="/index.php/admin/Merchant/submerchants"><i class="fa fa-code "></i>代理管理</a>
+                        <a href="/index.php/admin/Merchant/payconfig"><i class=""></i>支付配置</a>
                     </li>
+                    <?php } ?>
                     <li>
-                        <a href="/index.php/admin/Index/body"><i class="fa fa-toggle-on"></i>员工管理</a>
+                        <a href="/index.php/admin/Pageinfo/pageinfo"><i class=""></i>页面信息</a>
                     </li>
-                    <li>
-                        <a href="/index.php/admin/Store/stores"><i class="fa fa-bell "></i>门店管理</a>
-                    </li>
-                    <li>
-                        <a href="progress.html"><i class="fa fa-circle-o "></i>权限分配</a>
-                    </li>
-                    <li>
-                        <a href="icons.html"><i class="fa fa-bug "></i>Icons</a>
-                    </li>
-                    <li>
-                        <a href="wizard.html"><i class="fa fa-bug "></i>Wizard</a>
-                    </li>
-                    <li>
-                        <a href="typography.html"><i class="fa fa-edit "></i>Typography</a>
-                    </li>
-                    <li>
-                        <a href="grid.html"><i class="fa fa-eyedropper "></i>Grid</a>
-                    </li>
-
-
                 </ul>
             </li>
+            <?php if($_SESSION['loginMerchant']['is_proxy']!=10) { ?>
             <li>
-                <a href="#"><i class="fa fa-yelp "></i>收银台 <span class="fa arrow"></span></a>
+                <a href="javascript:void(0)"><i class="fa fa-desktop "></i>商家管理<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="invoice.html"><i class="fa fa-coffee"></i>刷卡支付</a>
+                        <a href="/index.php/admin/Store/stores"><i class=""></i>门店管理</a>
                     </li>
                     <li>
-                        <a href="pricing.html"><i class="fa fa-flash "></i>二维码支付</a>
+                        <a href="/index.php/admin/Staff/staffs"><i class=""></i>员工管理</a>
                     </li>
                     <li>
-                        <a href="component.html"><i class="fa fa-key "></i>Components</a>
+                        <a href="/index.php/admin/Order/orders"><i class=" "></i>订单管理</a>
                     </li>
                     <li>
-                        <a href="social.html"><i class="fa fa-send "></i>Social</a>
+                        <a href="/index.php/admin/Order/statistics"><i class=""></i>交易统计 </a>
                     </li>
-
-                    <li>
-                        <a href="message-task.html"><i class="fa fa-recycle "></i>Messages & Tasks</a>
-                    </li>
-
-
                 </ul>
             </li>
+            <?php } ?>
+            <?php if(($_SESSION['loginMerchant']['is_proxy']==1)||($_SESSION['loginMerchant']['parent_id']==0)) { ?>
             <li>
-                <a href="table.html"><i class="fa fa-flash "></i>订单流水 </a>
-
-            </li>
-            <li>
-                <a href="#"><i class="fa fa-bicycle "></i>营销功能 <span class="fa arrow"></span></a>
-                <ul class="nav nav-second-level">
-
-                    <li>
-                        <a href="form.html"><i class="fa fa-desktop "></i>卡券管理 </a>
-                    </li>
-                    <li>
-                        <a href="form-advance.html"><i class="fa fa-code "></i>满立减</a>
-                    </li>
-
-
-                </ul>
-            </li>
-            <li>
-                <a href="error.html"><i class="fa fa-bug "></i>Error Page</a>
-            </li>
-            <li>
-                <a href="login.html"><i class="fa fa-sign-in "></i>Login Page</a>
-            </li>
-            <li>
-                <a href="#"><i class="fa fa-sitemap "></i>Multilevel Link <span class="fa arrow"></span></a>
+                <?php if($_SESSION['loginMerchant']['is_proxy']==1) { ?>
+                <a href="javascript:void(0)"><i class="fa fa-desktop "></i>签约商管理<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#"><i class="fa fa-bicycle "></i>Second Level Link</a>
+                        <a href="/index.php/admin/Merchant/submerchants"><i class=""></i>签约商管理</a>
+                    </li>
+                    <?php }else{ ?>
+                    <a href="javascript:void(0)"><i class="fa fa-desktop "></i>下属商户管理<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="/index.php/admin/Merchant/submerchants"><i class=""></i>下属商户管理</a>
+                        </li>
+                    <?php } ?>
+                    <li>
+                        <a href="/index.php/admin/Order/proxyorders"><i class=""></i>订单管理</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-flask "></i>Second Level Link</a>
-                    </li>
-                    <li>
-                        <a href="#">Second Level Link<span class="fa arrow"></span></a>
-                        <ul class="nav nav-third-level">
-                            <li>
-                                <a href="#"><i class="fa fa-plus "></i>Third Level Link</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-comments-o "></i>Third Level Link</a>
-                            </li>
-
-                        </ul>
+                        <a href="/index.php/admin/Order/proxystatistics"><i class=""></i>交易统计 </a>
 
                     </li>
                 </ul>
             </li>
-
+            <?php } ?>
+            <?php if($_SESSION['loginMerchant']['is_proxy']==0) { ?>
             <li>
-                <a href="blank.html"><i class="fa fa-square-o "></i>Blank Page</a>
+                <a href="javascript:void(0)"><i class="fa fa-yelp "></i>收银台 <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="/index.php/admin/Pay/jspay"><i class=""></i>二维码支付</a>
+                    </li>
+                </ul>
             </li>
+            <?php } ?>
+            <li>
+                <a href="javascript:void(0)"><i class="glyphicon glyphicon-th-list"></i>营销功能 <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="/index.php/admin/Card/cards"><i class=""></i>会员卡管理</a>
+                    </li>
+                    <li>
+                        <a href="/index.php/admin/Card/add"><i class=""></i>添加会员卡 </a>
+                    </li>
+                    <li>
+                        <a href="/index.php/admin/Lijian/lijian"><i class=""></i>满立减</a>
+                    </li>
+                </ul>
+            </li>
+
         </ul>
 
     </div>
@@ -216,7 +191,7 @@
         <!-- /. NAV SIDE  -->
         <div id="page-wrapper">
 
-            <iframe src="index.php/Home/Index/body" frameborder="no" scrolling="no" style="width: 100%;"  id="cwin" ></iframe>
+            <iframe src="" frameborder="no" scrolling="no" style="width: 100%;"  id="cwin" ></iframe>
             <!-- /. PAGE INNER  -->
         </div>
         <!-- /. PAGE WRAPPER  -->
@@ -244,7 +219,7 @@
 </head>
 <body>
 <div id="footer-sec">
-    Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="#">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+    技术支持由银联通莞提供  tel：200-2222222
 </div>
 
 </body>
@@ -261,8 +236,6 @@
 <script src="/Public/js/custom.js"></script>
 <script language="JavaScript">
     onload=function(){
-
-
 
         $("#main-menu >li a").click(function(event){
             var url = $(this).attr("href");

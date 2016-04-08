@@ -24,12 +24,12 @@
 
         <div class="col-md-12">
             <div id="preload" ></div>
-            <h1 class="page-head-line">首页</h1>
+            <h1 class="page-head-line">支付配置</h1>
             <div>
                 <ol class="breadcrumb">
-                    <li><a href="/index.php/Home/Index/left">Home</a></li>
-                    <li><a href="#">2013</a></li>
-                    <li class="active">十一月</li>
+                    <li><a href="#">Admin</a></li>
+                    <li><a href="#">Merchant</a></li>
+                    <li class="active">payconfig</li>
                 </ol>
             </div>
             <hr/>
@@ -46,6 +46,7 @@
                     <strong>警告！</strong>你的微信支付未配置，可能会影响支付功能。
                 </div>
             </div><?php endif; ?>
+        <!--
         <?php if($payconfig['weixin']['ali_status'] != 1 ): ?><div class="col-md-10 col-md-offset-1 ">
                 <div class="alert alert-warning">
                     <a href="#" class="close" data-dismiss="alert">
@@ -54,6 +55,7 @@
                     <strong>警告！</strong>你的支付宝支付未配置，可能会影响支付功能。
                 </div>
             </div><?php endif; ?>
+        -->
     </div>
     <!-- /. ROW  -->
 
@@ -62,16 +64,18 @@
             <div class="row">
                 <div class="col-md-3 text-center">
                     <a href="#wxpayConfig" data-toggle="modal" data-target="#wxpayConfig">
-                        <img width="150px" src="/Public/img/user.png"
-                         class="img-circle" alt="微信配置">
+                        <img width="150px" src="/Public/img/wx.png"
+                         class="" alt="微信配置">
                     </a>
                     <p>微信支付</p>
                 </div>
+                <!--
                 <div class="col-md-3 text-center">
-                    <img width="150px" src="/Public/img/user.png"
+                    <img width="150px" src="/Public/img/alipay.png"
                          class="img-circle" alt="微信配置">
-                    <p>支付宝</p>
+                    <p>支付宝(开发中)</p>
                 </div>
+                -->
             </div>
 
         </div>
@@ -98,6 +102,12 @@
                 <form class="form-horizontal" role="form" name="wxform" action="/index.php/admin/merchant/saveconfig" method="post" enctype="multipart/form-data">
                     <input type="hidden" name="type" value="weixin">
                     <input type="hidden" name="mid" value="<?php echo $_SESSION['loginMerchant']['id'] ?>">
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">支付域名</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" placeholder="支付域名" name="domain" value="<?php echo ($config['weixin']['domain']); ?>">
+                        </div>
+                    </div>
                     <div class="form-group">
                         <label  class="col-sm-2 control-label">appid</label>
                         <div class="col-sm-8">

@@ -42,6 +42,7 @@ class WeChatUtil
         }
     }
 
+
     public function accessToken() {
 
         $data = json_decode(S('access_token'.$this->_mid));

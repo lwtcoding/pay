@@ -1,0 +1,12 @@
+[ 2016-03-22T16:50:13+08:00 ] 10.10.24.237 /index.php/Index/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-22T16:50:42+08:00 ] 10.10.24.237 /index.php/Index/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+

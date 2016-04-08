@@ -78,7 +78,7 @@
             </div>
             <div class="modal-body">
                 <form class="form-horizontal" role="form" id="addStoreForm">
-                    <input type="text" name="mid" value="<?php echo $_SESSION['loginMerchant']['id'] ?>">
+                    <input type="text" name="mid" value="{$mid}">
                     <div class="form-group">
                         <label  class="col-sm-2 control-label">门店名</label>
                         <div class="col-sm-6">
@@ -120,7 +120,7 @@
                     <div class="form-group">
                         <label  class="col-sm-2 control-label">门店名</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control"  name="name" placeholder="门店名" value="">
+                            <input type="text" class="form-control"  name="name" placeholder="门店名" value="" readonly>
                         </div>
                     </div>
                 </form>
@@ -155,6 +155,18 @@
                 <form class="form-horizontal" role="form" id="addStaffForm" action="" method="post" >
                     <input type="hidden" name="mid">
                     <input type="hidden" name="id">
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">所属商家</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control"  name="merchantname" placeholder="所属商家" value="" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">所属门店</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control"  name="name" placeholder="所属门店" value="" readonly>
+                        </div>
+                    </div>
                     <div class="form-group">
                         <label  class="col-sm-2 control-label">账号</label>
                         <div class="col-sm-8">
@@ -248,14 +260,26 @@
                     align: 'center',
                     width: '180',
                     valign: 'bottom',
+                    visible:false,
                     sortable: true
-                }, {
+                },{
+                    field: 'merchantname',
+                    title: '商户名',
+                    align: 'center',
+                    width: '200',
+                    valign: 'middle',
+                    sortable: true
+                },{
                     field: 'name',
                     title: '门店名',
                     align: 'center',
                     width: '200',
                     valign: 'middle',
                     sortable: true
+                }, {
+                    title: '其他操作',
+                    align: 'center',
+                    formatter: showFormatter
                 }, {
                     field: 'operate',
                     title: '操作',
@@ -268,7 +292,13 @@
     //设置传入参数
     function queryParams(params) {
         params.name=$("#store_name").val();
+        params.mid={$mid};
         return params
+    }
+    function showFormatter(value, row, index){
+        var str="";
+        str+="<a class='add' href='__MODULE__/Staff/staffs?mid=" + row.mid +"&id="+row.id+"' title='查看门店员工'><i class='glyphicon glyphicon-search'>查看员工</i></a>";
+        return str;
     }
     function operateFormatter(value, row, index) {
         return [

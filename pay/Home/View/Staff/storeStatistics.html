@@ -10,6 +10,9 @@
     <!-- FONTAWESOME STYLES-->
     <link href="__PUBLIC__/css/font-awesome.css" rel="stylesheet" />
     <style>
+        body{
+            background: #d5d5d5;
+        }
          tr{
             padding: 0px;
              margin: 0px;
@@ -17,6 +20,21 @@
         p{
             padding: 0px;
             margin: 0px;;
+        }
+        .mytable{
+            width: 100%;
+        }
+
+        .header{
+            padding: 5px;
+            background: #f5f5f5;
+            border-radius: 10px;
+        }
+        tr div{
+            margin-top:5px;
+            padding: 5px;
+            background: #f5f5f5;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -29,15 +47,17 @@
     <!-- /. ROW  -->
     <div class="row">
         <div class="col-md-12 ">
-            <div>
-                <label>当日收款总数：</label><label style="color: #00FF00">{$count['fees']/100}</label>元
-            </div>
-            <div>
-                <label>当日订单数量：</label><label style="color: #00FF00">{$count['times']}</label>笔
+            <div class="header">
+                <div>
+                    <label>当日收款总数：</label><label style="color: #00FF00">{$count['fees']/100}</label>元
+                </div>
+                <div>
+                    <label>当日订单数量：</label><label style="color: #00FF00">{$count['times']}</label>笔
+                </div>
             </div>
         </div>
         <div class="col-md-12 ">
-            <table class="table table-striped">
+            <table class="mytable">
                 <tr><td><div style='text-align: center;'><h3>加载中...</h3></div></td></tr>
             </table>
         </div>
@@ -71,13 +91,13 @@
             success:function(data){
                 console.info(JSON.stringify(data));
 
-                $(".table").html("");
+                $(".mytable").html("");
                 if(data.length<=0){
                     $(".table").append("<tr><td><div style='text-align: center;'><h3>暂无支付订单</h3></div></td></tr>");
                 }else{
                     for(var i=0;i<data.length;i++){
                         var fee = data[i].total_fee*0.01;
-                            $(".table").append("<tr id='"+data[i].id+"' class='orderDetail'><td><div><p><label>订单号：</label>"+data[i].order_no+"</p><p><label>付款时间：</label>"+data[i].time_end+"</p><p><label>订单金额：</label><label style='color: #00FF00'>"+fee+"元</label></p></div></td></tr>");
+                            $(".mytable").append("<tr id='"+data[i].id+"' class='orderDetail'><td><div><p><label>订单号：</label>"+data[i].order_no+"</p><p><label>付款时间：</label>"+data[i].time_end+"</p><p><label>订单金额：</label><label style='color: #00FF00'>"+fee+"元</label></p></div></td></tr>");
                     }
                     offset = pageSize*currentPage;
                     currentPage+=1;
@@ -106,13 +126,13 @@
                                     flag=true;
                                     if(data.length<=0){
                                         if(flag){
-                                            $(".table").append("<tr><td><div style='text-align: center;'><h3>没有更多订单了</h3></div></td></tr>");
+                                            $(".mytable").append("<tr><td><div style='text-align: center;'><h3>没有更多订单了</h3></div></td></tr>");
                                             flag=false;
                                         }
                                     }else{
                                         for(var i=0;i<data.length;i++){
                                             var fee = data[i].total_fee*0.01;
-                                            $(".table").append("<tr id='"+data[i].id+"' class='orderDetail'><td><div><p><label>订单号：</label>"+data[i].order_no+"</p><p><label>付款时间：</label>"+data[i].time_end+"</p><p><label>订单金额：</label><label style='color: #00FF00'>"+fee+"元</label></p></div></td></tr>");
+                                            $(".mytable").append("<tr id='"+data[i].id+"' class='orderDetail'><td><div><p><label>订单号：</label>"+data[i].order_no+"</p><p><label>付款时间：</label>"+data[i].time_end+"</p><p><label>订单金额：</label><label style='color: #00FF00'>"+fee+"元</label></p></div></td></tr>");
                                         }
                                         offset = pageSize*currentPage;
                                         currentPage+=1;

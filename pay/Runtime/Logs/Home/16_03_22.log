@@ -1,0 +1,281 @@
+[ 2016-03-22T09:22:13+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T09:22:14+08:00 ] ::1 /Index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T09:22:14+08:00 ] ::1 /Index.php/home/index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T09:22:19+08:00 ] ::1 /Index.php/home/index/verify?t=Tue%20Mar%2022%202016%2009:22:19%20GMT+0800
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T09:22:26+08:00 ] ::1 /Index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T10:04:54+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T11:05:40+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T16:50:05+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T16:51:14+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T16:51:25+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T16:52:37+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T16:54:19+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T16:56:40+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:00:11+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:00:11+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:01:25+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:01:28+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:02:07+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:02:28+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:02:51+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:02:57+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:04:15+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:04:25+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:05:14+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:05:21+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1364:Field 'fans_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_order` (`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`goods_name`,`total_fee`,`create_time`,`openid`) VALUES ('201603221705210589447305',NULL,NULL,'weixin','JSAPI','12','123','1458637521',NULL)
+
+[ 2016-03-22T17:07:32+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:07:37+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1364:Field 'fans_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_order` (`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`goods_name`,`total_fee`,`create_time`,`openid`) VALUES ('201603221707376479969033',NULL,NULL,'weixin','JSAPI','自定义扫码支付','1','1458637657',NULL)
+
+[ 2016-03-22T17:09:35+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:09:41+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1364:Field 'fans_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_order` (`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`goods_name`,`total_fee`,`create_time`,`openid`) VALUES ('201603221709410230071358',NULL,NULL,'weixin','JSAPI','1','12','1458637781',NULL)
+
+[ 2016-03-22T17:10:45+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:10:51+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1364:Field 'fans_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_order` (`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`goods_name`,`total_fee`,`create_time`,`openid`) VALUES ('201603221710513566616182',NULL,NULL,'weixin','JSAPI','自定义扫码支付','12','1458637851',NULL)
+
+[ 2016-03-22T17:12:05+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:12:11+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1364:Field 'fans_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_order` (`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`goods_name`,`total_fee`,`create_time`,`openid`) VALUES ('201603221712112921793997','5','0','weixin','JSAPI','自定义扫码支付','1','1458637931',NULL)
+
+[ 2016-03-22T17:12:24+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:12:29+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1364:Field 'fans_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_order` (`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`goods_name`,`total_fee`,`create_time`,`openid`) VALUES ('201603221712294308205955','5','0','weixin','JSAPI','自定义扫码支付','1','1458637949',NULL)
+
+[ 2016-03-22T17:13:31+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:13:38+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1364:Field 'fans_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_order` (`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`goods_name`,`total_fee`,`create_time`,`openid`) VALUES ('201603221713388949885080','5','0','weixin','JSAPI','1','12','1458638018','ocMacs3nNC6aMryczG_eHO-v3Tz8')
+
+[ 2016-03-22T17:14:23+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:14:30+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1364:Field 'wx_order_no' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tgyx_order` (`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`goods_name`,`total_fee`,`create_time`,`fans_id`,`fans_name`,`openid`) VALUES ('201603221714291766161473','5','0','weixin','JSAPI','12','12','1458638069','1','滔','ocMacs3nNC6aMryczG_eHO-v3Tz8')
+
+[ 2016-03-22T17:15:54+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:16:04+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:16:07+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:16:13+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:17:23+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:17:29+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:18:05+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:18:12+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:19:08+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:19:13+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:19:58+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:20:03+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-22T17:21:08+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-22T17:27:33+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,1059 @@
+[ 2016-04-01T08:43:07+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T08:46:26+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T08:46:29+08:00 ] ::1 /Index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T08:46:29+08:00 ] ::1 /Index.php/home/index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T08:46:50+08:00 ] ::1 /Index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T09:02:09+08:00 ] ::1 /index.php/Home/Index/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T09:02:09+08:00 ] ::1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T09:02:10+08:00 ] ::1 /index.php/home/index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T09:02:17+08:00 ] ::1 /index.php/home/index/verify?t=Fri%20Apr%2001%202016%2009:02:16%20GMT+0800
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T09:02:22+08:00 ] ::1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T09:59:38+08:00 ] ::1 /index.php/Home/Index/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T09:59:38+08:00 ] ::1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T09:59:38+08:00 ] ::1 /index.php/home/index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T09:59:49+08:00 ] ::1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T14:24:00+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:24:12+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:24:13+08:00 ] 10.10.24.237 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:24:13+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T14:24:13+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:24:14+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:24:18+08:00 ] 10.10.24.237 /index.php/home/index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:24:20+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:24:26+08:00 ] 10.10.24.237 /index.php/home/index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:24:54+08:00 ] 10.10.24.237 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T14:25:16+08:00 ] 10.10.24.237 /index.php/home/index/login.html?from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-01T14:25:18+08:00 ] 10.10.24.237 /index.php/home/index/login.html?from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:25:19+08:00 ] 10.10.24.237 /index.php/home/index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T15:44:03+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T15:44:05+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5&store_id=11&code=04118785abe0b1f94a21fb0009930f4M&state=wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T15:44:18+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5&amp;store_id=11&amp;code=04118785abe0b1f94a21fb0009930f4M&amp;state=wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tgyx_lijian` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_lijian` WHERE ( mid = '5' AND status = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_receive` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_receive` WHERE ( openid='ocMacs3nNC6aMryczG_eHO-v3Tz8' AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'pcMacswhk2IxnlridQ0yFxUzCKvw' in 'where clause'
+ [ SQL语句 ] : SELECT `id`,`discount` FROM `tgyx_wxcoupon` WHERE ( status=1 AND card_id=pcMacswhk2IxnlridQ0yFxUzCKvw ) LIMIT 1  
+ERR: 1054:Unknown column 'pcMacswhk2IxnlridQ0yFxUzCKvw' in 'where clause'
+ [ SQL语句 ] : SELECT `id`,`discount` FROM `tgyx_wxcoupon` WHERE ( status=1 AND card_id=pcMacswhk2IxnlridQ0yFxUzCKvw ) LIMIT 1  
+
+[ 2016-04-01T15:44:38+08:00 ] 10.10.24.237 /index.php/home/staff/boundwx?mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T15:44:40+08:00 ] 10.10.24.237 /index.php/home/staff/boundwx?mid=5&store_id=11&code=031fcbcc8b95753e64236be2f9b45bfm&state=wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T15:44:43+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T15:45:09+08:00 ] 10.10.24.237 /index.php/home/pay/wechatpay?mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T15:45:15+08:00 ] 10.10.24.237 /index.php/home/pay/wechatpay?mid=5&amp;store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tgyx_lijian` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_lijian` WHERE ( mid = '5' AND status = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: -1 E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: -1 E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_receive` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_receive` WHERE ( openid='ocMacs3nNC6aMryczG_eHO-v3Tz8' AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'pcMacswhk2IxnlridQ0yFxUzCKvw' in 'where clause'
+ [ SQL语句 ] : SELECT `id`,`discount` FROM `tgyx_wxcoupon` WHERE ( status=1 AND card_id=pcMacswhk2IxnlridQ0yFxUzCKvw ) LIMIT 1  
+ERR: 1054:Unknown column 'pcMacswhk2IxnlridQ0yFxUzCKvw' in 'where clause'
+ [ SQL语句 ] : SELECT `id`,`discount` FROM `tgyx_wxcoupon` WHERE ( status=1 AND card_id=pcMacswhk2IxnlridQ0yFxUzCKvw ) LIMIT 1  
+
+[ 2016-04-01T15:48:47+08:00 ] 10.10.24.237 /index.php/home/pay/wechatpay?mid=5&amp;store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_lijian` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_lijian` WHERE ( mid = '5' AND status = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: -1 E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: -1 E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_receive` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_receive` WHERE ( openid='ocMacs3nNC6aMryczG_eHO-v3Tz8' AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0060s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''pcMacswhk2IxnlridQ0yFxUzCKvw'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id`,`discount` FROM `tgyx_wxcoupon` WHERE ( status=1 AND card_id='pcMacswhk2IxnlridQ0yFxUzCKvw'' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''pcMacswhk2IxnlridQ0yFxUzCKvw'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id`,`discount` FROM `tgyx_wxcoupon` WHERE ( status=1 AND card_id='pcMacswhk2IxnlridQ0yFxUzCKvw'' ) LIMIT 1  
+
+[ 2016-04-01T15:49:40+08:00 ] 10.10.24.237 /index.php/home/pay/wechatpay?mid=5&amp;store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_lijian` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_lijian` WHERE ( mid = '5' AND status = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: -1 E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: -1 E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_receive` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_receive` WHERE ( openid='ocMacs3nNC6aMryczG_eHO-v3Tz8' AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`discount` FROM `tgyx_wxcoupon` WHERE ( status=1 AND card_id='pcMacswhk2IxnlridQ0yFxUzCKvw' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_fans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tgyx_fans` WHERE ( openid = 'ocMacs3nNC6aMryczG_eHO-v3Tz8' and mid = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: goods_name E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 143 行.
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `tgyx_order` (`lijian_fee`,`vip_discount`,`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`store_id`,`goods_name`,`total_fee`,`create_time`,`fans_id`,`fans_name`,`openid`,`is_subscribe`) VALUES (NULL,NULL,'201604011549392157723973','5','0','weixin','JSAPI','11','自定义扫码支付','0','1459496979','1','滔','ocMacs3nNC6aMryczG_eHO-v3Tz8','Y') [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant mid - assumed 'mid' E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 153 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+
+[ 2016-04-01T15:49:49+08:00 ] 10.10.24.237 /index.php/home/pay/wechatpay?mid=5&amp;store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tgyx_lijian` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tgyx_lijian` WHERE ( mid = '5' AND status = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: -1 E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: -1 E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_receive` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_receive` WHERE ( openid='ocMacs3nNC6aMryczG_eHO-v3Tz8' AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`discount` FROM `tgyx_wxcoupon` WHERE ( status=1 AND card_id='pcMacswhk2IxnlridQ0yFxUzCKvw' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: goods_name E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 143 行.
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tgyx_order` (`lijian_fee`,`vip_discount`,`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`store_id`,`goods_name`,`total_fee`,`create_time`,`fans_id`,`fans_name`,`openid`,`is_subscribe`) VALUES (NULL,NULL,'201604011549490378259352','5','0','weixin','JSAPI','11','自定义扫码支付','0','1459496989','1','滔','ocMacs3nNC6aMryczG_eHO-v3Tz8','Y') [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant mid - assumed 'mid' E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 153 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+
+[ 2016-04-01T15:50:25+08:00 ] 10.10.24.237 /index.php/home/pay/wechatpay?mid=5&amp;store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_lijian` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_lijian` WHERE ( mid = '5' AND status = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_receive` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_receive` WHERE ( openid='ocMacs3nNC6aMryczG_eHO-v3Tz8' AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`discount` FROM `tgyx_wxcoupon` WHERE ( status=1 AND card_id='pcMacswhk2IxnlridQ0yFxUzCKvw' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: goods_name E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 143 行.
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: INSERT INTO `tgyx_order` (`lijian_fee`,`vip_discount`,`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`store_id`,`goods_name`,`total_fee`,`create_time`,`fans_id`,`fans_name`,`openid`,`is_subscribe`) VALUES ('312',NULL,'201604011550243899597342','5','0','weixin','JSAPI','11','自定义扫码支付','0','1459497024','1','滔','ocMacs3nNC6aMryczG_eHO-v3Tz8','Y') [ RunTime:0.0490s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant mid - assumed 'mid' E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 153 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+
+[ 2016-04-01T15:51:13+08:00 ] 10.10.24.237 /index.php/home/pay/wechatpay?mid=5&amp;store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_lijian` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_lijian` WHERE ( mid = '5' AND status = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: goods_name E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: INSERT INTO `tgyx_order` (`lijian_fee`,`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`store_id`,`goods_name`,`total_fee`,`create_time`,`fans_id`,`fans_name`,`openid`,`is_subscribe`) VALUES ('312','201604011551132649429251','5','0','weixin','JSAPI','11','自定义扫码支付','88','1459497073','1','滔','ocMacs3nNC6aMryczG_eHO-v3Tz8','Y') [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant mid - assumed 'mid' E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 147 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+
+[ 2016-04-01T15:52:36+08:00 ] 10.10.24.237 /index.php/home/pay/wechatpay?mid=5&amp;store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_lijian` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tgyx_lijian` WHERE ( mid = '5' AND status = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_receive` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_receive` WHERE ( openid='ocMacs3nNC6aMryczG_eHO-v3Tz8' AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`discount` FROM `tgyx_wxcoupon` WHERE ( status=1 AND card_id='pcMacswhk2IxnlridQ0yFxUzCKvw' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: goods_name E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 145 行.
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tgyx_order` (`lijian_fee`,`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`store_id`,`goods_name`,`total_fee`,`create_time`,`fans_id`,`fans_name`,`openid`,`is_subscribe`) VALUES ('312','201604011552356978364691','5','0','weixin','JSAPI','11','自定义扫码支付','88','1459497155','1','滔','ocMacs3nNC6aMryczG_eHO-v3Tz8','Y') [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant mid - assumed 'mid' E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 155 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+
+[ 2016-04-01T15:52:53+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5&amp;store_id=11&amp;code=04118785abe0b1f94a21fb0009930f4M&amp;state=wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_lijian` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_lijian` WHERE ( mid = '5' AND status = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_receive` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_receive` WHERE ( openid='ocMacs3nNC6aMryczG_eHO-v3Tz8' AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`discount` FROM `tgyx_wxcoupon` WHERE ( status=1 AND card_id='pcMacswhk2IxnlridQ0yFxUzCKvw' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: goods_name E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 145 行.
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tgyx_order` (`lijian_fee`,`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`store_id`,`goods_name`,`total_fee`,`create_time`,`fans_id`,`fans_name`,`openid`,`is_subscribe`) VALUES ('312','201604011552536042716175','5','0','weixin','JSAPI','11','自定义扫码支付','688','1459497173','1','滔','ocMacs3nNC6aMryczG_eHO-v3Tz8','Y') [ RunTime:0.0460s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant mid - assumed 'mid' E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 155 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+
+[ 2016-04-01T15:53:39+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5&amp;store_id=11&amp;code=04118785abe0b1f94a21fb0009930f4M&amp;state=wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_lijian` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_lijian` WHERE ( mid = '5' AND status = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_receive` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_receive` WHERE ( openid='ocMacs3nNC6aMryczG_eHO-v3Tz8' AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`discount` FROM `tgyx_wxcoupon` WHERE ( status=1 AND card_id='pcMacswhk2IxnlridQ0yFxUzCKvw' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: goods_name E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 145 行.
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tgyx_order` (`lijian_fee`,`vip_discount`,`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`store_id`,`goods_name`,`total_fee`,`create_time`,`fans_id`,`fans_name`,`openid`,`is_subscribe`) VALUES ('312','50','201604011553380513533664','5','0','weixin','JSAPI','11','自定义扫码支付','344','1459497218','1','滔','ocMacs3nNC6aMryczG_eHO-v3Tz8','Y') [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant mid - assumed 'mid' E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 155 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+
+[ 2016-04-01T16:15:26+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:16:21+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND FROM_UNIXTIME(create_time,'%Y%m%d')=FROM_UNIXTIME(1459498580,'%Y%m%d')' at line 1
+ [ SQL语句 ] : SELECT COUNT(id) as times, SUM(total_fee) as fees FROM tgyx_order WHERE 1=1 AND is_pay=1 AND store_id= AND FROM_UNIXTIME(create_time,'%Y%m%d')=FROM_UNIXTIME(1459498580,'%Y%m%d')
+
+[ 2016-04-01T16:20:18+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND FROM_UNIXTIME(create_time,'%Y%m%d')=FROM_UNIXTIME(1459498817,'%Y%m%d')' at line 1
+ [ SQL语句 ] : SELECT COUNT(id) as times, SUM(total_fee) as fees FROM tgyx_order WHERE 1=1 AND is_pay=1 AND store_id= AND FROM_UNIXTIME(create_time,'%Y%m%d')=FROM_UNIXTIME(1459498817,'%Y%m%d')
+
+[ 2016-04-01T16:21:22+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:21:24+08:00 ] 10.10.24.237 /index.php/home/staff/sign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:22:01+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:22:03+08:00 ] 10.10.24.237 /index.php/home/staff/sign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:22:12+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:22:14+08:00 ] 10.10.24.237 /index.php/home/staff/sign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:24:12+08:00 ] 10.10.24.237 /index.php/home/staff/sign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:24:13+08:00 ] 10.10.24.237 /index.php/home/staff/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:24:23+08:00 ] 10.10.24.237 /index.php/home/staff/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:24:27+08:00 ] 10.10.24.237 /index.php/home/staff/boundwx?mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:24:29+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:25:21+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:25:22+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-04-01T16:28:16+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 10,10   [ RunTime:0.0020s ]
+
+[ 2016-04-01T16:28:48+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:28:49+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:28:51+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-04-01T16:29:00+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:29:01+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:29:01+08:00 ] 10.10.24.237 /index.php/home/staff/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:30:14+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:30:14+08:00 ] 10.10.24.237 /index.php/home/staff/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:30:31+08:00 ] 10.10.24.237 /index.php/home/staff/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:31:38+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:31:38+08:00 ] 10.10.24.237 /index.php/home/staff/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:31:56+08:00 ] 10.10.24.237 /index.php/home/staff/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:32:05+08:00 ] 10.10.24.237 /index.php/home/staff/boundwx?mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:32:09+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:33:30+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:33:30+08:00 ] 10.10.24.237 /index.php/home/staff/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:34:05+08:00 ] 10.10.24.237 /index.php/home/staff/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:34:08+08:00 ] 10.10.24.237 /index.php/home/staff/boundwx?mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:34:09+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:37:06+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:37:31+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:38:37+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:38:37+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:38:37+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:38:37+08:00 ] 10.10.24.237 /index.php/home/staff/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:38:55+08:00 ] 10.10.24.237 /index.php/home/staff/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:38:59+08:00 ] 10.10.24.237 /index.php/home/staff/boundwx?mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:39:00+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:39:52+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:40:44+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:41:02+08:00 ] 10.10.24.237 /index.php/home/staff/signout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:41:29+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:41:31+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-04-01T16:41:41+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 10,10   [ RunTime:0.0020s ]
+
+[ 2016-04-01T16:42:09+08:00 ] 10.10.24.237 /index.php/home/staff/signout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:43:32+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:43:35+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-04-01T16:44:11+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:44:13+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-04-01T16:44:17+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 10,10   [ RunTime:0.0010s ]
+
+[ 2016-04-01T16:44:38+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:44:40+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-04-01T16:45:39+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:45:41+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2016-04-01T16:46:22+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T16:46:24+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-04-01T16:47:37+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:47:40+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2016-04-01T16:48:13+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T16:48:15+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-04-01T16:48:22+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 10,10   [ RunTime:0.0000s ]
+
+[ 2016-04-01T17:07:11+08:00 ] ::1 /index.php/Home/Index/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T17:07:11+08:00 ] ::1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T17:07:12+08:00 ] ::1 /index.php/home/index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:07:29+08:00 ] ::1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:11:07+08:00 ] ::1 /index.php/Home/Index/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T17:11:07+08:00 ] ::1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:11:07+08:00 ] ::1 /index.php/home/index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:11:15+08:00 ] ::1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T17:14:24+08:00 ] ::1 /index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T17:14:24+08:00 ] ::1 /index.php/home/index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:14:29+08:00 ] ::1 /index.php/home/index/verify?t=Fri%20Apr%2001%202016%2017:14:29%20GMT+0800
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:14:30+08:00 ] ::1 /index.php/home/index/verify?t=Fri%20Apr%2001%202016%2017:14:30%20GMT+0800
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:14:35+08:00 ] ::1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T17:20:06+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:20:10+08:00 ] 10.10.24.237 /Index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:20:10+08:00 ] 10.10.24.237 /Index.php/home/index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T17:20:37+08:00 ] 10.10.24.237 /Index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:21:54+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:21:55+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T17:21:56+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T17:21:59+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-04-01T17:22:02+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 10,10   [ RunTime:0.0010s ]
+
+[ 2016-04-01T17:23:35+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T17:48:59+08:00 ] 10.10.24.237 /index.php/home/staff/boundwx?mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:49:00+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:49:12+08:00 ] 10.10.24.237 /index.php/home/pay/wechatpay?mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T17:49:19+08:00 ] 10.10.24.237 /index.php/home/pay/wechatpay?mid=5&amp;store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tgyx_lijian` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_lijian` WHERE ( mid = '5' AND status = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_receive` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_receive` WHERE ( openid='ocMacs3nNC6aMryczG_eHO-v3Tz8' AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`discount` FROM `tgyx_wxcoupon` WHERE ( status=1 AND card_id='pcMacswhk2IxnlridQ0yFxUzCKvw' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_fans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tgyx_fans` WHERE ( openid = 'ocMacs3nNC6aMryczG_eHO-v3Tz8' and mid = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: goods_name E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 145 行.
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tgyx_order` (`lijian_fee`,`vip_discount`,`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`store_id`,`goods_name`,`total_fee`,`create_time`,`fans_id`,`fans_name`,`openid`,`is_subscribe`) VALUES ('312','50','201604011749193928587226','5','0','weixin','JSAPI','11','自定义扫码支付','444','1459504159','1','滔','ocMacs3nNC6aMryczG_eHO-v3Tz8','Y') [ RunTime:0.0460s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-01T17:55:39+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:55:39+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:55:40+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T17:55:51+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5&amp;store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_lijian` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tgyx_lijian` WHERE ( mid = '5' AND status = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon_receive` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tgyx_wxcoupon_receive` WHERE ( openid='ocMacs3nNC6aMryczG_eHO-v3Tz8' AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`discount` FROM `tgyx_wxcoupon` WHERE ( status=1 AND card_id='pcMacswhk2IxnlridQ0yFxUzCKvw' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: goods_name E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 145 行.
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `tgyx_order` (`lijian_fee`,`vip_discount`,`order_no`,`mid`,`pmid`,`pay_way`,`pay_type`,`store_id`,`goods_name`,`total_fee`,`create_time`,`fans_id`,`fans_name`,`openid`,`is_subscribe`) VALUES ('312','50','201604011755513545376873','5','0','weixin','JSAPI','11','自定义扫码支付','344','1459504551','1','滔','ocMacs3nNC6aMryczG_eHO-v3Tz8','Y') [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`pid` FROM `tgyx_merchant` WHERE ( id = '5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `config` FROM `tgyx_payconfig` WHERE ( mid = '5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant mid - assumed 'mid' E:\PhpstormProjects\pay\pay\Home\Controller\PayController.class.php 第 155 行.
+NOTIC: [8192] Function eregi() is deprecated E:\PhpstormProjects\pay\pay\Util\WeChatUtil.class.php 第 109 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\PhpstormProjects\pay\pay\Util\CommonUtil.class.php 第 136 行.
+
+[ 2016-04-01T17:56:11+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T17:56:13+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-04-01T17:56:16+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 10,10   [ RunTime:0.0010s ]
+
+[ 2016-04-01T17:57:10+08:00 ] 10.10.24.237 /index.php/home/staff/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T18:00:12+08:00 ] 10.10.24.237 /index.php/home/staff/storestatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T18:00:15+08:00 ] 10.10.24.237 /index.php/home/staff/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`order_no`,`total_fee`,`time_end` FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2016-04-01T18:00:44+08:00 ] 10.10.24.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T18:00:45+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T18:00:45+08:00 ] 10.10.24.237 /index.php/Home/Pay/wechatPay?mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

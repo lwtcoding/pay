@@ -11,6 +11,7 @@
     <link href="__PUBLIC__/css/font-awesome.css" rel="stylesheet" />
     <!--CUSTOM BASIC STYLES-->
     <link href="__PUBLIC__/css/basic.css" rel="stylesheet" />
+    <link href="__PUBLIC__/css/app.css?var=<?php echo time() ?>" rel="stylesheet" />
     <!--CUSTOM MAIN STYLES-->
     <link href="__PUBLIC__/css/custom.css?var=<?php echo time() ?>" rel="stylesheet" />
     <!-- GOOGLE FONTS
@@ -33,8 +34,33 @@
     <!-- /. ROW  -->
     <div class="row">
 
-        <div class="col-md-12 ">
-           设计中
+        <div class="row wrapper page-heading iconList">
+            <ul>
+                <li class="col-xs-4">
+                    <a href="__MODULE__/Pay/jspay"><i class="fa fa-inbox animated bounceIn"></i>二维码收款</a>
+                </li>
+
+                <li class="col-xs-4">
+                    <a href="__MODULE__/Order/orders"><i class="fa fa-pencil animated bounceIn"></i>收款记录</a>
+                </li>
+                <!--
+                <li class="col-xs-4">
+                    <a href="/merchants.php?m=User&c=wxCoupon&a=wxReceiveList"><i class="fa fa-file-text-o animated bounceIn"></i>核销记录</a>
+                </li>
+                <li class="col-xs-4">
+                    <a href="/merchants.php?m=User&c=cashier&a=payment&type=2"><i class="fa fa-undo animated bounceIn"></i>退款</a>
+                </li>
+                <li class="col-xs-4">
+                    <a href="/merchants.php?m=User&c=wxCoupon&a=consumeCard"><i class="fa fa-money animated bounceIn"></i>卡券核销</a>
+                </li>
+                <li class="col-xs-4">
+                    <a href="/merchants.php?m=User&c=cashier&a=index"><i class="fa fa-qrcode animated bounceIn"></i>收款二维码</a>
+                </li>
+                <li class="col-xs-4">
+                    <a href="/merchants.php?m=User&c=index&a=ModifyPwd"><i class="fa  fa-unlock-alt animated bounceIn"></i>修改密码</a>
+                </li>
+                -->
+            </ul>
         </div>
 
     </div>

@@ -63,7 +63,15 @@ class PayController extends Controller
                 $lijianconfig = json_decode($lijian['config'],true);
 
             $token = md5($store_id.$mid.$store['salt']);
+
+            //TODO 查找页面配置
             $pageinfo = M('pageinfo')->where("mid=".$_GET['mid'])->find();
+            if(empty($pageinfo)) {
+                $merchant=M('merchant')->field(array('pid','parent_id'))->where("id=" . $_GET['mid'])->find();
+                $pageinfo = M('pageinfo')->where("mid=" . $merchant['parent_id'])->find();
+                if(empty($pageinfo))
+                    $pageinfo = M('pageinfo')->where("mid=" . $merchant['pid'])->find();
+            }
             $this->assign("pageinfo",$pageinfo);
 
             $this->assign("lijianconfig",json_encode($lijianconfig));
@@ -72,7 +80,9 @@ class PayController extends Controller
             $this->assign("token",$token);
             $this->display();
         }else{
+
             if ($_POST['total_fee'] && is_numeric($_POST['total_fee']) && (0 < $_POST['mid']) && (0 < $_POST['store_id'])) {
+
                 //TODO 验证
                 $store=S("store".$_POST['store_id']);
                 if(!$store){
@@ -136,7 +146,9 @@ class PayController extends Controller
                 $order['order_no'] = $order_no;
                 $order['mid'] = $merchant['id'];
                 $order['pmid'] = $merchant['pid'];
-
+                $order['parent_id']=$merchant['parent_id'];
+                $order['merchantname']=$merchant['merchantname'];
+                $order['storename']=$store['name'];
                 /* $order['pay_way']=$_POST['pay_way'];
                  $order['pay_type']=$_POST['pay_type'];*/
                 $order['pay_way'] = "weixin";
@@ -154,8 +166,9 @@ class PayController extends Controller
                 $wxconfig = CommonUtil::getMerchantConfig($_POST['mid']);
                 $wechat = new WeChatUtil($wxconfig, $_GET[mid]);
                 $resp = $wechat->unifiedorder($order, $wxconfig);
+
                 if($resp['return_code']=='FAIL') {
-                    $this->ajaxReturn(array('result' => 0, 'msg' => "失败", 'data' => null));
+                    $this->ajaxReturn(array('result' => 0, 'msg' => "失败", 'data' => $resp));
                 }
                 $payParams=array();
                 $payParams['appId']=$resp['appid'];

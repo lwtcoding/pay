@@ -1,0 +1,3380 @@
+[ 2016-03-31T08:36:21+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T08:36:21+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T08:36:30+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:36:33+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:36:39+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:36:47+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:36:49+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.1092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T08:36:54+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:36:55+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T08:37:23+08:00 ] ::1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:37:23+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:39:24+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:39:24+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:39:29+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:39:30+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:39:40+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:39:40+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:41:58+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:41:59+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:42:33+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T08:42:33+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:42:34+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:42:35+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:42:40+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:42:40+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:43:07+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:43:07+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:44:19+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:44:19+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:45:07+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:45:07+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:46:02+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T08:46:02+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T08:46:15+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:47:35+08:00 ] ::1 /index.php/admin/Lijian/lijian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:47:52+08:00 ] ::1 /index.php/admin/index/form-advance.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:form-advance
+
+[ 2016-03-31T08:47:55+08:00 ] ::1 /index.php/admin/Lijian/lijian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:47:57+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:49:04+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:49:30+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:49:32+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:49:40+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:52:44+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:53:00+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:53:01+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T08:53:39+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:53:55+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:53:56+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T08:54:31+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:56:30+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:56:36+08:00 ] ::1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T08:56:36+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:56:44+08:00 ] ::1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:56:45+08:00 ] ::1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0370s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND pmid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0020s ]
+
+[ 2016-03-31T08:56:46+08:00 ] ::1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND pmid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0020s ]
+
+[ 2016-03-31T08:56:58+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T08:56:59+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0030s ]
+
+[ 2016-03-31T08:57:00+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0040s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0020s ]
+
+[ 2016-03-31T08:57:01+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0040s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y%m') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y')>=FROM_UNIXTIME(1459426560,'%Y') AND FROM_UNIXTIME(create_time,'%Y')<=FROM_UNIXTIME(1459426560,'%Y') GROUP BY labels [ RunTime:0.0020s ]
+
+[ 2016-03-31T08:57:21+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:57:37+08:00 ] ::1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T08:57:38+08:00 ] ::1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0070s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND pmid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0020s ]
+
+[ 2016-03-31T08:57:39+08:00 ] ::1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND pmid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0000s ]
+
+[ 2016-03-31T08:57:42+08:00 ] ::1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T08:57:42+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:57:46+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T08:59:50+08:00 ] ::1 /index.php/admin/Lijian/lijian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:02:19+08:00 ] ::1 /index.php/admin/Lijian/lijian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:02:37+08:00 ] ::1 /index.php/admin/Lijian/lijian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:03:16+08:00 ] ::1 /index.php/admin/Lijian/lijian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:04:49+08:00 ] ::1 /index.php/admin/Lijian/lijian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:04:58+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:05:52+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:05:58+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:06:02+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:06:06+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:06:51+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:06:51+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:06:55+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:07:04+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:07:06+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:07:09+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:07:10+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:07:13+08:00 ] ::1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:07:14+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:07:17+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:07:18+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0000s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:07:19+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0050s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T09:07:20+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y%m') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y')>=FROM_UNIXTIME(1459426560,'%Y') AND FROM_UNIXTIME(create_time,'%Y')<=FROM_UNIXTIME(1459426560,'%Y') GROUP BY labels [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:07:42+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:07:44+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T09:07:45+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:07:46+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0050s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y%m') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y')>=FROM_UNIXTIME(1459426560,'%Y') AND FROM_UNIXTIME(create_time,'%Y')<=FROM_UNIXTIME(1459426560,'%Y') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T09:07:48+08:00 ] ::1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:07:49+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid`,`salt` FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:08:30+08:00 ] ::1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:08:31+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid`,`salt` FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:08:34+08:00 ] ::1 /index.php/admin/Order/proxyorders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:08:35+08:00 ] ::1 /index.php/admin/order/proxyorders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND pmid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 77 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND pmid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:09:10+08:00 ] ::1 /index.php/admin/Order/proxyorders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:09:11+08:00 ] ::1 /index.php/admin/order/proxyorders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND pmid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 77 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND pmid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:09:13+08:00 ] ::1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:09:15+08:00 ] ::1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND pmid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T09:09:16+08:00 ] ::1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0050s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND pmid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T09:09:20+08:00 ] ::1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:09:20+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:09:26+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:10:36+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:10:51+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:10:55+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:16:49+08:00 ] ::1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:16:49+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:17:00+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:21:35+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:22:16+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:22:47+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:22:54+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:22:56+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:22:57+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:22:59+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T09:23:26+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:23:26+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:23:29+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:23:29+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:23:32+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:23:33+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:23:33+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:24:32+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-31T09:24:34+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:24:36+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:24:36+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:24:37+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:24:38+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:24:40+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:24:41+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:24:43+08:00 ] ::1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:24:44+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T09:24:45+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:24:47+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0070s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0030s ]
+
+[ 2016-03-31T09:24:48+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0070s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0020s ]
+
+[ 2016-03-31T09:24:49+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0070s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y%m') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y')>=FROM_UNIXTIME(1459426560,'%Y') AND FROM_UNIXTIME(create_time,'%Y')<=FROM_UNIXTIME(1459426560,'%Y') GROUP BY labels [ RunTime:0.0040s ]
+
+[ 2016-03-31T09:24:58+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:24:59+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:25:07+08:00 ] ::1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:25:08+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid`,`salt` FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T09:25:08+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:25:08+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:26:09+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-31T09:26:09+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:26:15+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:26:17+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:26:17+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:26:53+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:26:53+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:34:48+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:35:41+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:36:05+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:38:23+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:39:26+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:39:27+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:39:33+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:40:40+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:40:56+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:49:58+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:49:58+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:50:23+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:50:24+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:50:26+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:50:27+08:00 ] ::1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T09:51:01+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:51:02+08:00 ] ::1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:51:34+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:51:35+08:00 ] ::1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:53:02+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:53:03+08:00 ] ::1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:53:11+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:53:12+08:00 ] ::1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:53:37+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:53:38+08:00 ] ::1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:56:50+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:56:51+08:00 ] ::1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T09:58:40+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:58:40+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T09:59:02+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T09:59:04+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:04:06+08:00 ] 127.0.0.1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:04:08+08:00 ] 127.0.0.1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:04:26+08:00 ] 127.0.0.1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:04:27+08:00 ] 127.0.0.1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:04:30+08:00 ] 127.0.0.1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:04:32+08:00 ] 127.0.0.1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:04:32+08:00 ] 127.0.0.1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:04:47+08:00 ] 127.0.0.1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:05:21+08:00 ] 127.0.0.1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:05:22+08:00 ] 127.0.0.1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:05:23+08:00 ] 127.0.0.1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:05:24+08:00 ] 127.0.0.1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:05:25+08:00 ] 127.0.0.1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:05:25+08:00 ] 127.0.0.1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:05:31+08:00 ] 127.0.0.1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:06:06+08:00 ] 127.0.0.1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:06:16+08:00 ] 127.0.0.1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:06:27+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:06:34+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:06:42+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:06:50+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:06:54+08:00 ] ::1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:07:33+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:07:34+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:07:35+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:07:39+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:07:41+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:12:44+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:12:46+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:13:01+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:13:01+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:13:04+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:13:07+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:13:09+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:13:10+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:13:13+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:13:14+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:13:16+08:00 ] ::1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:13:17+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:13:21+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:13:22+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0070s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0020s ]
+
+[ 2016-03-31T10:13:23+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0050s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0020s ]
+
+[ 2016-03-31T10:13:24+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0040s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y%m') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y')>=FROM_UNIXTIME(1459426560,'%Y') AND FROM_UNIXTIME(create_time,'%Y')<=FROM_UNIXTIME(1459426560,'%Y') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T10:13:26+08:00 ] ::1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:13:27+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid`,`salt` FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:13:34+08:00 ] ::1 /index.php/admin/Order/proxyorders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:13:35+08:00 ] ::1 /index.php/admin/order/proxyorders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND pmid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 77 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND pmid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T10:13:55+08:00 ] 127.0.0.1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:13:57+08:00 ] 127.0.0.1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0080s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND pmid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0030s ]
+
+[ 2016-03-31T10:13:58+08:00 ] 127.0.0.1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND pmid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T10:14:00+08:00 ] 127.0.0.1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:14:00+08:00 ] 127.0.0.1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:14:06+08:00 ] 127.0.0.1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:14:16+08:00 ] 127.0.0.1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-31T10:14:17+08:00 ] 127.0.0.1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:14:19+08:00 ] 127.0.0.1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:14:23+08:00 ] 127.0.0.1 /index.php/admin/Lijian/lijian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:14:32+08:00 ] 127.0.0.1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:14:35+08:00 ] 127.0.0.1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:14:44+08:00 ] 127.0.0.1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:14:45+08:00 ] 127.0.0.1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid`,`salt` FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:14:50+08:00 ] 127.0.0.1 /index.php/admin/merchant/editPayconfig?mid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tgyx_payconfig` WHERE ( mid=6 ) LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2016-03-31T10:14:56+08:00 ] 127.0.0.1 /index.php/admin/Order/proxyorders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:14:57+08:00 ] 127.0.0.1 /index.php/admin/order/proxyorders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND pmid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 77 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND pmid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:15:17+08:00 ] 127.0.0.1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:15:18+08:00 ] 127.0.0.1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0070s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND pmid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0020s ]
+
+[ 2016-03-31T10:15:19+08:00 ] 127.0.0.1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0070s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND pmid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0020s ]
+
+[ 2016-03-31T10:15:34+08:00 ] 127.0.0.1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:15:34+08:00 ] 127.0.0.1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:15:37+08:00 ] 127.0.0.1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:15:39+08:00 ] 127.0.0.1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-31T10:15:43+08:00 ] 127.0.0.1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:15:44+08:00 ] 127.0.0.1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:15:46+08:00 ] 127.0.0.1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:15:47+08:00 ] 127.0.0.1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:15:49+08:00 ] 127.0.0.1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:15:50+08:00 ] 127.0.0.1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:16:01+08:00 ] 127.0.0.1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:16:01+08:00 ] 127.0.0.1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:16:06+08:00 ] 127.0.0.1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:16:12+08:00 ] 127.0.0.1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:16:13+08:00 ] 127.0.0.1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:16:20+08:00 ] 127.0.0.1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:16:21+08:00 ] 127.0.0.1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T10:16:24+08:00 ] 127.0.0.1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:42:44+08:00 ] 127.0.0.1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:42:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:42:47+08:00 ] 127.0.0.1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:42:49+08:00 ] 127.0.0.1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:42:54+08:00 ] 127.0.0.1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:42:55+08:00 ] 127.0.0.1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:43:02+08:00 ] 127.0.0.1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:48:40+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:48:44+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:48:45+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:48:50+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:48:51+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T10:48:53+08:00 ] ::1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:48:54+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T10:51:41+08:00 ] ::1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:51:42+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid`,`salt` FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:51:46+08:00 ] ::1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:51:46+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:52:10+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:52:12+08:00 ] ::1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T10:55:17+08:00 ] ::1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:55:17+08:00 ] ::1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:55:26+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:55:29+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:55:30+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:55:31+08:00 ] ::1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:57:06+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:57:07+08:00 ] ::1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T10:57:09+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T10:57:09+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T10:57:10+08:00 ] ::1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T13:56:28+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-31T13:56:30+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T13:56:35+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T13:56:38+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T13:56:42+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T13:56:43+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T13:56:47+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T13:56:48+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T13:57:00+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T13:57:01+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T13:57:31+08:00 ] ::1 /index.php/admin/Staff/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_staff` WHERE ( username = '12341' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-31T13:57:32+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T14:00:03+08:00 ] ::1 /index.php/admin/Staff/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0080s ]
+
+[ 2016-03-31T14:00:09+08:00 ] ::1 /index.php/admin/Staff/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0020s ]
+
+[ 2016-03-31T14:00:47+08:00 ] ::1 /index.php/admin/Staff/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0070s ]
+
+[ 2016-03-31T14:00:48+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T14:07:21+08:00 ] ::1 /index.php/admin/Staff/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0050s ]
+
+[ 2016-03-31T14:07:22+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T14:07:39+08:00 ] ::1 /index.php/admin/Staff/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0020s ]
+
+[ 2016-03-31T14:07:40+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T14:09:47+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T14:09:48+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T14:09:53+08:00 ] ::1 /index.php/admin/Staff/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: password E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 79 行.
+
+[ 2016-03-31T14:09:54+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T14:10:23+08:00 ] ::1 /index.php/admin/Staff/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T14:10:24+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T14:11:27+08:00 ] ::1 /index.php/admin/Staff/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tgyx_staff` WHERE ( username = '2011414' ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `tgyx_staff` SET `salt`='Ajqt1Xrx',`mid`='5',`store_id`='11',`username`='2011414',`nickname`='哈哈哈',`auths`='[\"Store-stores\",\"Store-add\",\"Store-edit\"]' WHERE `id` = 3 [ RunTime:0.1540s ]
+
+[ 2016-03-31T14:11:28+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T14:11:46+08:00 ] ::1 /index.php/admin/Staff/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tgyx_staff` WHERE ( username = '2011414' ) LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2016-03-31T14:11:47+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T14:13:02+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T14:13:04+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T14:13:10+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T14:13:12+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T14:14:03+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T14:14:05+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T14:14:40+08:00 ] ::1 /index.php/admin/Staff/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: repassword E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 81 行.
+
+[ 2016-03-31T14:14:41+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T14:15:22+08:00 ] ::1 /index.php/admin/Staff/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `tgyx_staff` SET `salt`='Ajqt1Xrx',`mid`='5',`store_id`='11',`username`='2011414',`nickname`='哈哈哈',`auths`='[\"Store-stores\",\"Store-add\",\"Store-edit\"]' WHERE `id` = 3 [ RunTime:0.0470s ]
+
+[ 2016-03-31T14:15:23+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T14:15:55+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T14:15:56+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T14:16:09+08:00 ] ::1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T14:16:10+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid`,`salt` FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T14:17:00+08:00 ] ::1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T14:17:00+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T14:17:05+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T14:18:02+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T14:18:05+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T14:18:21+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T14:18:24+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T14:18:50+08:00 ] ::1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T14:18:51+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid`,`salt` FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T14:18:57+08:00 ] ::1 /index.php/admin/merchant/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tgyx_merchant` WHERE `username` = '' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2016-03-31T14:18:58+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid`,`salt` FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T14:19:09+08:00 ] ::1 /index.php/admin/merchant/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tgyx_merchant` WHERE `username` = 'lwt1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-03-31T14:19:10+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid`,`salt` FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T14:19:25+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T14:19:26+08:00 ] ::1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T14:19:28+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T14:34:11+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T14:34:13+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T14:34:27+08:00 ] ::1 /index.php/admin/Staff/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PhpstormProjects\pay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `tgyx_staff` SET `salt`='Ajqt1Xrx',`mid`='5',`store_id`='11',`username`='2011414',`nickname`='哈哈哈',`password`='43445e78386ac2dd21327fd6ef87151e',`auths`='[\"Store-stores\",\"Store-add\",\"Store-edit\"]' WHERE `id` = 3 [ RunTime:0.0370s ]
+
+[ 2016-03-31T14:34:28+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T15:01:38+08:00 ] ::1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T15:01:38+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T15:01:41+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T15:01:43+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T15:06:10+08:00 ] ::1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T15:07:08+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T15:07:09+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T15:07:10+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-31T15:07:12+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T15:07:14+08:00 ] ::1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T15:07:15+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T15:07:27+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T15:07:28+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0080s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0030s ]
+
+[ 2016-03-31T15:07:29+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T15:07:30+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y%m') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y')>=FROM_UNIXTIME(1459426560,'%Y') AND FROM_UNIXTIME(create_time,'%Y')<=FROM_UNIXTIME(1459426560,'%Y') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T15:07:44+08:00 ] ::1 /index.php/admin/Order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T15:07:46+08:00 ] ::1 /index.php/admin/order/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T15:08:33+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T15:08:34+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T15:08:35+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0040s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y%m') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y')>=FROM_UNIXTIME(1459426560,'%Y') AND FROM_UNIXTIME(create_time,'%Y')<=FROM_UNIXTIME(1459426560,'%Y') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T15:08:36+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T15:09:05+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0080s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1454342400,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0040s ]
+
+[ 2016-03-31T15:18:36+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T15:18:37+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%d%H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T15:18:38+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0000s ]
+
+[ 2016-03-31T15:18:39+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y%m') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y')>=FROM_UNIXTIME(1459426560,'%Y') AND FROM_UNIXTIME(create_time,'%Y')<=FROM_UNIXTIME(1459426560,'%Y') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T15:18:43+08:00 ] ::1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T15:18:45+08:00 ] ::1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0080s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y%m%d %H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND pmid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0030s ]
+
+[ 2016-03-31T15:18:46+08:00 ] ::1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%m%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND pmid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T15:18:56+08:00 ] ::1 /index.php/admin/Order/proxystatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0030s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y%m%d %H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND pmid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1454947200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0000s ]
+
+[ 2016-03-31T15:20:02+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T15:20:04+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y-%m-%d %H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T15:20:05+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y-%m-%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T15:20:06+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y-%m') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y')>=FROM_UNIXTIME(1459426560,'%Y') AND FROM_UNIXTIME(create_time,'%Y')<=FROM_UNIXTIME(1459426560,'%Y') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T15:20:11+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y-%m-%d %H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1457971200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T15:42:39+08:00 ] ::1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T15:42:40+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid`,`salt` FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T15:51:11+08:00 ] ::1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T15:51:11+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T15:51:14+08:00 ] ::1 /index.php/admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T15:51:21+08:00 ] ::1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T16:08:56+08:00 ] ::1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T16:08:58+08:00 ] ::1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T16:08:59+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T16:09:01+08:00 ] ::1 /index.php/admin/Staff/staffs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_staff` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StaffController.class.php 第 35 行.
+SQL: SELECT `id`,`username`,`nickname`,`mid`,`auths`,`store_id`,`salt` FROM `tgyx_staff` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T16:09:03+08:00 ] ::1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T16:09:04+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 129 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid`,`salt` FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T16:09:09+08:00 ] ::1 /index.php/admin/Pay/jspay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T16:09:09+08:00 ] ::1 /index.php/admin/Pay/jspay?qrcode=1&mid=5&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T16:09:14+08:00 ] ::1 /index.php/admin/Card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T16:09:16+08:00 ] ::1 /index.php/admin/card/cards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_wxcoupon` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\CardController.class.php 第 41 行.
+SQL: SELECT * FROM `tgyx_wxcoupon` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T16:09:19+08:00 ] ::1 /index.php/admin/Card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T16:09:31+08:00 ] ::1 /index.php/admin/Lijian/lijian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T16:09:44+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T16:09:45+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0080s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y-%m-%d %H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(1459267200,'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(1459353600,'%Y%m%d') GROUP BY labels [ RunTime:0.0030s ]
+
+[ 2016-03-31T16:09:46+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y-%m-%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(1454256000,'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(1456761600,'%Y%m') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T16:09:47+08:00 ] ::1 /index.php/admin/Order/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0020s ]
+SQL: SELECT FROM_UNIXTIME(create_time,'%Y-%m') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1 AND 1=1 AND mid=5 AND FROM_UNIXTIME(create_time,'%Y')>=FROM_UNIXTIME(1459426560,'%Y') AND FROM_UNIXTIME(create_time,'%Y')<=FROM_UNIXTIME(1459426560,'%Y') GROUP BY labels [ RunTime:0.0010s ]
+
+[ 2016-03-31T16:58:06+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T16:59:53+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:00:15+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:00:27+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:01:21+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:02:03+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:02:22+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:02:39+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:14:37+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:14:41+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:15:45+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:17:06+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:19:22+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:19:52+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:20:27+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:20:35+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:20:56+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:21:20+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:21:27+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:21:59+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:24:55+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:37:24+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:37:59+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:37:59+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:38:30+08:00 ] 127.0.0.1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:39:16+08:00 ] 127.0.0.1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:39:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:39:37+08:00 ] 127.0.0.1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:39:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:39:52+08:00 ] 127.0.0.1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:39:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:40:10+08:00 ] 127.0.0.1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:40:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:40:17+08:00 ] 127.0.0.1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:40:17+08:00 ] 127.0.0.1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:43:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:43:50+08:00 ] 127.0.0.1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:43:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:43:58+08:00 ] 127.0.0.1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:44:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:44:09+08:00 ] 127.0.0.1 /index.php/admin/Merchant/payconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:44:14+08:00 ] 127.0.0.1 /index.php/admin/Pageinfo/pageinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:44:21+08:00 ] 127.0.0.1 /index.php/admin/Store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:44:22+08:00 ] 127.0.0.1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+
+[ 2016-03-31T17:45:19+08:00 ] 127.0.0.1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:45:28+08:00 ] 127.0.0.1 /index.php/admin/Order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:47:17+08:00 ] 127.0.0.1 /index.php/admin/Order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:47:56+08:00 ] 127.0.0.1 /index.php/admin/Order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:48:17+08:00 ] 127.0.0.1 /index.php/admin/Order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:48:46+08:00 ] 127.0.0.1 /index.php/admin/Order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:48:48+08:00 ] 127.0.0.1 /index.php/admin/Order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:48:51+08:00 ] 127.0.0.1 /index.php/admin/Order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:49:25+08:00 ] 127.0.0.1 /index.php/admin/Order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:50:13+08:00 ] 127.0.0.1 /index.php/admin/store/stores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_store` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\StoreController.class.php 第 28 行.
+SQL: SELECT * FROM `tgyx_store` WHERE ( 1=1 AND mid=5 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+
+[ 2016-03-31T17:50:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:50:19+08:00 ] 127.0.0.1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-31T17:50:31+08:00 ] 127.0.0.1 /index.php/admin/Order/proxyorders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:51:15+08:00 ] 127.0.0.1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:51:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:51:16+08:00 ] 127.0.0.1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:51:17+08:00 ] 127.0.0.1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 217 行.
+NOTIC: [8] Undefined index: order E:\PhpstormProjects\pay\pay\Admin\Controller\OrderController.class.php 第 217 行.
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id  LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-03-31T17:52:51+08:00 ] 127.0.0.1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:52:53+08:00 ] 127.0.0.1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2016-03-31T17:57:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/body
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-31T17:57:28+08:00 ] 127.0.0.1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-31T17:57:29+08:00 ] 127.0.0.1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tgyx_order` WHERE ( 1=1 AND is_pay=1 AND store_id=11 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2016-03-31T18:54:46+08:00 ] ::1 /index.php/admin/order/storeStatistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:storestatistics
+

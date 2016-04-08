@@ -16,6 +16,7 @@
     <!--CUSTOM MAIN STYLES-->
     <link href="__PUBLIC__/css/custom.css?var=<?php echo time() ?>" rel="stylesheet" />
     <link href="__PUBLIC__/css/datepicker3.css" rel="stylesheet" />
+    <link href="__PUBLIC__/css/sweetalert/sweetalert.css" rel="stylesheet" />
     <!-- GOOGLE FONTS
     <link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     -->
@@ -69,7 +70,62 @@
     <!-- /. ROW  -->
     <hr />
 </div>
-
+<!-- 退款模态框（Modal） -->
+<div class="modal fade" id="refund" tabindex="-1" role="dialog"
+     aria-labelledby="refundModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close"
+                        data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="refundModalLabel">
+                    退款
+                </h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form" id="refundForm" action="" method="post" >
+                    <input type="hidden" name="id">
+                    <input type="hidden" name="mid">
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">订单号</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control"  name="order_no" placeholder="订单号" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">订单金额</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control"  name="total_fee" placeholder="订单金额"  readonly>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">已退款</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" name="refund_fee"  placeholder="已退款" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">退款金额</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" name="this_refund_fee"  placeholder="退款金额" >
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary" onclick="mySubmit('refund','__MODULE__/Order/refund')">
+                    提交
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div>
+</div>
+<!-- /.modal -->
 <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
 <!-- JQUERY SCRIPTS -->
 <script src="__PUBLIC__/js/jquery-1.10.2.js"></script>
@@ -78,6 +134,7 @@
 <!-- TABLE SCRIPTS -->
 <script language="javascript" src="__PUBLIC__/js/bootstrap-table.js"></script>
 <script  src="__PUBLIC__/js/bootstrap-datepicker.js"></script>
+<script src="__PUBLIC__/js/sweetalert/sweetalert.min.js"></script>
 <script language="javascript">
     onload=function(){
         setTimeout(function(){
@@ -149,6 +206,14 @@
                     field: 'lijian_fee',
                     title: '立减金额',
                     align: 'center',
+                    width: '50',
+                    valign: 'middle',
+                    formatter:priceformat,
+                    sortable: true
+                } , {
+                    field: 'refund_fee',
+                    title: '退款金额',
+                    align: 'center',
                     width: '80',
                     valign: 'middle',
                     formatter:priceformat,
@@ -157,7 +222,7 @@
                     field: 'vip_discount',
                     title: '折扣（%）',
                     align: 'center',
-                    width: '50',
+                    width: '30',
                     valign: 'middle',
                     sortable: true
                 }, {
@@ -179,7 +244,7 @@
                     field: 'pay_type',
                     title: '类型',
                     align: 'center',
-                    width: '200',
+                    width: '130',
                     valign: 'middle',
                     formatter:paytypeformat,
                     sortable: true
@@ -188,6 +253,12 @@
                     title: '订单状态',
                     align: 'center',
                     formatter: payformat
+                }, {
+                    field: 'operate',
+                    title: '退款',
+                    align: 'center',
+                    events: operateEvents,
+                    formatter: operateFormatter
                 }]
         });
     }
@@ -203,39 +274,69 @@
     }
     function operateFormatter(value, row, index) {
         return [
-            '<a class="addStaff" href="javascript:void(0)" title="添加雇员">',
-            '<i class="glyphicon glyphicon-user"></i>',
-            '</a>  ',
-            '<a class="edit" href="javascript:void(0)" title="编辑">',
-            '<i class="glyphicon glyphicon-edit"></i>',
-            '</a>  ',
-            '<a class="remove" href="javascript:void(0)" title="删除">',
-            '<i class="glyphicon glyphicon-remove"></i>',
-            '</a>'
+            '<a class="refund" href="javascript:void(0)" title="退款">',
+            '<i class="glyphicon glyphicon-retweet"></i>',
+            '</a>  '
         ].join('');
     }
     window.operateEvents = {
-        'click .addStaff': function (e, value, row, index) {
-            // alert('You click edit action, row: ' + JSON.stringify(row));
+        'click .refund': function (e, value, row, index) {
+             //alert('You click edit action, row: ' + JSON.stringify(row));
             //$("#tab").bootstrapTable('resetView');
-            editForm("addStaff",row);
-        },
-        'click .edit': function (e, value, row, index) {
-           // alert('You click edit action, row: ' + JSON.stringify(row));
-            //$("#tab").bootstrapTable('resetView');
-            editForm("storeEdit",row);
-        },
-        'click .remove': function (e, value, row, index) {
-            //alert('You click like action, row: ' + JSON.stringify(row));
-           // $("#tab").bootstrapTable('refresh');
-            delte("__CONTROLLER__/delete","mid="+row.mid+"&id="+row.id);
+            editForm("refund",row);
         }
     };
     $(function(){
         getTab();
     })
 //============================
+    function mySubmit(formId,url){
+        var params = $("#"+formId+"Form").serialize();
 
+        $.ajax({
+            url:url,
+            data:params,
+            dataType:"json",
+            type:"post",
+            success: function (data) {
+                //alert(JSON.stringify(data));
+                swal({
+                    title: data.message,
+                    text: data.data,
+                    type: data.result
+                }, function () {
+                    //window.location.reload();
+                });
+                $("#tab").bootstrapTable('refresh');
+                $('#'+formId).modal('hide');
+            },
+            error:function(){
+                swal({
+                    title: "操作失败！",
+                    text: "网络异常",
+                    type: "error"
+                }, function () {
+                    //window.location.reload();
+                });
+            }
+        })
+    }
+    function editForm(formId,jsonData){
+        if(jsonData!=null) {
+            var $editForm = $("#" + formId+"Form");
+            $editForm[0].reset();
+
+            for (var obj in jsonData) {
+                if ($editForm.find("input[name='" + obj + "']")) {
+                    $editForm.find("input[name='" + obj + "']").val(jsonData[obj]);
+                    if(obj=='total_fee'||obj=='refund_fee'){
+                        $editForm.find("input[name='" + obj + "']").val(jsonData[obj]/100);
+                    }
+                }
+            }
+        }
+        $("#"+formId).modal('show');
+    }
 
     function paywayformat(value){
         var type = value;

@@ -10,6 +10,8 @@ namespace Admin\Controller;
 
 use Think\Controller;
 use Util\AuthController;
+use Util\CommonUtil;
+use Util\WeChatUtil;
 
 class OrderController extends AuthController
 {
@@ -57,10 +59,16 @@ class OrderController extends AuthController
             $pager = array();
             $condition = "1=1 AND is_pay=1";
             if((!isset($_POST['mid']))||(trim($_POST['mid'])=="")) {
-                $condition .= " AND pmid=" .$_SESSION['loginMerchant']['id'];
+                if($_SESSION['loginMerchant']['is_proxy']==1){
+                    $condition .= " AND pmid=" .$_SESSION['loginMerchant']['id'];
+                }
+                if(($_SESSION['loginMerchant']['is_proxy']==0)&&($_SESSION['loginMerchant']['parent_id']==0)){
+                    $condition .= " AND pmid=" .$_SESSION['loginMerchant']['pid']." AND parent_id=".$_SESSION['loginMerchant']['id'];
+                }
+
             }else{
-                    $pid = M('Merchant')->where("id='%s'", array($_POST['mid']))->getField('pid');
-                    if (!$_SESSION['loginMerchant']['id'] == $pid) {
+                    $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_POST['mid']))->find();
+                    if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
                         $this->ajaxReturn(array("result" => 0, "message" => "无权查看", "data" => null));
                     }
                     $condition .= " AND mid=" . $_POST['mid'];
@@ -84,6 +92,10 @@ class OrderController extends AuthController
         if($_SERVER['REQUEST_METHOD']=="GET"){
             if($_SESSION['loginMerchant']['is_proxy']==1){
                 $submerchants=M('merchant')->field(array('id','merchantname'))->where("pid='%s'",array($_SESSION['loginMerchant']['id']))->select();
+                $this->assign("submerchants",$submerchants);
+            }
+            if(($_SESSION['loginMerchant']['is_proxy']==0)&&($_SESSION['loginMerchant']['parent_id']==0)){
+                $submerchants=M('merchant')->field(array('id','merchantname'))->where("pid='%s' AND parent_id='%s'",array($_SESSION['loginMerchant']['pid'],$_SESSION['loginMerchant']['id']))->select();
                 $this->assign("submerchants",$submerchants);
             }
             $this->display();
@@ -151,13 +163,19 @@ class OrderController extends AuthController
                 $conditions=" AND 1=1";
 
                 if((!isset($_POST['mid']))||(trim($_POST['mid'])=="")) {
-                    $conditions .= " AND pmid=" .$_SESSION['loginMerchant']['id'];
+                    if($_SESSION['loginMerchant']['is_proxy']==1){
+                        $conditions .= " AND pmid=" .$_SESSION['loginMerchant']['id'];
+                    }
+                    if(($_SESSION['loginMerchant']['is_proxy']==0)&&($_SESSION['loginMerchant']['parent_id']==0)){
+                        $conditions .= " AND pmid=" .$_SESSION['loginMerchant']['pid']." AND parent_id=".$_SESSION['loginMerchant']['id'];
+                    }
+
                 }else{
-                        $pid = M('Merchant')->where("id='%s'", array($_POST['mid']))->getField('pid');
-                        if (!$_SESSION['loginMerchant']['id'] == $pid) {
-                            $this->ajaxReturn(array("result" => 0, "message" => "无权查看", "data" => null));
-                        }
-                        $conditions .= " AND mid=" . $_POST['mid'];
+                    $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_POST['mid']))->find();
+                    if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
+                        $this->ajaxReturn(array("result" => 0, "message" => "无权查看", "data" => null));
+                    }
+                    $conditions .= " AND mid=" . $_POST['mid'];
                 }
 
                 if ($_POST['type'] == 'day') {
@@ -192,8 +210,55 @@ class OrderController extends AuthController
                     $submerchants=M('merchant')->field(array('id','merchantname'))->where("pid='%s'",array($_SESSION['loginMerchant']['id']))->select();
                     $this->assign("submerchants",$submerchants);
                 }
+                if(($_SESSION['loginMerchant']['is_proxy']==0)&&($_SESSION['loginMerchant']['parent_id']==0)){
+                    $submerchants=M('merchant')->field(array('id','merchantname'))->where("pid='%s' AND parent_id='%s'",array($_SESSION['loginMerchant']['pid'],$_SESSION['loginMerchant']['id']))->select();
+                    $this->assign("submerchants",$submerchants);
+                }
                 $this->display();
             }
+    }
+
+    public function refund(){
+
+        if(isset($_POST['this_refund_fee'])&&is_numeric($_POST['this_refund_fee'])){
+
+            $wxconfig = CommonUtil::getMerchantConfig($_POST['mid']);
+            $wechatUtil = new WeChatUtil($wxconfig,$_POST['mid']);
+            $params = array();
+            $params['appid']=$wxconfig['appid'];
+            $params['mch_id']=$wxconfig['mchid'];
+            if(isset($wxconfig['submchid']))
+            $params['sub_mch_id']=$wxconfig['submchid'];
+            $params['nonce_str']=CommonUtil::genernateNonceStr(32);
+            if(isset($_SESSION['loginStaff'])) {
+                $params['op_user_id'] =$_SESSION['loginStaff']['username'];
+            }else{
+                $params['op_user_id'] =$_SESSION['loginMerchant']['username'];
+            }
+            $params['out_refund_no']=CommonUtil::createOrderNo();
+            $params['out_trade_no']=$_POST['order_no'];
+            $params['refund_fee']=$_POST['this_refund_fee']*100;
+            $params['total_fee']=$_POST['total_fee']*100;
+            $params['sign']=CommonUtil::createSign($params,$wxconfig['apikey']);
+            $xmlparams = CommonUtil::arrToXml($params);
+            $res=CommonUtil::curl_post_ssl("https://api.mch.weixin.qq.com/secapi/pay/refund",$xmlparams,$wxconfig);
+           if(isset($res["error"]))
+               $this->ajaxReturn(array("result" => "error", "message" =>"退款失败", "data" => $res["error"]));
+            $res = CommonUtil::xmlToArray($res);
+            if($res['return_code']=="FAIL")
+                $this->ajaxReturn(array("result" => "error", "message" =>"退款失败", "data" =>$res["return_msg"]));
+            if($res['return_code']=="SUCCESS"){
+                $updatedata=array(
+                    "refund_fee"=>$res['refund_fee']
+                );
+                M('order')->where("id=".$_POST['id'])->save($updatedata);
+                $this->ajaxReturn(array("result" => "success", "message" =>"退款成功", "data" =>null));
+            }
+
+
+        }else{
+            $this->ajaxReturn(array("result" => "error", "message" => "退款失败", "data" => null));
+        }
     }
 
 

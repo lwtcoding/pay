@@ -3,7 +3,7 @@
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>chinaz</title>
+    <title>银联通莞</title>
 
     <!-- BOOTSTRAP STYLES-->
     <link href="/Public/css/bootstrap.css" rel="stylesheet" />
@@ -27,16 +27,17 @@
                             <div class="panel-body">
                                 <form role="form" name="loginform" method="post" action="/index.php/home/index/login">
                                     <hr />
-                                    <h5>Enter Details to Login</h5>
+                                    <h5>登录</h5>
                                        <br />
                                      <div class="form-group input-group">
                                             <span class="input-group-addon"><i class="fa fa-tag"  ></i></span>
-                                            <input type="text" class="form-control" name="username" placeholder="Your Username " />
+                                            <input type="text" class="form-control" name="username" placeholder="帐号" />
                                         </div>
                                                                               <div class="form-group input-group">
                                             <span class="input-group-addon"><i class="fa fa-lock"  ></i></span>
-                                            <input type="password" class="form-control" name="password"  placeholder="Your Password" />
+                                            <input type="password" class="form-control" name="password"  placeholder="密码" />
                                         </div>
+                                    <!--
                                         <div class="form-group">
                                             <label class="checkbox-inline">
                                                 <input type="checkbox" /> Remember me
@@ -45,6 +46,15 @@
                                                    <a href="index.html" >Forget password ? </a> 
                                             </span>
                                         </div>
+                                        -->
+                                    <div class="form-group">
+                                        <label class="checkbox-inline">
+                                            <input type="radio" name="type" value="merchant" checked="checked" /> 商家登录
+                                        </label>
+                                            <span class="pull-right">
+                                                  <input type="radio"  name="type" value="staff" /> 员工登录
+                                            </span>
+                                    </div>
                                     <div class="form-group">
 
                                             <input type="text" name="verify" placeholder="Your Username " />
@@ -56,7 +66,9 @@
                                      
                                      <button type="submit" class="btn btn-primary ">登录</button>
                                     <hr />
+                                    <!--
                                     Not register ? <a href="register" >click here </a> or go to <a href="index.html">Home</a>
+                                    -->
                                     </form>
                             </div>
                            

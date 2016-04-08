@@ -13,6 +13,30 @@ use Util\WeChatUtil;
 use Util\CommonUtil;
 class StaffController extends Controller
 {
+    /**
+     * 操作页面
+     */
+    public function index(){
+        //TODO 判断session再判断openid
+        if(isset($_SESSION['loginStaff'])){
+            $merchant=M('merchant')->field(array("id"))->where("is_proxy=1")->find();
+            $wxconfig = CommonUtil::getMerchantConfig($merchant['id']);
+            $wechat = new WeChatUtil($wxconfig, $merchant['id']);
+            $user_agent = $_SERVER['HTTP_USER_AGENT'];
+            if (strpos($user_agent, 'MicroMessenger') >= 0 && empty($_SESSION['openid'])) {
+
+                $wechat->authorize_openid('http://' .$wxconfig['domain'] . $_SERVER['REQUEST_URI']);
+
+            }
+            $staff=M('staff')->where("openid=".$_SESSION['openid'])->find();
+            if(empty($staff)){
+                $this->redirect("login");
+            }
+        }else{
+            $this->display();
+        }
+
+    }
     public function login()
     {
         if ($_SERVER['REQUEST_METHOD'] == "GET") {
@@ -21,10 +45,9 @@ class StaffController extends Controller
             $db = M('staff');
             $data = $db->where("username='%s'", array($_POST['username']))->find();
             if (md5($_POST['password'].$data['salt']) == $data['password']) {
+                $_SESSION['loginStaff']=$data;
 
-                $expire=time()+60*60*24*30;
-                cookie("loginStaff", $data, $expire);
-                $this->display("boundwx");
+                $this->display("index");
                 exit();
             }
             $this->error('帐号或密码错误','login');

@@ -5901,3 +5901,62 @@ INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
 SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0030s ]
 SQL: SELECT * FROM `tgyx_payconfig` WHERE ( mid=6 ) LIMIT 1   [ RunTime:0.0010s ]
 
+[ 2016-03-21T17:52:36+08:00 ] ::1 /index.php/admin/Merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-21T17:52:37+08:00 ] ::1 /index.php/admin/merchant/submerchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_merchant` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tgyx_merchant` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 124 行.
+NOTIC: [8] Undefined index: offset E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 124 行.
+NOTIC: [8] Undefined index: limit E:\PhpstormProjects\pay\pay\Admin\Controller\MerchantController.class.php 第 124 行.
+SQL: SELECT `id`,`username`,`merchantname`,`email`,`pid` FROM `tgyx_merchant` WHERE ( pid='5' )  [ RunTime:0.0000s ]
+
+[ 2016-03-21T17:52:45+08:00 ] ::1 /index.php/admin/merchant/editPayconfig?mid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tgyx_payconfig` WHERE ( mid=6 ) LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2016-03-21T17:52:50+08:00 ] ::1 /index.php/admin/merchant/editPayconfig?mid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tgyx_payconfig` WHERE ( mid=6 ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-03-21T17:53:01+08:00 ] ::1 /index.php/admin/merchant/editPayconfig?mid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tgyx_payconfig` WHERE ( mid=6 ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-03-21T17:53:06+08:00 ] ::1 /index.php/admin/merchant/editPayconfig?mid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tgyx_payconfig` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tgyx_payconfig` WHERE ( mid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+

@@ -29,6 +29,11 @@ class LijianController extends AuthController
             $this->assign("configs",$configs);
         }
         $this->assign("lijian",$lijian);
+        //if 代理商
+        if(($_SESSION['loginMerchant']['is_proxy']==0)&&($_SESSION['loginMerchant']['parent_id']==0)){
+            $submerchants = M('merchant')->field(array('id','merchantname'))->where("parent_id=".$_SESSION['loginMerchant']['id'])->select();
+            $this->assign("submerchants",$submerchants);
+        }
         $this->display();
     }
 
@@ -56,5 +61,28 @@ class LijianController extends AuthController
             S('lijian'.$_POST['mid'],null);
         }
         $this->success("保存成功","lijian");
+    }
+
+    /**
+     * 把立减规则共享给子商户
+     */
+    public function share(){
+
+        $db=M('lijian');
+        $shareLijian=$db->field(array('config','status'))->where("id = '%s'",array($_POST['id']))->find();
+        if(isset($_POST['submids'])){
+            for($i=0;$i<count($_POST['submids']);$i++){
+                $shareLijian['mid']=$_POST['submids'][$i];
+                $lijian = $db->field('id')->where("mid = '%s'",array($_POST['submids'][$i]))->find();
+                if(empty($lijian)){
+                    $db->add($shareLijian);
+                    S('lijian'.$_POST['submids'][$i],null);
+                }else{
+                    $db->where("id = '%s'",array($lijian['id']))->save($shareLijian);
+                    S('lijian'.$_POST['submids'][$i],null);
+                }
+            }
+        }
+        $this->ajaxReturn(array("result"=>"success","message"=>"配置成功!","data"=>null));
     }
 }

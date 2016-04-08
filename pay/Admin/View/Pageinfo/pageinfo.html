@@ -40,7 +40,16 @@
     </div>
     <!-- /. ROW  -->
     <div class="row">
+        <div class="col-md-10 col-md-offset-1 ">
+            <div class="alert alert-warning">
+                <a href="#" class="close" data-dismiss="alert">
+                    &times;
+                </a>
+                <strong>提示！</strong>本配置用于支付页面信息展示。
+            </div>
+        </div>
         <div class="col-md-12 ">
+
             <form class="form-horizontal" role="form"   method="post" >
                 <input type="hidden" name="id" value="{$pageinfo['id']}">
                 <input type="hidden" name="mid" value="<?php echo $_SESSION['loginMerchant']['id'] ?>">
