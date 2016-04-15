@@ -328,6 +328,13 @@
                     valign: 'middle',
                     clickToSelect: false
                 }, {
+                    field: 'type',
+                    title: '商户类型',
+                    align: 'center',
+                    width: '150',
+                    valign: 'middle',
+                    clickToSelect: false
+                }, {
                     title: '其他操作',
                     align: 'center',
                     formatter: showFormatter
@@ -346,16 +353,18 @@
         params.parent_id=<?php echo ($parent_id); ?>;
         return params
     }
+    var is_proxy="<?php echo($_SESSION['loginMerchant']['is_proxy']);?>";
+
     function showFormatter(value, row, index){
         var str="";
-        str+="<a class='add' href='/index.php/admin/Store/stores?mid=" + row.id +"' title='查看下属商户门店'><i class='glyphicon glyphicon-search'>查看门店</i></a>";
-        str+="&nbsp;<a class='add' href='javascript:void(0)' onclick=\"batchQrcode('"+row.merchantname+"',"+row.id+")\" title='代制二维码'><i class='glyphicon glyphicon-qrcode'>代制二维码</i></a>";
+        str+="<a class='add' href='/index.php/admin/Store/stores?mid=" + row.id +"' title='查看下属商户门店'><small class='glyphicon glyphicon-search'>查看门店</small></a>";
+        str+="&nbsp;<a class='add' href='javascript:void(0)' onclick=\"batchQrcode('"+row.merchantname+"',"+row.id+")\" title='门店支付二维码'><small class='glyphicon glyphicon-qrcode'>下载二维码</small></a>";
 
-        if(row.parent_id>0) {
-             str+="<a class='add' href='javascript:void(0)' title='查看下属商户' style='display: none;'><i class='glyphicon glyphicon-search'>下属商户</i></a>";
+        if(row.parent_id>0||is_proxy==0) {
+             str+="<a  style='display: none;'></a>";
             return str;
         }else{
-            str+="<a class='add' href='/index.php/admin/merchant/submerchants?id=" + row.id + "&pid=" + row.pid + "' title='查看下属商户'><i class='glyphicon glyphicon-search'>下属商户</i></a>";
+            str+="<a class='add' href='/index.php/admin/merchant/submerchants?id=" + row.id + "&pid=" + row.pid + "' title='查看下属商户'><small class='glyphicon glyphicon-search'>下属商户</small></a>";
             return str;
         }
     }
@@ -367,9 +376,9 @@
             '<a class="edit" href="javascript:void(0)" title="修改信息">',
             '<i class="glyphicon glyphicon-user"></i>',
             '</a>  ',
-            '<a class="add" href="javascript:void(0)" title="添加下属商户">',
+           /* '<a class="add" href="javascript:void(0)" title="添加下属商户">',
             '<i class="glyphicon glyphicon-plus"></i>',
-            '</a>  ',
+            '</a>  ',*/
             '<a class="remove" href="javascript:void(0)" title="删除">',
             '<i class="glyphicon glyphicon-remove"></i>',
             '</a>'
@@ -491,8 +500,7 @@
             dataType:"json",
             type:"get",
             success: function (data) {
-                //alert(JSON.stringify(data));
-
+               // alert(JSON.stringify(data));
                 editForm('wxpayConfig',data.data);
             },
             error:function(){

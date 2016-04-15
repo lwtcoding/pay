@@ -124,7 +124,7 @@
         var params = $("#wxpayForm").serialize();
 
         $.ajax({
-            url:"/index.php/Home/Pay/wechatPay?mid=5&amp;store_id=11&amp;code=03119c1e210dd7b9fac35388d478cdaK&amp;state=wxpay",
+            url:"/index.php/home/pay/wechatpay?mid=15&amp;store_id=24",
             data:params,
             dataType:"json",
             type:"post",

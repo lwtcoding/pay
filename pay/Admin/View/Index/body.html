@@ -36,10 +36,11 @@
 
         <div class="row wrapper page-heading iconList">
             <ul>
+                <?php if($_SESSION['loginMerchant']['is_proxy']==0) { ?>
                 <li class="col-xs-4">
                     <a href="__MODULE__/Pay/jspay"><i class="fa fa-inbox animated bounceIn"></i>二维码收款</a>
                 </li>
-
+                <?php } ?>
                 <li class="col-xs-4">
                     <a href="__MODULE__/Order/orders"><i class="fa fa-pencil animated bounceIn"></i>收款记录</a>
                 </li>

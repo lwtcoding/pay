@@ -57,7 +57,7 @@
                                     </div>
                                     <div class="form-group">
 
-                                            <input type="text" name="verify" placeholder="Your Username " />
+                                            <input type="text" name="verify" placeholder="验证码" />
 
                                             <span class="pull-right">
                                                   <img width="100px" id="code" onclick="changeCode()" src="/index.php/home/index/verify">

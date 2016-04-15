@@ -190,10 +190,24 @@
                     valign: 'middle',
                     sortable: true
                 },{
+                    field: 'merchantname',
+                    title: '商户',
+                    align: 'center',
+                    width: '100',
+                    valign: 'middle',
+                    sortable: true
+                },{
+                    field: 'storename',
+                    title: '交易门店',
+                    align: 'center',
+                    width: '100',
+                    valign: 'middle',
+                    sortable: true
+                },{
                     field: 'total_fee',
                     title: '消费金额',
                     align: 'center',
-                    width: '100',
+                    width: '80',
                     valign: 'middle',
                     formatter:priceformat,
                     sortable: true
@@ -201,7 +215,7 @@
                     field: 'lijian_fee',
                     title: '立减金额',
                     align: 'center',
-                    width: '50',
+                    width: '40',
                     valign: 'middle',
                     formatter:priceformat,
                     sortable: true
@@ -209,7 +223,7 @@
                     field: 'refund_fee',
                     title: '退款金额',
                     align: 'center',
-                    width: '80',
+                    width: '40',
                     valign: 'middle',
                     formatter:priceformat,
                     sortable: true
@@ -217,7 +231,7 @@
                     field: 'vip_discount',
                     title: '折扣（%）',
                     align: 'center',
-                    width: '30',
+                    width: '20',
                     valign: 'middle',
                     sortable: true
                 }, {
@@ -239,13 +253,14 @@
                     field: 'pay_type',
                     title: '类型',
                     align: 'center',
-                    width: '130',
+                    width: '80',
                     valign: 'middle',
                     formatter:paytypeformat,
                     sortable: true
                 },  {
                     field: 'is_pay',
                     title: '订单状态',
+                    width: '130',
                     align: 'center',
                     formatter: payformat
                 }, {
@@ -342,7 +357,7 @@
     function paytypeformat(value){
         var type = value;
         if(type=='JSAPI')
-                type='自定义二维码支付'
+                type='<small>二维码支付</small>'
         return type;
     }
     function priceformat(value){
@@ -350,7 +365,7 @@
     }
     function payformat(value){
 
-        return "<span style='padding: 2px 10px;background: #A5DC86;color: #1ab7ea;border-radius: 10px;'>支付成功</span>";
+        return "<small style='padding: 2px 10px;background: #A5DC86;color: #1ab7ea;border-radius: 10px;word-break: keep-all;'>支付成功</small>";
     }
 
 </script>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <title>chinaz</title>
+    <title>支付成功</title>
 
     <!-- BOOTSTRAP STYLES-->
     <link href="/Public/css/bootstrap.css" rel="stylesheet" />
@@ -31,7 +31,7 @@
                         </div><!-- /.col-->
                         <div class="col-xs-10 col-lg-10">
                             <h3>你已成功支付</h3>
-                           
+
                         </div><!-- /.col-->
                     </div><!-- /.row -->
                 </div>

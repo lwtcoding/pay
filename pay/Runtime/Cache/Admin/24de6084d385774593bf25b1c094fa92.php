@@ -49,12 +49,14 @@
                 <label>时间</label>
                 <input id="begin_time" name="begin_time" type="text" readonly="readonly">-<input id="end_time" name="end_time" type="text" readonly="readonly">
                 <label>订单号</label>
-                <input name="order_no" type="text" size="40">
-                <label>选择子商户</label>
+                <input name="order_no" type="text" size="30">
+                <label>选择商户</label>
                 <select name="mid">
                     <?php if(!$_SESSION['loginMerchant']['pretend']){ echo " <option value=''>所有商户</option>"; } ?>
                     <?php if(is_array($submerchants)): foreach($submerchants as $key=>$submerchant): ?><option value="<?php echo ($submerchant["id"]); ?>"><?php echo ($submerchant["merchantname"]); ?></option><?php endforeach; endif; ?>
                 </select>
+                <label>门店</label>
+                <input name="storename" type="text">
             </div>
             <table id="tab">
             </table>
@@ -190,10 +192,24 @@
                     valign: 'middle',
                     sortable: true
                 },{
+                    field: 'merchantname',
+                    title: '商户',
+                    align: 'center',
+                    width: '100',
+                    valign: 'middle',
+                    sortable: true
+                },{
+                    field: 'storename',
+                    title: '交易门店',
+                    align: 'center',
+                    width: '100',
+                    valign: 'middle',
+                    sortable: true
+                },{
                     field: 'total_fee',
                     title: '消费金额',
                     align: 'center',
-                    width: '100',
+                    width: '80',
                     valign: 'middle',
                     formatter:priceformat,
                     sortable: true
@@ -201,7 +217,7 @@
                     field: 'lijian_fee',
                     title: '立减金额',
                     align: 'center',
-                    width: '50',
+                    width: '40',
                     valign: 'middle',
                     formatter:priceformat,
                     sortable: true
@@ -209,7 +225,7 @@
                     field: 'refund_fee',
                     title: '退款金额',
                     align: 'center',
-                    width: '80',
+                    width: '40',
                     valign: 'middle',
                     formatter:priceformat,
                     sortable: true
@@ -217,7 +233,7 @@
                     field: 'vip_discount',
                     title: '折扣（%）',
                     align: 'center',
-                    width: '30',
+                    width: '20',
                     valign: 'middle',
                     sortable: true
                 }, {
@@ -239,13 +255,14 @@
                     field: 'pay_type',
                     title: '类型',
                     align: 'center',
-                    width: '130',
+                    width: '80',
                     valign: 'middle',
                     formatter:paytypeformat,
                     sortable: true
                 },  {
                     field: 'is_pay',
                     title: '订单状态',
+                    width: '130',
                     align: 'center',
                     formatter: payformat
                 }, {
@@ -264,6 +281,7 @@
         params.order_no=$("[name='order_no']").val();
         params.begin_time=$("[name='begin_time']").val();
         params.end_time=$("[name='end_time']").val();
+        params.storename=$("[name='storename']").val();
        // alert(JSON.stringify(params));
         return params
     }
@@ -342,7 +360,7 @@
     function paytypeformat(value){
         var type = value;
         if(type=='JSAPI')
-                type='自定义二维码支付'
+                type='<small>二维码支付</small>'
         return type;
     }
     function priceformat(value){
@@ -350,7 +368,7 @@
     }
     function payformat(value){
 
-        return "<span style='padding: 2px 10px;background: #A5DC86;color: #1ab7ea;border-radius: 10px;'>支付成功</span>";
+        return "<small style='padding: 2px 10px;background: #A5DC86;color: #1ab7ea;border-radius: 10px;word-break: keep-all;'>支付成功</small>";
     }
 
 </script>

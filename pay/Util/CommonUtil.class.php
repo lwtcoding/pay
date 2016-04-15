@@ -284,37 +284,37 @@ class CommonUtil
         $xml .= "</xml>";
         return $xml;
     }
-    public static function muban($openid,$detail_url,$pay_type,$order_no,$total_fee){
-        $wechat = new WeChatUtil(CommonUtil::getMerchantConfig(5),5);
+    public static function muban($mid,$openid,$detail_url,$pay_type,$order_no,$total_fee,$time_end,$storename){
+        $wechat = new WeChatUtil(CommonUtil::getMerchantConfig($mid),$mid);
         $access_token = $wechat->accessToken();
         $url = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=".$access_token;
         $tpl=array(
             "touser"=>$openid,
-            "template_id"=>"6uHqj6b4NM1Y5uz17thbLBHT1MaiFSZTnW_hWP4jy44",
+            "template_id"=>"Qxa2xqxvly9IjUkphCaZNdG36aLkA31Q7Ko4z5YGzdg",
             "url"=>$detail_url,
             "topcolor"=>"#FF0000",
             "data"=>array(
                 "first"=>array(
-                    "value"=>"订单支付提醒",
+                    "value"=>"订单:".$order_no."支付提醒",
                     "color"=>"#173177"),
                 "keyword1"=>array(
-                    "value"=>"$pay_type",
-                    "color"=>"#173177"),
-                "keyword2"=>array(
-                    "value"=>$order_no,
-                    "color"=>"#173177"),
-                "keyword3"=>array(
                     "value"=>($total_fee/100)."元",
                     "color"=>"#173177"),
+                "keyword2"=>array(
+                    "value"=>"微信支付",
+                    "color"=>"#173177"),
+                "keyword3"=>array(
+                    "value"=>date("Y-m-d H;i;s",strtotime($time_end)),
+                    "color"=>"#173177"),
                 "keyword4"=>array(
-                    "value"=>date('Y-m-d H:i:s'),
+                    "value"=>$storename,
                     "color"=>"#173177"),
                 "remark"=>array(
-                    "value"=>"点击进入后台查询订单流水情况。",
+                    "value"=>"",
                     "color"=>"#173177")
             )
         );
-CommonUtil::httpRequest($url,"POST",json_encode($tpl));
+         CommonUtil::httpRequest($url,"POST",json_encode($tpl));
     }
 }
 

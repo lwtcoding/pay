@@ -46,17 +46,20 @@
         </div>
         <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
 
-                <div class="form-group" style="margin-top: 35px;">
-                    <div class="col-sm-8 col-sm-offset-2 col-xs-12 text-center">
-                           <label style="color: #00FF00;font-size: 25px;"> 签退 成功！</label>
-                    </div>
+            <div class="form-group" style="margin-top: 35px;">
+                <div class="col-sm-8 col-sm-offset-2 col-xs-12 text-center">
+                    <label style="color: #00FF00;font-size: 25px;"> 签退 成功！</label>
                 </div>
+            </div>
 
             <div class="form-group" style="margin-top: 35px;">
-
-                        <div class="col-sm-8 col-sm-offset-2 col-xs-12">
-                            <button onclick="WeixinJSBridge.call('closeWindow');"  class="btn btn-primary form-control">关闭窗口</button>
-                        </div>
+                <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+                    <a href="/index.php/home/staff/index"  class="btn btn-primary form-control">回到首页</a>
+                </div>
+                <div style="height: 80px;"></div>
+                <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+                    <button onclick="WeixinJSBridge.call('closeWindow');"  class="btn btn-primary form-control">关闭窗口</button>
+                </div>
 
             </div>
             <div class="form-group">

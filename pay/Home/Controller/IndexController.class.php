@@ -57,7 +57,7 @@ class IndexController extends Controller {
 
         if($_SERVER['REQUEST_METHOD']=="POST"){
             $_POST['salt'] = CommonUtil::genernateNonceStr(8);
-
+            $_POST['is_proxy']==1;
             $merchant = new \Admin\Model\MerchantModel();
             //var_dump($merchant);
            if(!$merchant->create($_POST)){

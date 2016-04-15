@@ -341,8 +341,8 @@
         })
     }
     function getQrcode(){
-        $("#qrcode").attr("src","/index.php/admin/Staff/staffs?mid=8&amp;id=16"+"?qrcode=1&mid="+$("#merchant").val()+"&store_id="+$("#store").val());
-        $("#dwnQrcode").attr("src","/index.php/admin/Staff/staffs?mid=8&amp;id=16"+"?download=1&mid="+$("#merchant").val()+"&store_id="+$("#store").val());
+        $("#qrcode").attr("src","/index.php/admin/Staff/staffs"+"?qrcode=1&mid="+$("#merchant").val()+"&store_id="+$("#store").val());
+        $("#dwnQrcode").attr("src","/index.php/admin/Staff/staffs"+"?download=1&mid="+$("#merchant").val()+"&store_id="+$("#store").val());
     }
 
     function storeFormat(value){

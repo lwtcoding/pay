@@ -18,24 +18,20 @@ class StaffController extends Controller
      */
     public function index(){
         //TODO 判断session再判断openid
-        if(isset($_SESSION['loginStaff'])){
-            $merchant=M('merchant')->field(array("id"))->where("is_proxy=1")->find();
-            $wxconfig = CommonUtil::getMerchantConfig($merchant['id']);
-            $wechat = new WeChatUtil($wxconfig, $merchant['id']);
             $user_agent = $_SERVER['HTTP_USER_AGENT'];
             if (strpos($user_agent, 'MicroMessenger') >= 0 && empty($_SESSION['openid'])) {
-
+                $merchant=M('merchant')->field(array("id"))->where("is_proxy=1")->find();
+                $wxconfig = CommonUtil::getMerchantConfig($merchant['id']);
+                $wechat = new WeChatUtil($wxconfig, $merchant['id']);
                 $wechat->authorize_openid('http://' .$wxconfig['domain'] . $_SERVER['REQUEST_URI']);
-
             }
-            $staff=M('staff')->where("openid=".$_SESSION['openid'])->find();
-            if(empty($staff)){
+            $staff=M('staff')->where("openid='%s'",array($_SESSION['openid']))->find();
+            if(empty($staff)&&empty($_SESSION['loginStaff'])){
                 $this->redirect("login");
+            }else{
+                $_SESSION['loginStaff']=$staff;
+                $this->display();
             }
-        }else{
-            $this->display();
-        }
-
     }
     public function login()
     {
@@ -45,6 +41,7 @@ class StaffController extends Controller
             $db = M('staff');
             $data = $db->where("username='%s'", array($_POST['username']))->find();
             if (md5($_POST['password'].$data['salt']) == $data['password']) {
+                unset($_SESSION['loginStaff']);
                 $_SESSION['loginStaff']=$data;
 
                 $this->display("index");
@@ -56,31 +53,30 @@ class StaffController extends Controller
     public function boundwx()
     {
         if ($_SERVER['REQUEST_METHOD'] == "GET") {
-
-            $mid = intval(trim($_GET['mid']));
-            $store_id = intval(trim($_GET['store_id']));
-            if ((!(0 < $mid)) || (!(0 < $store_id))) {
-                $this->error('参数出错，没有商家ID或没有门店ID！');
+            if(empty($_SESSION['loginStaff'])){
+                $this->error('请先登录！','index');
                 exit();
             }
-            $wxconfig = CommonUtil::getMerchantConfig($mid);
-            $wechat = new WeChatUtil($wxconfig, $_GET[mid]);
 
-            if (empty($wxconfig)) {
-                exit("获取支付配置失败");
-            }
 
             $user_agent = $_SERVER['HTTP_USER_AGENT'];
             if (strpos($user_agent, 'MicroMessenger') >= 0 && empty($_SESSION['openid'])) {
+                $wxconfig = CommonUtil::getMerchantConfig($_SESSION['loginStaff']['mid']);
+                if (empty($wxconfig)) {
+                    exit("获取支付配置失败");
+                }
+                $wechat = new WeChatUtil($wxconfig, $_SESSION['loginStaff']['mid']);
                 $wechat->authorize_openid('http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
             }
-            $loginStaff = cookie('loginStaff');
-            cookie("loginStaff", null);
+            $loginStaff = $_SESSION['loginStaff'];
+            unset($_SESSION['loginStaff']);
             $loginStaff['openid']=$_SESSION['openid'];
+            //先清除之前绑定微信的员工号
+            M('staff')->where("openid='%s'",array($_SESSION['openid']))->save(array("openid"=>null));
             M('staff')->save($loginStaff);
-            $expire=time()+60*60*24*30;
-            cookie("loginStaff", $loginStaff,$expire);
-            $this->success('绑定成功', "sign");
+
+            $_SESSION['loginStaff']=$loginStaff;
+            $this->success('绑定成功', "index");
         }
     }
 
@@ -88,34 +84,31 @@ class StaffController extends Controller
      * sign in or sign out
      */
     public function sign(){
-       if(empty(cookie("loginStaff")))
-           $this->redirect("login");
-       $staff = cookie("loginStaff");
+       if(empty($_SESSION['loginStaff']))
+           $this->redirect("index");
+        if(empty($_SESSION['loginStaff']['openid']))
+            $this->error("请先绑定微信，才能接收支付通知！","index");
+
+       $staff =$_SESSION['loginStaff'];
         //var_dump($staff);
         if(!($staff['is_sign']==1)){
             $staff['is_sign']=1;
             M('staff')->save($staff);
-            cookie("loginStaff", null);
-            $expire=time()+60*60*24*30;
-            cookie("loginStaff", $staff, $expire);
+            $_SESSION['loginStaff']['is_sign']=1;
         }
-
         $this->display();
     }
     public function signout(){
-        if(empty(cookie("loginStaff"))||(!isset(cookie("loginStaff")['store_id'])))
-            $this->redirect("login");
-        $staff = cookie("loginStaff");
+        if(empty($_SESSION['loginStaff']))
+            $this->redirect("index");
+        $staff =$_SESSION['loginStaff'];
 
         //var_dump($staff);
         if(!($staff['is_sign']==0)){
             $staff['is_sign']=0;
             M('staff')->save($staff);
-            cookie("loginStaff", null);
-            $expire=time()+60*60*24*30;
-            cookie("loginStaff", $staff, $expire);
+           $_SESSION['loginStaff']['is_sign']=0;
         }
-
         $this->display();
     }
 
@@ -123,7 +116,7 @@ class StaffController extends Controller
         if($_SERVER['REQUEST_METHOD']=="POST"){
 
             $db = M('order');
-            $condition = "1=1 AND is_pay=1 AND store_id=".cookie("loginStaff")['store_id'];
+            $condition = "1=1 AND is_pay=1 AND store_id=".$_SESSION['loginStaff']['store_id'];
 
             if(isset($_POST['order_no'])&&(!(trim($_POST['order_no'])=="")))
                 $condition.=" AND order_no like '%".$_POST['order_no']."%'";
@@ -141,10 +134,19 @@ class StaffController extends Controller
             $this->ajaxReturn($orders);
         }
         if($_SERVER['REQUEST_METHOD']=="GET"){
-            if(empty(cookie("loginStaff"))||(!isset(cookie("loginStaff")['store_id'])))
-                $this->redirect("sign");
-            $condition = "1=1 AND is_pay=1 AND store_id=".cookie("loginStaff")['store_id'];
-            $condition.=" AND FROM_UNIXTIME(create_time,'%Y%m%d')=FROM_UNIXTIME(".time().",'%Y%m%d')";
+            if(empty($_SESSION['loginStaff']))
+                $this->redirect("index");
+            $condition = "1=1 AND is_pay=1 AND store_id=".$_SESSION['loginStaff']['store_id'];
+            if(isset($_GET['begin_time'])&&(!(trim($_GET['begin_time'])==""))) {
+                $condition .= " AND time_end>=" . date("YmdHis", strtotime($_GET['begin_time']));
+                $this->assign("begin_time",$_GET['begin_time']);
+            }
+            if(isset($_GET['end_time'])&&(!(trim($_GET['end_time'])==""))) {
+                $condition .= " AND time_end<=" . date("YmdHis", strtotime($_GET['end_time']));
+                $this->assign("end_time",$_GET['end_time']);
+            }
+            if((!isset($_GET['begin_time']))&&(!isset($_GET['time_end'])))
+                $condition.=" AND FROM_UNIXTIME(create_time,'%Y%m%d')=FROM_UNIXTIME(".time().",'%Y%m%d')";
 
             $sql = "SELECT COUNT(id) as times, SUM(total_fee) as fees FROM tgyx_order WHERE ".$condition;
             $count = M('order')->query($sql);
@@ -158,5 +160,24 @@ class StaffController extends Controller
             $this->display();
         }
 
+    }
+    public function  showOrder(){
+        if(empty($_SESSION['loginStaff']))
+            $this->redirect("index");
+        $oid = $_GET['order_id'];
+        $order=M('order')->where("id='%s'",array($oid))->find();
+        if(!empty($order)){
+            if(!($order['mid']==$_SESSION['loginStaff']['mid']))
+                $this->redirect("index");
+        }
+        $order['time_end']=date('Y-m-d H:i:s',strtotime(  $order['time_end']));
+        $order['total_fee']=$order['total_fee']/100;
+        if($order['is_pay']==1){
+            $order['status']="支付成功";
+        }else{
+            $order['status']="未支付";
+        }
+        $this->assign("order",$order);
+        $this->display();
     }
 }

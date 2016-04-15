@@ -22,6 +22,7 @@ class StoreController extends AuthController
             $condition = "1=1";
 
             $condition .= " AND mid=" . $_POST['mid'];
+
             if(isset($_POST['name'])&&(!(trim($_POST['name'])=="")))
                 $condition.=" AND name like '%".$_POST['name']."%'";
             $pager['total'] = $db->where($condition)->count();
@@ -29,16 +30,35 @@ class StoreController extends AuthController
             $this->ajaxReturn($pager);
         }
         if($_SERVER['REQUEST_METHOD']=="GET"){
-            $this->assign('auths',AuthConfig::$auth);
+            $auths=AuthConfig::$auth;
+            if(!($_SESSION['loginMerchant']['parent_id']==0)){
+                $au=array("查看代理商户","添加商户","编辑商户","编辑子商户配置","删除商户","代理商订单流水","代理商订单统计",);
+                foreach($auths as $k=>$v){
+                    foreach($v as $kk=>$vv){
+
+                        if(in_array($vv,$au)){
+                            unset($auths[$k]);
+                        }
+                    }
+                }
+            }
+            $this->assign('auths',$auths);
             if(!isset($_GET['mid'])){
                 $this->assign('mid',$_SESSION['loginMerchant']['id']);
+                $merchants=M('merchant')->field(array("id","merchantname"))->where("id='%s' OR parent_id='%s' OR pid='%s'",array($_SESSION['loginMerchant']['id'],$_SESSION['loginMerchant']['id'],$_SESSION['loginMerchant']['id']))->select();
+                $this->assign('merchants',$merchants);
             }else{
                 //TODO 验证
-                $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_GET['mid']))->find();
-                if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
-                    $this->display("Error:403");
-                    exit();
+                if(!($_SESSION['loginMerchant']['id'] == $_GET['mid'])) {
+                    $merchant = M('Merchant')->field(array('pid', 'parent_id'))->where("id='%s'", array($_GET['mid']))->find();
+                    if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid'])) && (!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
+                        $this->display("Error:403");
+                        exit();
+                    }
                 }
+                $merchants=M('merchant')->field(array("id","merchantname"))->where("id='%s' OR parent_id='%s' OR pid='%s'",array($_GET['mid'],$_GET['mid'],$_GET['mid']))->select();
+
+                $this->assign('merchants',$merchants);
                 $this->assign('mid',$_GET['mid']);
             }
             $this->display();

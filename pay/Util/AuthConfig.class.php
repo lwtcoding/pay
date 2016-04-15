@@ -79,6 +79,11 @@ class AuthConfig
             "name"=>"订单管理",
             "value"=>"Order-orders"
         ),
+
+        array(
+            "name"=>"订单统计",
+            "value"=>"Order-statistics"
+        ),
         array(
             "name"=>"订单退款",
             "value"=>"Order-refund"
@@ -86,10 +91,6 @@ class AuthConfig
         array(
             "name"=>"代理商订单流水",
             "value"=>"Order-proxyorders"
-        ),
-        array(
-            "name"=>"订单统计",
-            "value"=>"Order-statistics"
         ),
         array(
             "name"=>"代理商订单统计",
@@ -128,6 +129,10 @@ class AuthConfig
             "value"=>"Card-add"
         ),
         array(
+            "name"=>"修改卡券",
+            "value"=>"Card-edit"
+        ),
+        array(
             "name"=>"立减配置",
             "value"=>"Lijian-lijian"
         ),
@@ -141,9 +146,11 @@ class AuthConfig
         "Order-storestatistics",
         "Card-qrcode",
         "Card-docreatekq",
-        "Card-edit",
+
         "Card-uploadimg",
         "Lijian-add",
-        "Pageinfo-upload"
+        "Lijian-share",
+        "Pageinfo-upload",
+        "Pay-batchqrcode"
     );
 }

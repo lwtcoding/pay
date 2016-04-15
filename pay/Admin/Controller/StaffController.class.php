@@ -41,10 +41,12 @@ class StaffController extends AuthController
         if($_SERVER['REQUEST_METHOD']=="GET"){
             if(isset($_GET['mid'])){
                 //TODO 验证
-                $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_GET['mid']))->find();
-                if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
-                    $this->display("Error:403");
-                    exit();
+                if(!($_SESSION['loginMerchant']['id']==$_GET['mid'])) {
+                    $merchant = M('Merchant')->field(array('pid', 'parent_id'))->where("id='%s'", array($_GET['mid']))->find();
+                    if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid'])) && (!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
+                        $this->display("Error:403");
+                        exit();
+                    }
                 }
                 $stores = M('store')->field(array('id','mid','name'))->where("mid = '%s'",array($_GET['mid']))->select();
                 $this->assign("mid",$_GET['mid']);
@@ -55,7 +57,20 @@ class StaffController extends AuthController
             }
 
             $this->assign("stores",$stores);
-            $this->assign('auths',AuthConfig::$auth);
+            $auths=AuthConfig::$auth;
+
+            if(!($_SESSION['loginMerchant']['parent_id']==0)){
+                $au=array("查看代理商户","添加商户","编辑商户","编辑子商户配置","删除商户","代理商订单流水","代理商订单统计",);
+                foreach($auths as $k=>$v){
+                   foreach($v as $kk=>$vv){
+
+                       if(in_array($vv,$au)){
+                           unset($auths[$k]);
+                       }
+                   }
+                }
+            }
+            $this->assign('auths',$auths);
             $this->display();
         }
     }

@@ -45,12 +45,26 @@
 
             <div id="toolbar">
                 <div class="col-md-12">
-                    <button data-toggle="modal" data-target="#addStore" class="btn btn-success">
+                    <button onclick="addStaff()" class="btn btn-success">
                         <i class="glyphicon glyphicon-plus"></i> 添加门店
                     </button>
                 </div>
+
                 <div  class="col-md-12" style="margin-top: 10px;">
-                <label>门店名称</label><input id="store_name" placeholder="输入要搜索的门店" >
+
+                    <label>选择商户</label>
+                    <select id="mid">
+
+                        <foreach name='merchants' item='merchant'>
+                            <if condition="($merchant.id eq $mid)">
+                                <option value="{$merchant.id}" selected>{$merchant.merchantname}</option>
+                                <else />
+                                <option value="{$merchant.id}">{$merchant.merchantname}</option>
+                            </if>
+
+                        </foreach>
+                    </select>
+                    <label>门店名称</label><input id="store_name" placeholder="输入要搜索的门店" >
                 </div>
             </div>
             <table id="tab">
@@ -292,12 +306,12 @@
     //设置传入参数
     function queryParams(params) {
         params.name=$("#store_name").val();
-        params.mid={$mid};
+        params.mid=$("#mid").val();
         return params
     }
     function showFormatter(value, row, index){
         var str="";
-        str+="<a class='add' href='__MODULE__/Staff/staffs?mid=" + row.mid +"&id="+row.id+"' title='查看门店员工'><i class='glyphicon glyphicon-search'>查看员工</i></a>";
+        str+="<a class='add' href='__MODULE__/Staff/staffs?mid=" + row.mid +"&id="+row.id+"' title='查看门店员工'><small class='glyphicon glyphicon-search'>查看员工</small></a>";
         return str;
     }
     function operateFormatter(value, row, index) {
@@ -408,13 +422,10 @@
         })
     }
 
-    function showTip(data,time){
-        $("#tip").modal("show");
-        $("#tipLabel").html(data.message);
-        $("#tipContent").html(JSON.stringify(data.data));
-        setTimeout(function(){
-            $("#tip").modal("hide");
-        },time);
+    function addStaff(){
+        var mid = $("#mid").val();
+        $("#addStoreForm").find("[name='mid']").val(mid);
+        $("#addStore").modal("show");
     }
 
 </script>

@@ -196,15 +196,17 @@ class PayController extends Controller
                     $order['is_pay'] =1;
                     $order['total_fee'] = $resp['total_fee'];
                     M('order')->save($order);
-                    //TODO 更新粉丝信息（积分等）如果关注也调用模版消息
+                    //TODO 更新粉丝信息（积分等）如果关注也调用模版消息(未实现)
                     $fans = M('fans')->field(array('id','total_fee','openid','is_subscribe'))->where("id='%s'",array($order['fans_id']))->find();
                     $fans['total_fee']=$fans['total_fee']+$resp['total_fee'];
                     M('fans')->save($fans);
-                    //TODO 调用模版消息通知收银员（is_recive=1才接收）
+                    //TODO 调用模版消息通知收银员（is_sign=1才接收）
                     $staffs = M('staff')->field(array('openid'))->where("store_id = '%s' AND is_sign = 1",array($order['store_id']))->select();
                     for($i=0;$i<count($staffs);$i++){
+
                         $staffs[$i]['openid'];
-                        CommonUtil::muban($staffs[$i]['openid'],"",$order['pay_type'],$order['order_no'],$order['total_fee']);
+                        $showOrderUrl="http://".$_SERVER['SERVER_NAME'].__APP__."/Home/Staff/showOrder?order_id=".$order['id'];
+                        CommonUtil::muban($order['mid'],$staffs[$i]['openid'],$showOrderUrl,$order['pay_type'],$order['order_no'],$order['total_fee'],$order['time_end'],$order['storename']);
                     }
                     echo "<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>";
                 }

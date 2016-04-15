@@ -126,12 +126,26 @@ class MerchantController extends AuthController
             $condition="1=1";
             if(isset($_POST['pid'])&&(!(trim($_POST['pid'])=="")))
                 $condition.=" AND pid=".$_POST['pid'];
-            if(isset($_POST['parent_id'])&&(!(trim($_POST['parent_id'])=="")))
-                $condition.=" AND parent_id=".$_POST['parent_id'];
+            if(isset($_POST['parent_id'])&&(!(trim($_POST['parent_id'])==""))) {
+                $condition .= " AND (parent_id=" . $_POST['parent_id'];
+                $condition .= " OR id=" . $_POST['parent_id'].")";
+            }
             $pager=array();
                 $pager['total']=$db->where($condition)->count();
-
                 $pager['rows']=$db->field(array("id",'username','merchantname','email','pid','salt','parent_id'))->where($condition)->order($_POST['sort'])->limit($_POST['offset'].",".$_POST['limit'])->select();
+
+                for($i=0;$i<count($pager['rows']);$i++){
+                        if($pager['rows'][$i]['pid']==0) {
+                            $pager['rows'][$i]['type'] ="服务商";
+                        }
+                        if(($pager['rows'][$i]['pid']>0)&&($pager['rows'][$i]['parent_id']==0)) {
+                            $pager['rows'][$i]['type'] ="代理商";
+
+                        }
+                        if(($pager['rows'][$i]['pid']>0)&&($pager['rows'][$i]['parent_id']>0)){
+                            $pager['rows'][$i]['type'] = "下级商户";
+                        }
+                    }
             $this->ajaxReturn($pager);
 
         }
@@ -146,10 +160,12 @@ class MerchantController extends AuthController
                 }
             }else{
                 //TODO 验证
-                $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_GET['id']))->find();
-                if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
-                    $this->display("Error:403");
-                    exit();
+                if(!($_SESSION['loginMerchant']['id'] == $_GET['id'])) {
+                    $merchant = M('Merchant')->field(array('pid', 'parent_id'))->where("id='%s'", array($_GET['id']))->find();
+                    if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid'])) && (!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
+                        $this->display("Error:403");
+                        exit();
+                    }
                 }
                 $this->assign("pid",$_GET['pid']);
                 $this->assign("parent_id",$_GET['id']);
@@ -211,7 +227,7 @@ class MerchantController extends AuthController
             if ((!isset($_POST['mid']))||(!($_POST['mid']==$_SESSION['loginMerchant']['id']))) {
                 $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_POST['mid']))->find();
                 if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
-                    $this->ajaxReturn(array("result" => 0, "message" => "无权修改", "data" => ""));
+                    $this->ajaxReturn(array("result" => "error", "message" => "无权修改", "data" => $merchant));
                 }
             }
             if (isset($_POST['type']) &&( $_POST['type'] == 'weixin')) {
@@ -246,10 +262,11 @@ class MerchantController extends AuthController
             if($payconfig){
                 $configData = json_decode($payconfig['config'],true);
                 $configData['weixin']['mid']=$mid;
-                $this->ajaxReturn(array("result" => "success", "message" => "查询成功", "data" =>""));
+
+                $this->ajaxReturn(array("result" => "success", "message" => "查询成功", "data" =>$configData['weixin']));
             }else{
                 $payconfig['weixin']['mid']=$mid;
-                $this->ajaxReturn(array("result" =>"error", "message" => "无记录", "data" =>""));
+                $this->ajaxReturn(array("result" =>"success", "message" => "无记录", "data" =>$payconfig['weixin']));
             }
         }
         $this->ajaxReturn(array("result" => "error", "message" => "失败", "data" => null));

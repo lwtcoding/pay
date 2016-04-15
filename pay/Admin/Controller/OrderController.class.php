@@ -63,19 +63,23 @@ class OrderController extends AuthController
                     $condition .= " AND pmid=" .$_SESSION['loginMerchant']['id'];
                 }
                 if(($_SESSION['loginMerchant']['is_proxy']==0)&&($_SESSION['loginMerchant']['parent_id']==0)){
-                    $condition .= " AND pmid=" .$_SESSION['loginMerchant']['pid']." AND parent_id=".$_SESSION['loginMerchant']['id'];
+                    $condition .= " AND pmid=" .$_SESSION['loginMerchant']['pid']." AND (parent_id=".$_SESSION['loginMerchant']['id']." OR mid=".$_SESSION['loginMerchant']['id'].")";
                 }
 
             }else{
-                    $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_POST['mid']))->find();
-                    if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
-                        $this->ajaxReturn(array("result" => 0, "message" => "无权查看", "data" => null));
+                if(!($_SESSION['loginMerchant']['id'] == $_POST['mid'])) {
+                    $merchant = M('Merchant')->field(array('pid', 'parent_id'))->where("id='%s'", array($_POST['mid']))->find();
+                    if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid'])) && (!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
+                        $this->ajaxReturn(array("result" => 0, "message" => "无权查看", "data" =>null));
                     }
+                }
                     $condition .= " AND mid=" . $_POST['mid'];
             }
 
             if(isset($_POST['order_no'])&&(!(trim($_POST['order_no'])=="")))
                 $condition.=" AND order_no like '%".$_POST['order_no']."%'";
+            if(isset($_POST['storename'])&&(!(trim($_POST['storename'])=="")))
+                $condition.=" AND storename like '%".$_POST['storename']."%'";
             if(isset($_POST['begin_time'])&&(!(trim($_POST['begin_time'])=="")))
                 $condition.=" AND time_end>=".date("YmdHis",strtotime($_POST['begin_time']));
             if(isset($_POST['end_time'])&&(!(trim($_POST['end_time'])=="")))
@@ -95,7 +99,7 @@ class OrderController extends AuthController
                 $this->assign("submerchants",$submerchants);
             }
             if(($_SESSION['loginMerchant']['is_proxy']==0)&&($_SESSION['loginMerchant']['parent_id']==0)){
-                $submerchants=M('merchant')->field(array('id','merchantname'))->where("pid='%s' AND parent_id='%s'",array($_SESSION['loginMerchant']['pid'],$_SESSION['loginMerchant']['id']))->select();
+                $submerchants=M('merchant')->field(array('id','merchantname'))->where("pid='%s' AND (parent_id='%s' OR id='%s')",array($_SESSION['loginMerchant']['pid'],$_SESSION['loginMerchant']['id'],$_SESSION['loginMerchant']['id']))->select();
                 $this->assign("submerchants",$submerchants);
             }
             $this->display();
@@ -167,25 +171,27 @@ class OrderController extends AuthController
                         $conditions .= " AND pmid=" .$_SESSION['loginMerchant']['id'];
                     }
                     if(($_SESSION['loginMerchant']['is_proxy']==0)&&($_SESSION['loginMerchant']['parent_id']==0)){
-                        $conditions .= " AND pmid=" .$_SESSION['loginMerchant']['pid']." AND parent_id=".$_SESSION['loginMerchant']['id'];
+                        $conditions .= " AND pmid=" .$_SESSION['loginMerchant']['pid']." AND (parent_id=".$_SESSION['loginMerchant']['id']." OR mid=".$_SESSION['loginMerchant']['id'].")";
                     }
 
                 }else{
-                    $merchant = M('Merchant')->field(array('pid','parent_id'))->where("id='%s'", array($_POST['mid']))->find();
-                    if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid']))&&(!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
-                        $this->ajaxReturn(array("result" => 0, "message" => "无权查看", "data" => null));
+                    if(!($_SESSION['loginMerchant']['id'] == $_POST['mid'])) {
+                        $merchant = M('Merchant')->field(array('pid', 'parent_id'))->where("id='%s'", array($_POST['mid']))->find();
+                        if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid'])) && (!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
+                            $this->ajaxReturn(array("result" => 0, "message" => "无权查看", "data" => null));
+                        }
                     }
                     $conditions .= " AND mid=" . $_POST['mid'];
                 }
 
                 if ($_POST['type'] == 'day') {
                     //某天，按小时统计支付笔数和金额
-                    $sql = "SELECT FROM_UNIXTIME(create_time,'%Y-%m-%d %H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1" . $conditions . " AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(" . strtotime($_POST['begin_date']) . ",'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(" . strtotime($_POST['end_date']) . ",'%Y%m%d') GROUP BY labels";
+                    $sql = "SELECT FROM_UNIXTIME(create_time,'%Y-%m-%d %H') as labels,COUNT(id) as total,SUM(total_fee)/100 as total_fee,SUM(refund_fee)/100 as total_refund FROM tgyx_order where is_pay=1" . $conditions . " AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(" . strtotime($_POST['begin_date']) . ",'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(" . strtotime($_POST['end_date']) . ",'%Y%m%d') GROUP BY labels";
 
                 }
                 if ($_POST['type'] == 'month') {
                     //某天，按小时统计支付笔数和金额
-                    $sql = "SELECT FROM_UNIXTIME(create_time,'%Y-%m-%d') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1" . $conditions . " AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(" . strtotime($_POST['begin_date']) . ",'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(" . strtotime($_POST['end_date']) . ",'%Y%m') GROUP BY labels";
+                    $sql = "SELECT FROM_UNIXTIME(create_time,'%Y-%m-%d') as labels,COUNT(id) as total,SUM(total_fee)/100 as total_fee,SUM(refund_fee)/100 as total_refund FROM tgyx_order where is_pay=1" . $conditions . " AND FROM_UNIXTIME(create_time,'%Y%m')>=FROM_UNIXTIME(" . strtotime($_POST['begin_date']) . ",'%Y%m') AND FROM_UNIXTIME(create_time,'%Y%m')<=FROM_UNIXTIME(" . strtotime($_POST['end_date']) . ",'%Y%m') GROUP BY labels";
                 }
 
                 $result = M('order')->query($sql);
@@ -211,7 +217,7 @@ class OrderController extends AuthController
                     $this->assign("submerchants",$submerchants);
                 }
                 if(($_SESSION['loginMerchant']['is_proxy']==0)&&($_SESSION['loginMerchant']['parent_id']==0)){
-                    $submerchants=M('merchant')->field(array('id','merchantname'))->where("pid='%s' AND parent_id='%s'",array($_SESSION['loginMerchant']['pid'],$_SESSION['loginMerchant']['id']))->select();
+                    $submerchants=M('merchant')->field(array('id','merchantname'))->where("pid='%s' AND (parent_id='%s' OR id='%s')",array($_SESSION['loginMerchant']['pid'],$_SESSION['loginMerchant']['id'],$_SESSION['loginMerchant']['id']))->select();
                     $this->assign("submerchants",$submerchants);
                 }
                 $this->display();

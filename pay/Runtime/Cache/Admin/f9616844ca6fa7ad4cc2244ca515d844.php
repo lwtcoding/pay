@@ -100,7 +100,7 @@
                     </li>
                 </ul>
             </li>
-            <?php if($_SESSION['loginMerchant']['is_proxy']!=10) { ?>
+            <?php if($_SESSION['loginMerchant']['parent_id']>0) { ?>
             <li>
                 <a href="javascript:void(0)"><i class="fa fa-desktop "></i>商家管理<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
@@ -122,16 +122,22 @@
             <?php if(($_SESSION['loginMerchant']['is_proxy']==1)||($_SESSION['loginMerchant']['parent_id']==0)) { ?>
             <li>
                 <?php if($_SESSION['loginMerchant']['is_proxy']==1) { ?>
-                <a href="javascript:void(0)"><i class="fa fa-desktop "></i>签约商管理<span class="fa arrow"></span></a>
+                <a href="javascript:void(0)"><i class="fa fa-desktop "></i>代理商管理<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="/index.php/admin/Merchant/submerchants"><i class=""></i>签约商管理</a>
+                        <a href="/index.php/admin/Merchant/submerchants"><i class=""></i>代理商管理</a>
                     </li>
                     <?php }else{ ?>
-                    <a href="javascript:void(0)"><i class="fa fa-desktop "></i>下属商户管理<span class="fa arrow"></span></a>
+                    <a href="javascript:void(0)"><i class="fa fa-desktop "></i>商户管理<span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a href="/index.php/admin/Merchant/submerchants"><i class=""></i>下属商户管理</a>
+                            <a href="/index.php/admin/Merchant/submerchants"><i class=""></i>商户管理</a>
+                        </li>
+                        <li>
+                            <a href="/index.php/admin/Store/stores"><i class=""></i>门店管理</a>
+                        </li>
+                        <li>
+                            <a href="/index.php/admin/Staff/staffs"><i class=""></i>员工管理</a>
                         </li>
                     <?php } ?>
                     <li>
@@ -154,6 +160,8 @@
                 </ul>
             </li>
             <?php } ?>
+
+             <?php if($_SESSION['loginMerchant']['is_proxy']==0) { ?>
             <li>
                 <a href="javascript:void(0)"><i class="glyphicon glyphicon-th-list"></i>营销功能 <span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
@@ -168,7 +176,7 @@
                     </li>
                 </ul>
             </li>
-
+           <?php } ?>
         </ul>
 
     </div>

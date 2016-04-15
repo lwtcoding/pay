@@ -9,6 +9,9 @@
     <link href="/Public/css/bootstrap.css" rel="stylesheet" />
     <!-- FONTAWESOME STYLES-->
     <link href="/Public/css/font-awesome.css" rel="stylesheet" />
+
+    <link href="/Public/css/date.css?time=<?php echo time();?>" rel="stylesheet" />
+
     <style>
         body{
             background: #d5d5d5;
@@ -28,13 +31,33 @@
         .header{
             padding: 5px;
             background: #f5f5f5;
-            border-radius: 10px;
+            border-radius: 6px;
         }
         tr div{
             margin-top:5px;
             padding: 5px;
             background: #f5f5f5;
-            border-radius: 10px;
+            border-radius: 5px;
+        }
+
+        .navbar-fixed-bottom ul{
+            list-style: none;
+            padding: 3px 0px 3px 0px;
+        }
+        .navbar-fixed-bottom li{
+            text-align: center;
+            border-right: 1px solid #8d8d8d;
+
+        }
+        .navbar-fixed-bottom li:nth-last-child(1){
+            border-right: 0px;
+        }
+        .navbar-fixed-bottom ul li a{
+            font-size: 12px;
+        }
+        .navbar-fixed-bottom ul li a i{
+            display: block;
+            font-size: 20px;
         }
     </style>
 </head>
@@ -49,10 +72,10 @@
         <div class="col-md-12 ">
             <div class="header">
                 <div>
-                    <label>当日收款总数：</label><label style="color: #00FF00"><?php echo ($count['fees']/100); ?></label>元
+                    <label>收款总数：</label><label style="color: #00FF00"><?php echo ($count['fees']/100); ?></label>元
                 </div>
                 <div>
-                    <label>当日订单数量：</label><label style="color: #00FF00"><?php echo ($count['times']); ?></label>笔
+                    <label>订单数量：</label><label style="color: #00FF00"><?php echo ($count['times']); ?></label>笔
                 </div>
             </div>
         </div>
@@ -68,32 +91,92 @@
     <hr/>
 
 
-
 </div>
+<div class="navbar navbar-inverse navbar-fixed-bottom" >
+    <ul>
+        <li class="col-xs-4">
+            <a href="javascript:void(0)" onclick="chooseTime()"><i class="glyphicon glyphicon-time"></i>选择日期</a>
+        </li>
+        <li class="col-xs-4">
+            <a href="/index.php/home/staff/storeStatistics"><i class="fa fa-undo"></i>重置时间</a>
+        </li>
+        <li class="col-xs-4">
+            <a href="/index.php/home/staff/index"><i class="glyphicon glyphicon-home"></i>回到首页</a>
+        </li>
+    </ul>
+</div>
+
+
+
+        <div style="position: fixed;bottom: 50px; width: 100%;background: #67b168;display: none;" id="chooseTime" >
+            <div id="datePlugin"></div>
+            <!--效果html结束-->
+            <div class="clear"></div>
+            <form class="form-horizontal" role="form" name="chooseDateForm" action="/index.php/home/staff/storeStatistics" method="get">
+                <div class="form-group">
+                    <label  class="col-sm-2 control-label"></label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" placeholder="" name="begin_time" id="begin_time" value="<?php echo ($begin_time); ?>" >
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label  class="col-sm-2 control-label"></label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" placeholder="" name="end_time" id="end_time" value="<?php echo ($end_time); ?>" >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-12">
+                <button type="button" class="form-control btn btn-primary" onclick="javascript:document.chooseDateForm.submit()">
+                    保存
+                </button>
+                        </div>
+                    </div>
+            </form>
+        </div>
+
+</body>
+<!-- /.modal -->
 <!-- JQUERY SCRIPTS -->
 <script src="/Public/js/jquery-1.10.2.js"></script>
+<script src="/Public/js/bootstrap.js"></script>
+<script src="/Public/js/date.js"></script>
+<script src="/Public/js/iscroll.js"></script>
+
+
 <script language="javascript">
     var pageSize = 10;
     var offset = 0;
     var currentPage=1;
+    var begin_time;
+    var end_time;
     var flag = true;
     onload=function(){
-        setTimeout(function(){
-            document.getElementById("preload").style.display="none";
-        },1000);
 
+        if($("#begin_time").val()==""&&$("#end_time").val()=="") {
+            nowDate = new Date();
+            $("#begin_time").val(nowDate.getFullYear() + "-" + (nowDate.getMonth() + 1) + "-" + (nowDate.getDate()));
+            $("#end_time").val(nowDate.getFullYear() + "-" + (nowDate.getMonth() + 1) + "-" + (nowDate.getDate() + 1));
+        }
+        begin_time=$("#begin_time").val();
+        end_time=$("#end_time").val();
+        //===================
 
+        $("#begin_time").date();
+        $("#end_time").date();
+        //========================
         $.ajax({
             url:"/index.php/home/staff/storeStatistics",
             dataType:"json",
-            data:"offset="+offset+"&limit="+pageSize+"&sort=id&order=desc",
+            data:"offset="+offset+"&limit="+pageSize+"&begin_time="+begin_time+"&end_time="+end_time+"&sort=id&order=desc",
             type:"post",
             success:function(data){
                 console.info(JSON.stringify(data));
 
                 $(".mytable").html("");
                 if(data.length<=0){
-                    $(".table").append("<tr><td><div style='text-align: center;'><h3>暂无支付订单</h3></div></td></tr>");
+                    $(".mytable").append("<tr><td><div style='text-align: center;'><h3>无相关订单</h3></div></td></tr>");
                 }else{
                     for(var i=0;i<data.length;i++){
                         var fee = data[i].total_fee*0.01;
@@ -121,7 +204,7 @@
                                 url:"/index.php/home/staff/storeStatistics",
                                 dataType:"json",
                                 type:"post",
-                                data:"offset="+offset+"&limit="+pageSize+"&sort=id&order=desc",
+                                data:"offset="+offset+"&limit="+pageSize+"&begin_time="+begin_time+"&end_time="+end_time+"&sort=id&order=desc",
                                 success:function(data){
                                     flag=true;
                                     if(data.length<=0){
@@ -144,7 +227,9 @@
                     }
                 });
     }
-
+function chooseTime(){
+    $("#chooseTime").slideToggle();
+}
 </script>
 </body>
 </html>

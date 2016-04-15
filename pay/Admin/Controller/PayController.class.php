@@ -103,14 +103,14 @@ class PayController extends AuthController
                 mkdir($tempdir);
             }
             for ($i = 0; $i < count($stores); $i++) {
-                $filename = $tempdir . "/" . $stores[$i]['merchantname'] . "_" . $stores[$i]['name'] . ".png";
+                $filename = $tempdir . "/_" . $stores[$i]['merchantname'] . "_" . $stores[$i]['name'] . ".png";
                 $filename = iconv('utf-8', 'gb2312', $filename);
                 var_dump($filename);
                 $url = 'http://'.$_SERVER['HTTP_HOST'] . "/index.php/Home/Pay/wechatPay?mid=" . $stores[$i]['mid'] . "&store_id=" . $stores[$i]['id'];
                 var_dump($url);
                 \QRcode::png($url, $filename, $errorCorrectionLevel, $matrixPointSize, 2);
             }
-            FileUtil::zip($tempdir);
+           FileUtil::zip($tempdir);
         } else {
             echo "请选择需要生成二维码的门店！";
         }
