@@ -89,6 +89,9 @@
 <script src="/Public/js/bootstrap.js"></script>
 <script language="javascript">
     var lijianconfig =  <?php echo ($lijianconfig); ?> ;
+    var discount = <?php echo ($discount); ?>;
+
+    alert(JSON.stringify(discount));
     onload=function(){
         setTimeout(function(){
             document.getElementById("preload").style.display="none";
@@ -107,11 +110,25 @@
                   }
               }
             }
-            if(maxlimit>=0){
-                total_fee=((total_fee-lijianconfig[maxlimit]['reduce'])/100).toFixed(2);
+            if(maxlimit>=0&&discount==null){
+
+                    total_fee = ((total_fee - lijianconfig[maxlimit]['reduce']) / 100).toFixed(2);
+                    $("#discount").html(total_fee);
+                    $("#discount").parent().parent().css({"display": "block"});
+
+            }
+            else if(maxlimit>=0&&discount!=null){
+                total_fee = (total_fee - lijianconfig[maxlimit]['reduce']) ;
+                total_fee = ((total_fee*(discount.discount/100))/100).toFixed(2);
                 $("#discount").html(total_fee);
-                $("#discount").parent().parent().css({"display":"block"});
-            }else{
+                $("#discount").parent().parent().css({"display": "block"});
+            }
+            else if(maxlimit<0&&discount!=null){
+                total_fee = ((total_fee*(discount.discount/100))/100).toFixed(2);
+                $("#discount").html(total_fee);
+                $("#discount").parent().parent().css({"display": "block"});
+            }
+            else{
                 $("#discount").parent().parent().css({"display":"none"});
             }
             }
@@ -124,7 +141,7 @@
         var params = $("#wxpayForm").serialize();
 
         $.ajax({
-            url:"/index.php/home/pay/wechatpay?mid=15&amp;store_id=24",
+            url:"/index.php/Home/Pay/wechatPay?mid=6&amp;store_id=28",
             data:params,
             dataType:"json",
             type:"post",

@@ -89,6 +89,8 @@
 <script src="__PUBLIC__/js/bootstrap.js"></script>
 <script language="javascript">
     var lijianconfig =  {$lijianconfig} ;
+    var discount = {$discount};
+
     onload=function(){
         setTimeout(function(){
             document.getElementById("preload").style.display="none";
@@ -107,11 +109,25 @@
                   }
               }
             }
-            if(maxlimit>=0){
-                total_fee=((total_fee-lijianconfig[maxlimit]['reduce'])/100).toFixed(2);
+            if(maxlimit>=0&&discount==null){
+
+                    total_fee = ((total_fee - lijianconfig[maxlimit]['reduce']) / 100).toFixed(2);
+                    $("#discount").html(total_fee);
+                    $("#discount").parent().parent().css({"display": "block"});
+
+            }
+            else if(maxlimit>=0&&discount!=null){
+                total_fee = (total_fee - lijianconfig[maxlimit]['reduce']) ;
+                total_fee = ((total_fee*(discount.discount/100))/100).toFixed(2);
                 $("#discount").html(total_fee);
-                $("#discount").parent().parent().css({"display":"block"});
-            }else{
+                $("#discount").parent().parent().css({"display": "block"});
+            }
+            else if(maxlimit<0&&discount!=null){
+                total_fee = ((total_fee*(discount.discount/100))/100).toFixed(2);
+                $("#discount").html(total_fee);
+                $("#discount").parent().parent().css({"display": "block"});
+            }
+            else{
                 $("#discount").parent().parent().css({"display":"none"});
             }
             }

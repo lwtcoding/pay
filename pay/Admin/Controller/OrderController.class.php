@@ -120,7 +120,7 @@ class OrderController extends AuthController
 
             if ($_POST['type'] == 'day') {
                 //某天，按小时统计支付笔数和金额
-                $sql = "SELECT FROM_UNIXTIME(create_time,'%Y-%m-%d %H') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1" . $conditions . " AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(" . strtotime($_POST['begin_date']) . ",'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(" . strtotime($_POST['end_date']) . ",'%Y%m%d') GROUP BY labels";
+                $sql = "SELECT FROM_UNIXTIME(create_time,'%Y-%m-%d %H:00:00') labels,COUNT(id) total,SUM(total_fee)/100 total_fee,SUM(refund_fee)/100 total_refund FROM tgyx_order where is_pay=1" . $conditions . " AND FROM_UNIXTIME(create_time,'%Y%m%d%H%i%s')>=FROM_UNIXTIME(" . strtotime($_POST['begin_date']) . ",'%Y%m%d%H%i%s') AND FROM_UNIXTIME(create_time,'%Y%m%d%H%i%s')<=FROM_UNIXTIME(" . strtotime($_POST['end_date']) . ",'%Y%m%d%H%i%s') GROUP BY labels";
 
             }
             if ($_POST['type'] == 'month') {
@@ -186,8 +186,7 @@ class OrderController extends AuthController
 
                 if ($_POST['type'] == 'day') {
                     //某天，按小时统计支付笔数和金额
-                    $sql = "SELECT FROM_UNIXTIME(create_time,'%Y-%m-%d %H') as labels,COUNT(id) as total,SUM(total_fee)/100 as total_fee,SUM(refund_fee)/100 as total_refund FROM tgyx_order where is_pay=1" . $conditions . " AND FROM_UNIXTIME(create_time,'%Y%m%d')>=FROM_UNIXTIME(" . strtotime($_POST['begin_date']) . ",'%Y%m%d') AND FROM_UNIXTIME(create_time,'%Y%m%d')<=FROM_UNIXTIME(" . strtotime($_POST['end_date']) . ",'%Y%m%d') GROUP BY labels";
-
+                    $sql = "SELECT FROM_UNIXTIME(create_time,'%Y-%m-%d %H:00:00') as labels,COUNT(id) as total,SUM(total_fee)/100 as total_fee,SUM(refund_fee)/100 as total_refund FROM tgyx_order where is_pay=1" . $conditions . " AND FROM_UNIXTIME(create_time,'%Y%m%d%H%i%s')>=FROM_UNIXTIME(" . strtotime($_POST['begin_date']) . ",'%Y%m%d%H%i%s') AND FROM_UNIXTIME(create_time,'%Y%m%d%H%i%s')<=FROM_UNIXTIME(" . strtotime($_POST['end_date']) . ",'%Y%m%d%H%i%s') GROUP BY labels";
                 }
                 if ($_POST['type'] == 'month') {
                     //某天，按小时统计支付笔数和金额

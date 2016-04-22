@@ -74,32 +74,59 @@
                     <form class="form-horizontal" role="form" id="subAddForm" action="" method="post" >
                         <input type="hidden" name="pid" value="<?php echo ($pid); ?>">
                         <input type="hidden" name="parent_id" value="<?php echo ($parent_id); ?>">
+
                         <div class="form-group">
-                            <label  class="col-sm-2 control-label">账号</label>
+                            <label  class="col-sm-3 control-label">商家名称</label>
                             <div class="col-sm-8">
-                                <input type="text" class="form-control"  name="username" placeholder="账号" value="<?php echo ($config['weixin']['mchid']); ?>">
+                                <input type="text" class="form-control" name="merchantname"  placeholder="商家名称" >
                             </div>
                         </div>
                         <div class="form-group">
-                            <label  class="col-sm-2 control-label">密码</label>
+                            <label  class="col-sm-3 control-label">联系人</label>
                             <div class="col-sm-8">
-                                <input type="text" class="form-control" name="password"  placeholder="密码" value="<?php echo ($config['weixin']['appid']); ?>">
+                                <input type="text" class="form-control" name="contact"  placeholder="联系人" >
                             </div>
                         </div>
                         <div class="form-group">
-                            <label  class="col-sm-2 control-label">确认密码</label>
+                            <label  class="col-sm-3 control-label">省/市</label>
                             <div class="col-sm-8">
-                                <input type="text" class="form-control"  name="repassword"  placeholder="确认密码" value="<?php echo ($config['weixin']['appid']); ?>">
+                                <div class="address"></div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label  class="col-sm-2 control-label">商家名称</label>
+                            <label  class="col-sm-3 control-label">详细地址</label>
                             <div class="col-sm-8">
-                                <input type="text" class="form-control" name="merchantname"  placeholder="商家名称" value="<?php echo ($config['weixin']['appid']); ?>">
+                                <input type="text" class="form-control"  name="address"  placeholder="详细地址" value="">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label  class="col-sm-2 control-label">邮箱地址</label>
+                            <label  class="col-sm-3 control-label">行业类别</label>
+                            <div class="col-sm-8">
+                               <select name="industry">
+                                   <option value="">请选择</option>
+                                   <option value="餐饮">餐饮</option>
+                                   <option value="零售">零售</option>
+                                   <option value="医药">医药</option>
+                                   <option value="服装">服装</option>
+                               </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label  class="col-sm-3 control-label">支付页面配置</label>
+                            <div class="col-sm-8">
+                               <label><input type="radio" name="pageinfo_status" value="0" checked>停用</label>
+                                <label><input type="radio" name="pageinfo_status" value="1">启用</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label  class="col-sm-3 control-label">联系电话</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control"  name="phone"  placeholder="联系电话" value="">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label  class="col-sm-3 control-label">邮箱地址</label>
                             <div class="col-sm-8">
                                 <input type="text" class="form-control" name="email"  placeholder="邮箱地址" value="<?php echo ($config['weixin']['appid']); ?>">
                             </div>
@@ -137,9 +164,15 @@
                         <input type="hidden" name="id">
                         <input type="hidden" name="salt">
                         <div class="form-group">
+                            <label  class="col-sm-2 control-label">商家名称</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" name="merchantname"  placeholder="商家名称" value="" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <label  class="col-sm-2 control-label">账号</label>
                             <div class="col-sm-8">
-                                <input type="text" class="form-control"  name="username" placeholder="账号" value="">
+                                <input type="text" class="form-control"  name="username" placeholder="账号" value="" readonly>
                             </div>
                         </div>
                         <div class="form-group">
@@ -155,9 +188,46 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label  class="col-sm-2 control-label">商家名称</label>
+                            <label  class="col-sm-2 control-label">联系人</label>
                             <div class="col-sm-8">
-                                <input type="text" class="form-control" name="merchantname"  placeholder="商家名称" value="" readonly>
+                                <input type="text" class="form-control" name="contact"  placeholder="联系人" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label  class="col-sm-2 control-label">省/市</label>
+                            <div class="col-sm-8">
+                                <div class="address"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label  class="col-sm-2 control-label">详细地址</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control"  name="address"  placeholder="详细地址" value="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label  class="col-sm-3 control-label">行业类别</label>
+                            <div class="col-sm-8">
+                                <select name="industry">
+                                    <option value="">请选择</option>
+                                    <option value="餐饮">餐饮</option>
+                                    <option value="零售">零售</option>
+                                    <option value="医药">医药</option>
+                                    <option value="服装">服装</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label  class="col-sm-3 control-label">支付页面配置</label>
+                            <div class="col-sm-8">
+                                <label><input type="radio" name="pageinfo_status" value="0">停用</label>
+                                <label><input type="radio" name="pageinfo_status" value="1">启用</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label  class="col-sm-2 control-label">联系电话</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control"  name="phone"  placeholder="联系电话" value="">
                             </div>
                         </div>
                         <div class="form-group">
@@ -198,13 +268,14 @@
                     <form class="form-horizontal" role="form" id="wxpayConfigForm"  method="post" >
                         <input type="hidden" name="type" value="weixin">
                         <input type="hidden" name="mid" >
+                        <!--
                         <div class="form-group">
                             <label  class="col-sm-2 control-label">appid</label>
                             <div class="col-sm-8">
                                 <input type="text" class="form-control" placeholder="appid" name="appid">
                             </div>
                         </div>
-
+                        -->
                         <div class="form-group">
                             <label  class="col-sm-2 control-label">mchid</label>
                             <div class="col-sm-8">
@@ -269,7 +340,12 @@
 <!-- TABLE SCRIPTS -->
 <script src="/Public/js/bootstrap-table.js"></script>
 <script src="/Public/js/sweetalert/sweetalert.min.js"></script>
+<script src="/Public/js/area0.04.js"></script>
 <script language="javascript">
+    var address=<?php echo ($address); ?>;
+    var proId=<?php echo ($proId); ?>+"";
+    var cityId=<?php echo ($cityId); ?>+"";
+
     onload=function(){
         setTimeout(function(){
             document.getElementById("preload").style.display="none";
@@ -320,27 +396,45 @@
                     width: '150',
                     valign: 'top',
                     sortable: true
-                }, {
+                },  {
+                    field: 'contact',
+                    title: '联系人',
+                    align: 'center',
+                    valign: 'middle',
+                    sortable: true
+                },{
+                    field: 'address',
+                    title: '商户地址',
+                    align: 'center',
+                    valign: 'middle',
+                    sortable: true
+                },{
                     field: 'email',
                     title: '邮箱',
                     align: 'center',
-                    width: '200',
                     valign: 'middle',
                     clickToSelect: false
                 }, {
                     field: 'type',
                     title: '商户类型',
                     align: 'center',
-                    width: '150',
                     valign: 'middle',
                     clickToSelect: false
-                }, {
+                },  {
+                    field: 'pageinfo_status',
+                    title: '页面配置',
+                    align: 'center',
+                    valign: 'middle',
+                    clickToSelect: false,
+                    formatter: pageinfoFormatter
+                },{
                     title: '其他操作',
                     align: 'center',
                     formatter: showFormatter
                 }, {
                     field: 'operate',
                     title: '操作',
+                    width:'100',
                     align: 'center',
                     events: operateEvents,
                     formatter: operateFormatter
@@ -413,6 +507,7 @@
     //====================================
     function mySubmit(formId,url){
         var params = $("#"+formId+"Form").serialize();
+        alert(params);
         $.ajax({
             url:url,
             data:params,
@@ -446,9 +541,28 @@
         if(jsonData!=null) {
             var $editForm = $("#" + formId+"Form");
             $editForm[0].reset();
+            if(formId=="subEdit"){
+             //   $editForm.find("[name='pageinfo_status']").attr("checked","unchecked");
+                $editForm.find("[name='industry']").val(jsonData.industry);
+                if(jsonData.pageinfo_status==1) {
+                    $editForm.find("[name='pageinfo_status']").last().attr("checked", "checked");
+                    $editForm.find("[name='pageinfo_status']").first().removeAttr("checked");
+                }
+                if(jsonData.pageinfo_status==0) {
+                    $editForm.find("[name='pageinfo_status']").first().attr("checked", "checked");
+                    $editForm.find("[name='pageinfo_status']").last().removeAttr("checked");
+                }
+              // $editForm.find("[name='pageinfo_status'][value='"+jsonData.pageinfo_status+"']").attr("checked","checked");
+                addressInit(jsonData.proId,jsonData.cityId);
+            }
             for (var obj in jsonData) {
                 if ($editForm.find("input[name='" + obj + "']")) {
+                    if(obj!="pageinfo_status"&&obj!="industry"){
+
                     $editForm.find("input[name='" + obj + "']").val(jsonData[obj]);
+                    }else{
+
+                    }
                 }
             }
         }
@@ -556,14 +670,11 @@
         });
 
     }
-    function showTip(data,time){
-        $("#tip").modal("show");
-
-        $("#tipLabel").html(data.message);
-        $("#tipContent").html(data.data);
-        setTimeout(function(){
-            $("#tip").modal("hide");
-        },time);
+    function pageinfoFormatter(value){
+        if(value==0)
+                return '<small style="color: #9f191f;">停用</small>';
+        if(value==1)
+            return '<small style="color: #00FF00;">启用</small>';
     }
 </script>
 </body>

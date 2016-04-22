@@ -17,7 +17,7 @@ class IndexController extends Controller {
             }
             if($_POST['type']=="merchant") {
                 $merchant = M('merchant');
-                $data = $merchant->where("username='%s'", array($_POST['username']))->find();
+                $data = $merchant->where("username='%s' OR email='%s'", array($_POST['username'],$_POST['username']))->find();
                 if (md5($_POST['password'] . $data['salt']) == $data['password']) {
                     if (isset($_SESSION['loginStaff']))
                         unset($_SESSION['loginStaff']);

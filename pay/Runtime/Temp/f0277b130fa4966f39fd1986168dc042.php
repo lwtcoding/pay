@@ -1,3 +1,3 @@
 <?php
-//000000000000a:11:{s:2:"id";s:1:"6";s:8:"username";s:4:"lwt1";s:8:"password";s:32:"cb04af3ed3e5537a3b2fddf9d2ad1e1a";s:12:"merchantname";s:6:"lwt123";s:5:"email";s:10:"lwt@qq.com";s:5:"statu";s:1:"1";s:4:"salt";s:8:"2uuADSGM";s:11:"create_time";s:10:"1459339101";s:3:"pid";s:1:"5";s:7:"wxtoken";s:8:"cdQf6X59";s:8:"is_proxy";s:1:"0";}
+//000000000000a:19:{s:2:"id";s:1:"6";s:8:"username";s:4:"lwt1";s:8:"password";s:32:"cb04af3ed3e5537a3b2fddf9d2ad1e1a";s:12:"merchantname";s:6:"lwt123";s:5:"email";s:10:"lwt@qq.com";s:5:"statu";s:1:"1";s:4:"salt";s:8:"2uuADSGM";s:11:"create_time";s:10:"1459339101";s:3:"pid";s:1:"5";s:7:"wxtoken";s:8:"cdQf6X59";s:8:"is_proxy";s:1:"0";s:9:"parent_id";s:1:"0";s:8:"province";s:9:"湖北省";s:4:"city";s:9:"鄂州市";s:7:"address";s:12:"sdadadasdasd";s:5:"phone";s:7:"1231231";s:8:"industry";s:6:"服装";s:7:"contact";s:0:"";s:15:"pageinfo_status";s:1:"1";}
 ?>

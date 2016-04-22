@@ -54,7 +54,7 @@
                 <div class="form-group">
                     <div class="row">
                         <div class="col-sm-6 col-sm-offset-3">
-                            <label>企业名称</label>
+                            <label></label>
                         </div>
                         <a class="btn btn-info" onclick="addconfig()">添加规则</a>
                     </div>
@@ -141,7 +141,7 @@
             <div class="modal-body">
                 <form class="form-horizontal" role="form" id="shareLijianForm" action="__CONTROLLER__/share" method="post" >
                     <div class="form-group">
-                        <input type="text" name="id" value="{$lijian['id']}">
+                        <input type="hidden" name="id" value="{$lijian['id']}">
                             <volist name='submerchants' id='merchant'>
                                 <div class="col-md-3">
                                     <input type="checkbox" name="submids[]" value="{$merchant['id']}">

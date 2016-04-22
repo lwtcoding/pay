@@ -105,6 +105,15 @@
                             <input type="password" class="form-control" name="password"  placeholder="密码" value="">
                         </div>
                     </div>
+                   <!-- <div class="form-group">
+                        <label  class="col-sm-2 control-label">微信统计</label>
+                        <div class="col-sm-8">
+                            <select name="type">
+                                <option value="0">统计所在门店</option>
+                                <option value="1">统计全部门店</option>
+                            </select>
+                        </div>
+                    </div>-->
                     <hr/>
                     <div class="row">
                         <?php if(is_array($auths)): $i = 0; $__LIST__ = $auths;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$auth): $mod = ($i % 2 );++$i;?><div class="col-md-3">
@@ -208,7 +217,15 @@
                     valign: 'middle',
                     formatter:storeFormat,
                     sortable: true
-                }, {
+                },{
+                    field: 'openid',
+                    title: '绑定情况',
+                    align: 'center',
+                    width: '50',
+                    valign: 'middle',
+                    formatter:boundFormat,
+                    sortable: true
+                } , {
                     field: 'operate',
                     title: '操作',
                     align: 'center',
@@ -296,6 +313,9 @@
             for (var obj in jsonData) {
                 if ($editForm.find("input[name='" + obj + "']")) {
                     $editForm.find("input[name='" + obj + "']").val(jsonData[obj]);
+                    if(obj=="type"){
+                        $editForm.find("[name='" + obj + "']").val(jsonData[obj]);
+                    }
                     if(obj=='auths'){
                         $editForm.find("input[name='auths[]']").prop("checked",false);
                        // $editForm.find("input[name='auths']").attr("checked",false);
@@ -353,8 +373,22 @@
         });
         return value;
     }
+    function boundFormat(value){
+        if(value==null){
+            return "<small style='color: #A51715;'>未绑定</small>";
+        }else{
+            return "<small style='color: #00FF00;'>已绑定</small>";
+        }
+    }
+    function typeFormat(value){
 
-
+        if(value==0){
+            return "<small style='color: #285e8e;'>统计所在门店</small>";
+        }
+        if(value==1){
+            return "<small style='color: #00FF00;'>统计全部门店</small>";
+        }
+    }
 
 </script>
 </body>

@@ -63,12 +63,19 @@ class PayController extends Controller
                 $lijianconfig = json_decode($lijian['config'],true);
 
             $token = md5($store_id.$mid.$store['salt']);
-
+            //TODO 找出折扣
+            $discount=S('discount'.$_GET['mid']);
+            if(empty($discount)){
+                $discount=M('discount')->where("mid='%s' AND status=1",array($_GET['mid']))->find();
+                S('discount'.$_GET['mid'],$discount);
+            }
             //TODO 查找页面配置
-            $pageinfo = M('pageinfo')->where("mid=".$_GET['mid'])->find();
+            $pageinfo = M('pageinfo')->where("mid='%s'",array($_GET['mid']))->find();
             if(empty($pageinfo)) {
                 $merchant=M('merchant')->field(array('pid','parent_id'))->where("id=" . $_GET['mid'])->find();
-                $pageinfo = M('pageinfo')->where("mid=" . $merchant['parent_id'])->find();
+                if(!($merchant['parent_id']==0)) {
+                    $pageinfo = M('pageinfo')->where("mid=" . $merchant['parent_id'])->find();
+                }
                 if(empty($pageinfo))
                     $pageinfo = M('pageinfo')->where("mid=" . $merchant['pid'])->find();
             }
@@ -76,6 +83,8 @@ class PayController extends Controller
 
             $this->assign("lijianconfig",json_encode($lijianconfig));
             $this->assign("mid",$mid);
+            $disc=array("discount"=>$discount);
+            $this->assign("discount",json_encode($discount));
             $this->assign("store_id",$store_id);
             $this->assign("token",$token);
             $this->display();
@@ -119,13 +128,23 @@ class PayController extends Controller
                     $order['lijian_fee']=$lijianconfig[$maxlimit]['reduce'];
                 }
                 //TODO 查询该用户有无该商户的会员卡，找出最低折扣的会员卡
-                $cr = M('wxcoupon_receive')->where("openid='%s' AND mid=%s",array($_SESSION['openid'], $_POST['mid']))->find();
+               /* $cr = M('wxcoupon_receive')->where("openid='%s' AND mid=%s",array($_SESSION['openid'], $_POST['mid']))->find();
                 if(!empty($cr)){
                     $coupon = M('wxcoupon')->field(array('id','discount'))->where("status=1 AND card_id='".$cr['card_id']."'")->find();
                     if(!empty($coupon)) {
                         $_POST['total_fee'] = (int)($_POST['total_fee'] * ($coupon['discount'] / 100));
                         $order['vip_discount'] = $coupon['discount'];
                     }
+                }*/
+                //TODO 找出折扣
+                $discount=S('discount'.$_POST['mid']);
+                if(empty($discount)){
+                    $discount=M('discount')->where("mid='%s' AND status=1",array($_POST['mid']))->find();
+                    S('discount'.$_POST['mid'],$discount);
+                }
+                if(!empty($discount)){
+                    $_POST['total_fee'] = (int)($_POST['total_fee'] * ($discount['discount'] / 100));
+                    $order['vip_discount'] = $discount['discount'];
                 }
                 //从缓存里取出
                 $faninfo = S('fans' . $_SESSION['openid']);
@@ -201,7 +220,7 @@ class PayController extends Controller
                     $fans['total_fee']=$fans['total_fee']+$resp['total_fee'];
                     M('fans')->save($fans);
                     //TODO 调用模版消息通知收银员（is_sign=1才接收）
-                    $staffs = M('staff')->field(array('openid'))->where("store_id = '%s' AND is_sign = 1",array($order['store_id']))->select();
+                    $staffs = M('staff')->field(array('openid'))->where("store_id = '%s' AND is_sign = 1 AND openid is not null",array($order['store_id']))->select();
                     for($i=0;$i<count($staffs);$i++){
 
                         $staffs[$i]['openid'];

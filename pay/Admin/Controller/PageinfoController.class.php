@@ -22,6 +22,7 @@ class PageinfoController extends BaseAuthController
             }else{
                 M('pageinfo')->add($_POST);
             }
+
             $this->redirect("pageinfo");
         }else{
             $pageinfo = M('pageinfo')->where("mid=".$_SESSION['loginMerchant']['id'])->find();

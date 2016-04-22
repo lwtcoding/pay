@@ -13,7 +13,9 @@
     <link href="/Public/css/basic.css" rel="stylesheet" />
     <!--CUSTOM MAIN STYLES-->
     <link href="/Public/css/custom.css?var=<?php echo time() ?>" rel="stylesheet" />
-    <link href="/Public/css/datepicker3.css" rel="stylesheet" />
+    <link href="/Public/css/jquery-ui.css" rel="stylesheet" />
+    <link href="/Public/css/jquery.timepicker.css" rel="stylesheet" />
+    <link href="/Public/css/jQuery.Timepicker.Addon.css" rel="stylesheet" />
     <!-- GOOGLE FONTS
     <link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     -->
@@ -43,7 +45,7 @@
         <div class="col-md-12 ">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3>按天统计</h3>
+
                     <label>日期</label>
                     <input type="text" id="begin_day" name="begin_date" placeholder="格式：2015-12-15">
                     <input type="text" id="end_day" name="end_date" placeholder="格式：2015-12-15">
@@ -52,6 +54,12 @@
                         <?php if(!$_SESSION['loginMerchant']['pretend']){ echo " <option value=''>所有门店</option>"; } ?>
                         <?php if(is_array($stores)): foreach($stores as $key=>$store): ?><option value="<?php echo ($store["id"]); ?>"><?php echo ($store["name"]); ?></option><?php endforeach; endif; ?>
                     </select>
+                    <div class="btn-group btn-group-xs">
+                        <small class="btn btn-success btn-small count-btn" title="today">今天</small>
+                        <small class="btn btn-success count-btn" title="yestoday">昨天</small>
+                        <small class="btn btn-success count-btn" title="last7">近7天</small>
+                        <small class="btn btn-success count-btn" title="lastmonth">近1个月</small>
+                    </div>
                     <button type="button" id="day" class="btn btn-info search-btn">查询</button>
                 </div>
                 <div class="panel-body" >
@@ -75,85 +83,6 @@
 
     </div>
     <!-- /. ROW  -->
-    <hr/>
-    <!-- /. ROW  -->
-    <div class="row">
-
-        <div class="col-md-12 ">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3>按月统计</h3>
-                    <label>日期</label>
-                    <input type="text" id="begin_month" name="begin_date" placeholder="格式：2015-12-15">
-                    <input type="text" id="end_month" name="end_date" placeholder="格式：2015-12-15">
-                    <label>选择门店</label>
-                    <select  name="store_id">
-                        <?php if(!$_SESSION['loginMerchant']['pretend']){ echo " <option value=''>所有门店</option>"; } ?>
-                        <?php if(is_array($stores)): foreach($stores as $key=>$store): ?><option value="<?php echo ($store["id"]); ?>"><?php echo ($store["name"]); ?></option><?php endforeach; endif; ?>
-                    </select>
-                    <button type="button" id="month" class="btn btn-info search-btn">查询</button>
-                </div>
-                <div class="panel-body" >
-                    <canvas id="monthChart" width="1000" height="400"></canvas>
-                </div>
-                <div class="panel-footer">
-                    <div class="row">
-                        <div class="col-md-1 col-md-offset-5">
-                            <div style="height: 10px;width: 10px;border: 1px solid #232323;background: #d5d5d5;"></div><div>交易笔数</div>
-                        </div>
-                        <div class="col-md-1 ">
-                            <div style="height: 10px;width: 10px;border: 1px solid #232323;background:#31b0d5;"></div><div>交易额</div>
-                        </div>
-                        <div class="col-md-1 ">
-                            <div style="height: 10px;width: 10px;border: 1px solid #232323;background:rgba(255,192,203,1);"></div><div>退款金额</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- /. ROW  -->
-    <hr />
-    <div class="row">
-
-        <div class="col-md-12 ">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3>按年统计</h3>
-                    <label>日期</label>
-                    <input type="text" id="begin_year" name="begin_date" placeholder="格式：2015-12-15">
-                    <input type="text" id="end_year" name="end_date" placeholder="格式：2015-12-15">
-                    <label>选择门店</label>
-                    <select  name="store_id">
-                        <?php if(!$_SESSION['loginMerchant']['pretend']){ echo " <option value=''>所有门店</option>"; } ?>
-                        <?php if(is_array($stores)): foreach($stores as $key=>$store): ?><option value="<?php echo ($store["id"]); ?>"><?php echo ($store["name"]); ?></option><?php endforeach; endif; ?>
-                    </select>
-                    <button type="button" id="year" class="btn btn-info search-btn">查询</button>
-                </div>
-                <div class="panel-body" >
-                    <canvas id="yearChart" width="1000" height="400" ></canvas>
-                </div>
-                <div class="panel-footer">
-                    <div class="row">
-                        <div class="col-md-1 col-md-offset-5">
-                            <div style="height: 10px;width: 10px;border: 1px solid #232323;background: #d5d5d5;"></div><div>交易笔数</div>
-                        </div>
-                        <div class="col-md-1 ">
-                            <div style="height: 10px;width: 10px;border: 1px solid #232323;background:#31b0d5;"></div><div>交易额</div>
-                        </div>
-                        <div class="col-md-1 ">
-                            <div style="height: 10px;width: 10px;border: 1px solid #232323;background:rgba(255,192,203,1);"></div><div>退款金额</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- /. ROW  -->
 </div>
 <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
 <!-- JQUERY SCRIPTS -->
@@ -162,20 +91,18 @@
 <script src="/Public/js/bootstrap.js"></script>
 <!-- CHART.JS -->
 <script src="/Public/js/chart.mini.js"></script>
-<script  src="/Public/js/bootstrap-datepicker.js"></script>
+<script src="/Public/js/jquery-ui.js"></script>
+<script  src="/Public/js/jquery.timepicker.min.js"></script>
+<script  src="/Public/js/jQuery.Timepicker.Addon.js"></script>
 <script language="javascript">
     var nowDate;
     onload=function(){
         nowDate = new Date();
-        $("#begin_day").val(nowDate.getFullYear()+"-"+(nowDate.getMonth()+1)+"-"+(nowDate.getDate()-1));
-        $("#end_day").val(nowDate.getFullYear()+"-"+(nowDate.getMonth()+1)+"-"+nowDate.getDate());
-        $("#begin_month").val(nowDate.getFullYear()+"-"+(nowDate.getMonth()));
-        $("#end_month").val(nowDate.getFullYear()+"-"+(nowDate.getMonth()+1));
-        $("#begin_year").val(nowDate.getFullYear());
-        $("#end_year").val(nowDate.getFullYear());
-        statistics_by_date(nowDate.getFullYear()+"-"+(nowDate.getMonth()+1)+"-"+(nowDate.getDate()-1),nowDate.getFullYear()+"-"+(nowDate.getMonth()+1)+"-"+nowDate.getDate(),$("[name='store_id']").val(),'day');
-        statistics_by_date(nowDate.getFullYear()+"-"+nowDate.getMonth(),nowDate.getFullYear()+"-"+(nowDate.getMonth()+1),$("[name='store_id']").val(),'month');
-        statistics_by_date(nowDate.getFullYear(),nowDate.getFullYear(),$("[name='store_id']").val(),'year');
+        $("#begin_day").val(nowDate.getFullYear()+"-"+(nowDate.getMonth()+1)+"-"+(nowDate.getDate())+" 00:00:00");
+        $("#end_day").val(nowDate.getFullYear()+"-"+(nowDate.getMonth()+1)+"-"+nowDate.getDate()+" "+nowDate.getHours()+":"+nowDate.getUTCMinutes()+":"+nowDate.getUTCSeconds());
+
+        statistics_by_date($("#begin_day").val(),$("#end_day").val(),$("[name='store_id']").val(),'day');
+
         setTimeout(function(){
             document.getElementById("preload").style.display="none";
         },1000);
@@ -185,52 +112,53 @@
             statistics_by_date( $(this).parent().find("[name='begin_date']").val(),$(this).parent().find("[name='end_date']").val(),$(this).parent().find("[name='store_id']").val(),$(this).attr('id'));
         });
 
-        $('#begin_day').datepicker({
-            keyboardNavigation: false,
-            forceParse: false,
-            format: "yyyy-mm-dd",
-            autoclose: true
+        $(".count-btn").click(function () {
+            var title = $(this).attr("title");
+            if(title=="today"){
+                $("#begin_day").val(nowDate.getFullYear()+"-"+(nowDate.getMonth()+1)+"-"+(nowDate.getDate())+" 00:00:00");
+                $("#end_day").val(nowDate.getFullYear()+"-"+(nowDate.getMonth()+1)+"-"+(nowDate.getDate())+" "+nowDate.getHours()+":"+nowDate.getUTCMinutes()+":"+nowDate.getUTCSeconds());
+                var bt=$("#begin_day").val();
+                var et=$("#end_day").val();
+                statistics_by_date(bt,et,$(this).parent().find("[name='mid']").val(),'day')
+            }
+            if(title=="yestoday"){
+                $("#begin_day").val(nowDate.getFullYear()+"-"+(nowDate.getMonth()+1)+"-"+(nowDate.getDate()-1)+" 00:00:00");
+                $("#end_day").val(nowDate.getFullYear()+"-"+(nowDate.getMonth()+1)+"-"+(nowDate.getDate())+" 00:00:00");
+                var bt=$("#begin_day").val();
+                var et=$("#end_day").val();
+                statistics_by_date(bt,et,$(this).parent().find("[name='mid']").val(),'day')
+            }
+            if(title=="last7"){
+                $("#begin_day").val(nowDate.getFullYear()+"-"+(nowDate.getMonth()+1)+"-"+(nowDate.getDate()-6)+" 00:00:00");
+                $("#end_day").val(nowDate.getFullYear()+"-"+(nowDate.getMonth()+1)+"-"+(nowDate.getDate())+" "+nowDate.getHours()+":"+nowDate.getUTCMinutes()+":"+nowDate.getUTCSeconds());
+                var bt=$("#begin_day").val();
+                var et=$("#end_day").val();
+                statistics_by_date(bt,et,$(this).parent().find("[name='mid']").val(),'day')
+            }
+            if(title=="lastmonth"){
+                $("#begin_day").val(nowDate.getFullYear()+"-"+(nowDate.getMonth())+"-"+(nowDate.getDate())+" "+nowDate.getHours()+":"+nowDate.getUTCMinutes()+":"+nowDate.getUTCSeconds());
+                $("#end_day").val(nowDate.getFullYear()+"-"+(nowDate.getMonth()+1)+"-"+(nowDate.getDate())+" "+nowDate.getHours()+":"+nowDate.getUTCMinutes()+":"+nowDate.getUTCSeconds());
+                var bt=$("#begin_day").val();
+                var et=$("#end_day").val();
+                statistics_by_date(bt,et,$(this).parent().find("[name='mid']").val(),'day')
+            }
         });
-        $('#end_day').datepicker({
-            keyboardNavigation: false,
-            forceParse: false,
-            format: "yyyy-mm-dd",
-            autoclose: true
+        $('#begin_day').datetimepicker({
+            timeFormat: "HH:mm:ss",
+            dateFormat: "yy-mm-dd"
         });
-        $('#begin_month').datepicker({
-            keyboardNavigation: false,
-            forceParse: false,
-            format: "yyyy-mm",
-            autoclose: true
-        });
-        $('#end_month').datepicker({
-            keyboardNavigation: false,
-            forceParse: false,
-            format: "yyyy-mm",
-            autoclose: true
-        });
-        $('#begin_year').datepicker({
-            keyboardNavigation: false,
-            forceParse: false,
-            format: "yyyy",
-            autoclose: true
-        });
-        $('#end_year').datepicker({
-            keyboardNavigation: false,
-            forceParse: false,
-            format: "yyyy",
-            autoclose: true
+        $('#end_day').datetimepicker({
+            timeFormat: "HH:mm:ss",
+            dateFormat: "yy-mm-dd"
         });
 
     }
     //Get context with jQuery - using jQuery's .get() method.
     var dctx = $("#dayChart").get(0).getContext("2d");
-    var mctx = $("#monthChart").get(0).getContext("2d");
-    var yctx = $("#yearChart").get(0).getContext("2d");
+
     //This will get the first returned node in the jQuery collection.
     var dayChart = new Chart(dctx);
-    var monthChart = new Chart(mctx);
-    var yearChart = new Chart(yctx);
+
     var data = {
         labels : [],
         datasets : [

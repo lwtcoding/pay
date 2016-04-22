@@ -10,10 +10,11 @@ namespace Admin\Controller;
 
 
 use Util\AuthController;
+use Util\BaseAuthController;
 use Util\CommonUtil;
 use Util\WeChatUtil;
 
-class CardController extends AuthController
+class CardController extends BaseAuthController
 {
     private $card_type;
     public function __construct()

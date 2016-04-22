@@ -134,8 +134,11 @@
                             <a href="/index.php/admin/Merchant/submerchants"><i class=""></i>商户管理</a>
                         </li>
                         <li>
-                            <a href="/index.php/admin/Store/stores"><i class=""></i>门店管理</a>
+                            <a href="/index.php/admin/Merchant/submerchantStore"><i class=""></i>门店管理</a>
                         </li>
+                      <!--  <li>
+                            <a href="/index.php/admin/Store/stores"><i class=""></i>门店管理</a>
+                        </li>-->
                         <li>
                             <a href="/index.php/admin/Staff/staffs"><i class=""></i>员工管理</a>
                         </li>
@@ -173,6 +176,9 @@
                     </li>
                     <li>
                         <a href="/index.php/admin/Lijian/lijian"><i class=""></i>满立减</a>
+                    </li>
+                    <li>
+                        <a href="/index.php/admin/Discount/discount"><i class=""></i>折扣设置</a>
                     </li>
                 </ul>
             </li>
@@ -242,7 +248,9 @@
 <script src="/Public/js/jquery.metisMenu.js"></script>
 <!-- CUSTOM SCRIPTS -->
 <script src="/Public/js/custom.js"></script>
+
 <script language="JavaScript">
+
     onload=function(){
 
         $("#main-menu >li a").click(function(event){

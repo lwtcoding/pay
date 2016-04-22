@@ -54,7 +54,7 @@
                 <div class="form-group">
                     <div class="row">
                         <div class="col-sm-6 col-sm-offset-3">
-                            <label>企业名称</label>
+                            <label></label>
                         </div>
                         <a class="btn btn-info" onclick="addconfig()">添加规则</a>
                     </div>
@@ -132,7 +132,7 @@
             <div class="modal-body">
                 <form class="form-horizontal" role="form" id="shareLijianForm" action="/index.php/admin/lijian/share" method="post" >
                     <div class="form-group">
-                        <input type="text" name="id" value="<?php echo ($lijian['id']); ?>">
+                        <input type="hidden" name="id" value="<?php echo ($lijian['id']); ?>">
                             <?php if(is_array($submerchants)): $i = 0; $__LIST__ = $submerchants;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$merchant): $mod = ($i % 2 );++$i;?><div class="col-md-3">
                                     <input type="checkbox" name="submids[]" value="<?php echo ($merchant['id']); ?>">
                                     <label> <?php echo ($merchant['merchantname']); ?></label>

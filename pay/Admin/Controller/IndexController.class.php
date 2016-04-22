@@ -5,6 +5,7 @@ use Util\BaseAuthController;
 
 class IndexController extends BaseAuthController {
     public function index(){
+        
         $this->assign('merchant',$_SESSION['loginMerchant']);
        $this->display();
     }

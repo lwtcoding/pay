@@ -18,22 +18,47 @@ class StaffController extends Controller
      */
     public function index(){
         //TODO 判断session再判断openid
+        if(empty($_SESSION['loginStaff'])) {
             $user_agent = $_SERVER['HTTP_USER_AGENT'];
             if (strpos($user_agent, 'MicroMessenger') >= 0 && empty($_SESSION['openid'])) {
-                $merchant=M('merchant')->field(array("id"))->where("is_proxy=1")->find();
+                $merchant = M('merchant')->field(array("id"))->where("is_proxy=1")->find();
                 $wxconfig = CommonUtil::getMerchantConfig($merchant['id']);
                 $wechat = new WeChatUtil($wxconfig, $merchant['id']);
-                $wechat->authorize_openid('http://' .$wxconfig['domain'] . $_SERVER['REQUEST_URI']);
+                $wechat->authorize_openid('http://' . $wxconfig['domain'] . $_SERVER['REQUEST_URI']);
             }
-            $staff=M('staff')->where("openid='%s'",array($_SESSION['openid']))->find();
-            if(empty($staff)&&empty($_SESSION['loginStaff'])){
+            $staff = M('staff')->where("openid='%s'", array($_SESSION['openid']))->find();
+            if (empty($staff)) {
                 $this->redirect("login");
-            }else{
-                $_SESSION['loginStaff']=$staff;
-                $this->display();
+            } else {
+                $_SESSION['loginStaff'] = $staff;
+
             }
+        }else{
+            $this->display();
+        }
     }
     public function login()
+    {
+        if ($_SERVER['REQUEST_METHOD'] == "GET") {
+            $this->display();
+        } else {
+            $db = M('staff');
+            $data = $db->where("username='%s'", array($_POST['username']))->find();
+            if (md5($_POST['password'].$data['salt']) == $data['password']) {
+                unset($_SESSION['loginStaff']);
+                if(!empty($data['openid']))
+                    $this->error('该帐号已绑定微信号，请尝试其他帐号！','login');
+                $data['openid']=$_SESSION['openid'];
+                $db->save($data);
+                $_SESSION['loginStaff']=$data;
+
+                $this->display("index");
+                exit();
+            }
+            $this->error('帐号或密码错误','login');
+        }
+    }
+  /*  public function login()
     {
         if ($_SERVER['REQUEST_METHOD'] == "GET") {
             $this->display();
@@ -49,7 +74,7 @@ class StaffController extends Controller
             }
             $this->error('帐号或密码错误','login');
         }
-    }
+    }*/
     public function boundwx()
     {
         if ($_SERVER['REQUEST_METHOD'] == "GET") {
@@ -80,6 +105,16 @@ class StaffController extends Controller
         }
     }
 
+    /**
+     * 注销绑定
+     */
+    public function unboundwx()
+    {
+        $_SESSION['loginStaff']['openid']=null;
+        M('staff')->save($_SESSION['loginStaff']);
+        unset($_SESSION['loginStaff']);
+        $this->redirect("index");
+    }
     /**
      * sign in or sign out
      */

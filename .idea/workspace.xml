@@ -3,57 +3,183 @@
   <component name="ChangeListManager">
     <list id="a8fb3a04-fc36-4fe1-a0b5-1ab7daaf17b8" name="Default" comment="" />
     <list default="true" id="90d75e9e-3a3d-46ef-a911-5c6a8e8da995" name="not cache" comment="完成后台功能修改">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Home/View/Staff/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Home/View/Staff/showOrder.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/date.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/mobiscroll.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/mobiscroll_date.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/js/date.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/js/iscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/js/jquery-1.9.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/js/mobiscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/js/mobiscroll_date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/ui-icons_228ef1_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/ui-icons_ef8c08_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/ui-icons_ffd27a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Uploads/card/10/2016-04-12/570cd360d8881.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Uploads/pageinfo/6/2016-04-21/5718ad5019a60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Admin/Controller/DiscountController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Admin/View/Discount/discount.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Admin/View/Merchant/submerchantStore.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Admin/View/Order/proxystatistics_backup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Home/View/Merchant/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Home/View/Merchant/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/jQuery.Timepicker.Addon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/css/jquery.timepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/jquery-1.10.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/legacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/picker.date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/picker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/picker.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/themes/classic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/themes/classic.date.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/themes/classic.time.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/themes/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/themes/default.date.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/themes/default.time.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/themes/rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/bg_BG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/bs_BA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/ca_ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/cs_CZ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/da_DK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/de_DE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/el_GR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/es_ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/et_EE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/eu_ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/fa_IR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/fi_FI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/fr_FR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/gl_ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/he_IL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/hi_IN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/hr_HR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/hu_HU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/id_ID.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/is_IS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/it_IT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/ja_JP.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/ko_KR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/lt_LT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/lv_LV.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/nb_NO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/ne_NP.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/nl_NL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/no_NO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/pl_PL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/pt_BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/pt_PT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/ro_RO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/ru_RU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/sk_SK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/sl_SI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/sv_SE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/th_TH.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/tr_TR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/uk_UA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/vi_VN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/zh_CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/datepicker/translations/zh_TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/js/area0.04.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/js/jQuery.Timepicker.Addon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/js/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Public/js/jquery.timepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/65e8649f33c41bd20cd81d541bd0436a.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/e05be06b619d6b3c23e3bff18b8fcb1d.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Home/55c1dcb012eff0233d7ad00fc504eb67.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Home/7028d76b482bd8f4499659ae9e69e8b7.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Home/9b286a78e4101bcaff4c109aed1cc6a7.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Home/fda8b440c747ba6f81407d18925b6c26.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Admin/16_04_11.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Admin/16_04_12.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Admin/16_04_13.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Admin/16_04_14.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Admin/16_04_15.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Admin/16_04_18.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Admin/16_04_19.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Admin/16_04_20.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Admin/16_04_21.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Admin/16_04_22.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Home/16_04_11.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Home/16_04_12.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Home/16_04_13.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Home/16_04_14.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Home/16_04_15.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Home/16_04_18.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Home/16_04_19.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Home/16_04_20.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Home/16_04_21.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Logs/Home/16_04_22.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/0bb0299f190c694ff0da187938442c11.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/0f1c8bd0bd2bb33c3ab377441631d588.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/179d4f88aea95c0cb43681b84c8fb2da.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/367c0d916d8b0783510edcdff8d74e73.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/3f6f6dfdb3fa8d76e64b2a5dd5801648.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/410a83e2ecbe8be6b2a09149eb02bde4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/54c39f63b151dd7de34ae8c7780e96b8.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/5902f3f7cb5390d248df630b6b82915a.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/649a0b4701a3b8aa4f27eb41a703be03.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/9c7bea9fb2679f96de16afa110a243ad.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/aa56b9c930690a62dd47e100f2896b09.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/b4bc3ffd069c854925ecc8bc4d0dba4f.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/c082926a4e4b4bbf38d65c1eeeac0219.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/c8e958709481ce95e7719be42486025e.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/e38ec8009cd040f93d45485dd587fa5f.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/e60b7244807a33098cb8b5470084a291.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Util/AddressUtil.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/Util/AuthConfig.class.php__backup" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/account.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/city.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/province.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pay/staffAccount.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pay/Home/View/Merchant/merchants.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pay/Uploads/pageinfo/6/2016-04-05/57031a1dca076.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pay/postdata.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/Controller/CardController.class.php" afterPath="$PROJECT_DIR$/pay/Admin/Controller/CardController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/pay/Admin/Controller/IndexController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/Controller/MerchantController.class.php" afterPath="$PROJECT_DIR$/pay/Admin/Controller/MerchantController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/Controller/OrderController.class.php" afterPath="$PROJECT_DIR$/pay/Admin/Controller/OrderController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/Controller/PageinfoController.class.php" afterPath="$PROJECT_DIR$/pay/Admin/Controller/PageinfoController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/Controller/PayController.class.php" afterPath="$PROJECT_DIR$/pay/Admin/Controller/PayController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/Controller/StaffController.class.php" afterPath="$PROJECT_DIR$/pay/Admin/Controller/StaffController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/Controller/StoreController.class.php" afterPath="$PROJECT_DIR$/pay/Admin/Controller/StoreController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/View/Index/body.html" afterPath="$PROJECT_DIR$/pay/Admin/View/Index/body.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/View/Index/index.html" afterPath="$PROJECT_DIR$/pay/Admin/View/Index/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/View/Index/left.html" afterPath="$PROJECT_DIR$/pay/Admin/View/Index/left.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/View/Lijian/lijian.html" afterPath="$PROJECT_DIR$/pay/Admin/View/Lijian/lijian.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/View/Merchant/submerchants.html" afterPath="$PROJECT_DIR$/pay/Admin/View/Merchant/submerchants.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/View/Order/orders.html" afterPath="$PROJECT_DIR$/pay/Admin/View/Order/orders.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/View/Order/proxyorders.html" afterPath="$PROJECT_DIR$/pay/Admin/View/Order/proxyorders.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/View/Order/proxystatistics.html" afterPath="$PROJECT_DIR$/pay/Admin/View/Order/proxystatistics.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/View/Order/statistics.html" afterPath="$PROJECT_DIR$/pay/Admin/View/Order/statistics.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/View/Pageinfo/pageinfo.html" afterPath="$PROJECT_DIR$/pay/Admin/View/Pageinfo/pageinfo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/View/Staff/staffs.html" afterPath="$PROJECT_DIR$/pay/Admin/View/Staff/staffs.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Admin/View/Store/stores.html" afterPath="$PROJECT_DIR$/pay/Admin/View/Store/stores.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/pay/Home/Controller/IndexController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Home/Controller/MerchantController.class.php" afterPath="$PROJECT_DIR$/pay/Home/Controller/MerchantController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Home/Controller/PayController.class.php" afterPath="$PROJECT_DIR$/pay/Home/Controller/PayController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Home/Controller/StaffController.class.php" afterPath="$PROJECT_DIR$/pay/Home/Controller/StaffController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Home/View/Index/login.html" afterPath="$PROJECT_DIR$/pay/Home/View/Index/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Home/View/Pay/paySuccess.html" afterPath="$PROJECT_DIR$/pay/Home/View/Pay/paySuccess.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Home/View/Staff/sign.html" afterPath="$PROJECT_DIR$/pay/Home/View/Staff/sign.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Home/View/Staff/signout.html" afterPath="$PROJECT_DIR$/pay/Home/View/Staff/signout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Home/View/Staff/storeStatistics.html" afterPath="$PROJECT_DIR$/pay/Home/View/Staff/storeStatistics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/0852643fd346319762a758e46435a7ea.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/0852643fd346319762a758e46435a7ea.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Home/View/Pay/wechatPay.html" afterPath="$PROJECT_DIR$/pay/Home/View/Pay/wechatPay.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Home/View/Staff/index.html" afterPath="$PROJECT_DIR$/pay/Home/View/Staff/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/17cc33539d07cc49b22bc5ba62005ff5.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/17cc33539d07cc49b22bc5ba62005ff5.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/1dc8f23afbd255d0749eb026d6df521e.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/1dc8f23afbd255d0749eb026d6df521e.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/24de6084d385774593bf25b1c094fa92.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/24de6084d385774593bf25b1c094fa92.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/e093d58aca0acf9d7f4f5742ec834c19.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/e093d58aca0acf9d7f4f5742ec834c19.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/e4bf5f20175bfa9eb54324e68e69ed93.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/e4bf5f20175bfa9eb54324e68e69ed93.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/e746e7ff4e2d37d9711b64ba3b986349.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/e746e7ff4e2d37d9711b64ba3b986349.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/eb317c2e822d8e5d243927fc39e2ad95.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/eb317c2e822d8e5d243927fc39e2ad95.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/e92ac2fd30c8f5cc5b60796c77f17103.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/e92ac2fd30c8f5cc5b60796c77f17103.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/ef7d64741b9483391cc466c87cc5eab7.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/ef7d64741b9483391cc466c87cc5eab7.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/f9616844ca6fa7ad4cc2244ca515d844.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Admin/f9616844ca6fa7ad4cc2244ca515d844.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Home/44362b6f76ed85ffe15d6cf78598d763.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Home/44362b6f76ed85ffe15d6cf78598d763.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Home/452e2654c024103d66a0faa1038779de.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Home/452e2654c024103d66a0faa1038779de.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Home/52b7638e43cf20d16fd1146dee58c157.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Home/52b7638e43cf20d16fd1146dee58c157.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Home/7143d443c108799fc10149a148c7880c.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Home/7143d443c108799fc10149a148c7880c.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Home/7686c228458955648feeae2db874e547.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Home/7686c228458955648feeae2db874e547.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Cache/Home/7baf718d769eaf80c086c8b916b8fff2.php" afterPath="$PROJECT_DIR$/pay/Runtime/Cache/Home/7baf718d769eaf80c086c8b916b8fff2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Temp/b306425be305bd6e1ff99f9323612952.php" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/b306425be305bd6e1ff99f9323612952.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Temp/e19a8a27f143b269ef4098b4f455688d.php" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/e19a8a27f143b269ef4098b4f455688d.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Temp/e9607789ff60066692327c0938ff8385.php" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/e9607789ff60066692327c0938ff8385.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Temp/f0277b130fa4966f39fd1986168dc042.php" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/f0277b130fa4966f39fd1986168dc042.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Runtime/Temp/f5b6d9e53535cf7f05424fa71ae88b24.php" afterPath="$PROJECT_DIR$/pay/Runtime/Temp/f5b6d9e53535cf7f05424fa71ae88b24.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Util/AuthConfig.class.php" afterPath="$PROJECT_DIR$/pay/Util/AuthConfig.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/Util/CommonUtil.class.php" afterPath="$PROJECT_DIR$/pay/Util/CommonUtil.class.php" />
     </list>
     <ignored path="pay.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,86 +201,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stores.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pay/Admin/View/Store/stores.html">
+      <file leaf-file-name="OrderController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/OrderController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.214286">
-              <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="body.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pay/Admin/View/Index/body.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.178572">
-              <caret line="15" column="65" selection-start-line="8" selection-start-column="3" selection-end-line="15" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foot.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pay/Admin/View/Index/foot.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.428571">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="14" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pay/Admin/View/Index/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48579547">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/IndexController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.928572">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orders.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pay/Admin/View/Order/orders.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="271" column="37" selection-start-line="271" selection-start-column="37" selection-end-line="271" selection-end-column="37" />
+            <state vertical-scroll-proportion="127.53571">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <marker date="1460537986685" expanded="true" signature="13186:13280" placeholder="..." />
+                <marker date="1461290375222" expanded="true" signature="6274:6710" placeholder="SELECT FROM_... tgyx_order" />
+                <marker date="1461290375222" expanded="true" signature="6831:7226" placeholder="SELECT FROM_... tgyx_order" />
+                <marker date="1461290375222" expanded="true" signature="7345:7729" placeholder="SELECT FROM_... tgyx_order" />
+                <marker date="1461290375222" expanded="true" signature="10569:11017" placeholder="SELECT FROM_... tgyx_order" />
+                <marker date="1461290375222" expanded="true" signature="11153:11560" placeholder="SELECT FROM_... tgyx_order" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proxyorders.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pay/Admin/View/Order/proxyorders.html">
+      <file leaf-file-name="AuthConfig.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay/Util/AuthConfig.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="278" column="18" selection-start-line="182" selection-start-column="11" selection-end-line="278" selection-end-column="18" />
-              <folding>
-                <marker date="1460528683957" expanded="true" signature="13340:13413" placeholder="..." />
-                <marker date="1460528683957" expanded="true" signature="13340:13434" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="proxystatistics.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pay/Admin/View/Order/proxystatistics.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+            <state vertical-scroll-proportion="-5.785714">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -163,8 +230,18 @@
       <file leaf-file-name="StoreController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/StoreController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+            <state vertical-scroll-proportion="-15.642858">
+              <caret line="59" column="17" selection-start-line="51" selection-start-column="15" selection-end-line="59" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaffController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/StaffController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.714285">
+              <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -173,8 +250,64 @@
       <file leaf-file-name="left.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pay/Admin/View/Index/left.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.6785714">
               <caret line="80" column="61" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaffController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay/Home/Controller/StaffController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="40.035713">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding>
+                <marker date="1461144408128" expanded="true" signature="6937:7009" placeholder="SELECT COUNT... tgyx_order" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay/Home/View/Index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay/Home/View/Staff/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.535714">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MerchantController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pay/Home/Controller/MerchantController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.53977275">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding>
+                <element signature="e#119#140#0#PHP" expanded="true" />
+                <marker date="1461228504750" expanded="true" signature="3114:3172" placeholder="SELECT COUNT... tgyx_order" />
+                <marker date="1461228504750" expanded="true" signature="3114:3173" placeholder="SELECT COUNT... tgyx_order" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeChatUtil.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay/Util/WeChatUtil.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.714286">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -200,57 +333,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pay/Home/View/Staff/boundwx.html" />
-        <option value="$PROJECT_DIR$/pay/Admin/View/Order/storeStatistics.html" />
-        <option value="$PROJECT_DIR$/pay/Util/BaseAuthController.class.php" />
-        <option value="$PROJECT_DIR$/pay/Home/View/Index/index.html" />
-        <option value="$PROJECT_DIR$/pay/Admin/Controller/CardController.class.php" />
-        <option value="$PROJECT_DIR$/pay/Util/AuthController.class.php" />
-        <option value="$PROJECT_DIR$/pay/Home/Controller/WechatController.class.php" />
-        <option value="$PROJECT_DIR$/pay/Admin/Controller/PageinfoController.class.php" />
-        <option value="$PROJECT_DIR$/pay/Public/css/app.css" />
-        <option value="$PROJECT_DIR$/pay/Admin/View/Card/cards.html" />
-        <option value="$PROJECT_DIR$/pay/Home/View/Index/login.html" />
-        <option value="$PROJECT_DIR$/pay/Admin/View/Pageinfo/pageinfo.html" />
-        <option value="$PROJECT_DIR$/pay/Admin/View/Pay/jspay.html" />
-        <option value="$PROJECT_DIR$/pay/Admin/View/Merchant/payconfig.html" />
-        <option value="$PROJECT_DIR$/pay/Admin/Conf/config.php" />
-        <option value="$PROJECT_DIR$/pay/Home/Conf/config.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Tpl/dispatch_jump.tpl" />
-        <option value="$PROJECT_DIR$/pay/Admin/View/Index/index.html" />
-        <option value="$PROJECT_DIR$/pay/Public/css/basic.css" />
-        <option value="$PROJECT_DIR$/pay/Admin/View/Staff/staffs.html" />
-        <option value="$PROJECT_DIR$/pay/Admin/Controller/LijianController.class.php" />
-        <option value="$PROJECT_DIR$/pay/Admin/View/Lijian/lijian.html" />
-        <option value="$PROJECT_DIR$/pay/Util/FileUtil.class.php" />
-        <option value="$PROJECT_DIR$/pay/Util/WeChatUtil.class.php" />
-        <option value="$PROJECT_DIR$/pay/Public/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/pay/Home/View/Staff/sign.html" />
         <option value="$PROJECT_DIR$/pay/Home/View/Staff/signout.html" />
-        <option value="$PROJECT_DIR$/pay/Admin/View/Order/statistics.html" />
         <option value="$PROJECT_DIR$/pay/Public/css/date.css" />
-        <option value="$PROJECT_DIR$/pay/Home/View/Staff/storeStatistics.html" />
-        <option value="$PROJECT_DIR$/pay/Home/Controller/StaffController.class.php" />
         <option value="$PROJECT_DIR$/pay/Home/View/Staff/showOrder.html" />
-        <option value="$PROJECT_DIR$/pay/Util/AuthConfig.class.php" />
         <option value="$PROJECT_DIR$/pay/Admin/View/Index/body.html" />
         <option value="$PROJECT_DIR$/pay/Home/View/Pay/paySuccess.html" />
         <option value="$PROJECT_DIR$/pay/post.txt" />
-        <option value="$PROJECT_DIR$/pay/Admin/Controller/PayController.class.php" />
-        <option value="$PROJECT_DIR$/pay/Home/Controller/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/pay/Home/Controller/PayController.class.php" />
         <option value="$PROJECT_DIR$/pay/Util/CommonUtil.class.php" />
-        <option value="$PROJECT_DIR$/pay/Home/View/Staff/index.html" />
-        <option value="$PROJECT_DIR$/pay/Admin/View/Order/proxyorders.html" />
-        <option value="$PROJECT_DIR$/pay/Admin/Controller/StaffController.class.php" />
-        <option value="$PROJECT_DIR$/pay/Admin/Controller/MerchantController.class.php" />
-        <option value="$PROJECT_DIR$/pay/Admin/View/Merchant/submerchants.html" />
-        <option value="$PROJECT_DIR$/pay/Admin/Controller/OrderController.class.php" />
-        <option value="$PROJECT_DIR$/pay/Admin/View/Order/proxystatistics.html" />
-        <option value="$PROJECT_DIR$/pay/Admin/Controller/StoreController.class.php" />
-        <option value="$PROJECT_DIR$/pay/Admin/View/Index/left.html" />
         <option value="$PROJECT_DIR$/pay/Admin/View/Order/orders.html" />
+        <option value="$PROJECT_DIR$/pay/province.json" />
+        <option value="$PROJECT_DIR$/pay/city.json" />
+        <option value="$PROJECT_DIR$/pay/Admin/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/pay/Admin/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/pay/Public/js/area.js" />
+        <option value="$PROJECT_DIR$/pay/Public/js/area0.01.js" />
+        <option value="$PROJECT_DIR$/pay/Public/js/area0.03.js" />
+        <option value="$PROJECT_DIR$/pay/Util/AddressUtil.class.php" />
+        <option value="$PROJECT_DIR$/pay/Util/username.txt" />
+        <option value="$PROJECT_DIR$/pay/username.txt" />
+        <option value="$PROJECT_DIR$/pay/account.txt" />
+        <option value="$PROJECT_DIR$/pay/Admin/View/Merchant/submerchantStore.html" />
+        <option value="$PROJECT_DIR$/pay/Admin/View/Merchant/submerchants.html" />
+        <option value="$PROJECT_DIR$/pay/Admin/View/Pageinfo/pageinfo.html" />
+        <option value="$PROJECT_DIR$/pay/Admin/View/Order/proxyorders.html" />
+        <option value="$PROJECT_DIR$/pay/staffAccount.txt" />
+        <option value="$PROJECT_DIR$/pay/Home/Controller/StaffController.class.php" />
+        <option value="$PROJECT_DIR$/pay/Home/View/Staff/storeStatistics.html" />
+        <option value="$PROJECT_DIR$/pay/Home/View/Merchant/login.html" />
+        <option value="$PROJECT_DIR$/pay/Home/Controller/MerchantController.class.php" />
+        <option value="$PROJECT_DIR$/pay/Home/View/Merchant/index.html" />
+        <option value="$PROJECT_DIR$/pay/Admin/Controller/DiscountController.php" />
+        <option value="$PROJECT_DIR$/pay/Admin/View/Lijian/lijian.html" />
+        <option value="$PROJECT_DIR$/pay/Admin/View/Discount/discount.html" />
+        <option value="$PROJECT_DIR$/pay/Admin/Controller/PageinfoController.class.php" />
+        <option value="$PROJECT_DIR$/pay/Home/Controller/PayController.class.php" />
+        <option value="$PROJECT_DIR$/pay/Home/View/Pay/wechatPay.html" />
+        <option value="$PROJECT_DIR$/pay/Admin/Controller/OrderController.class.php" />
+        <option value="$PROJECT_DIR$/pay/Admin/View/Order/statistics.html" />
+        <option value="$PROJECT_DIR$/pay/Admin/View/Order/proxystatistics.html" />
+        <option value="$PROJECT_DIR$/pay/Admin/View/Staff/staffs.html" />
         <option value="$PROJECT_DIR$/pay/Admin/View/Store/stores.html" />
+        <option value="$PROJECT_DIR$/pay/Admin/Controller/PayController.class.php" />
+        <option value="$PROJECT_DIR$/pay/Admin/Controller/CardController.class.php" />
+        <option value="$PROJECT_DIR$/pay/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/pay/Admin/Controller/MerchantController.class.php" />
+        <option value="$PROJECT_DIR$/pay/Admin/Controller/DiscountController.class.php" />
+        <option value="$PROJECT_DIR$/pay/Util/AuthConfig.class.php" />
+        <option value="$PROJECT_DIR$/pay/Admin/Controller/StoreController.class.php" />
+        <option value="$PROJECT_DIR$/pay/Admin/Controller/StaffController.class.php" />
+        <option value="$PROJECT_DIR$/pay/Admin/View/Index/left.html" />
+        <option value="$PROJECT_DIR$/pay/Home/View/Staff/index.html" />
       </list>
     </option>
   </component>
@@ -294,8 +427,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -342,6 +473,164 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Staff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -369,6 +658,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Staff" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,32 +757,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Merchant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -496,6 +785,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -521,21 +812,22 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1036" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="js-jscs-nodeInterpreter" value="E:\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PhpstormProjects\pay\pay\Util" />
+      <recent name="E:\PhpstormProjects\pay\pay\Admin\View\Discount" />
+      <recent name="E:\PhpstormProjects\pay\pay\Public" />
+      <recent name="E:\PhpstormProjects\pay\pay\Public\js" />
+      <recent name="E:\PhpstormProjects\pay\pay\Home\View\Merchant" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PhpstormProjects\pay\pay" />
       <recent name="E:\PhpstormProjects\pay\pay\Home\View\Staff" />
       <recent name="E:\PhpstormProjects\pay\pay\Public\css" />
       <recent name="E:\PhpstormProjects\pay\pay\Admin\View\Staff" />
       <recent name="E:\PhpstormProjects\pay\pay\Admin\View\Error" />
-      <recent name="E:\PhpstormProjects\pay\pay\Admin\View" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\PhpstormProjects\pay\pay\Home\View\Staff" />
-      <recent name="E:\PhpstormProjects\pay\pay\Public\js" />
-      <recent name="E:\PhpstormProjects\pay\pay\Public\css" />
-      <recent name="E:\PhpstormProjects\pay\pay\Public\img" />
-      <recent name="E:\PhpstormProjects\pay\pay\Admin\View\Order" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.CommonUtil.class.php">
@@ -603,7 +895,13 @@
       <option name="project" value="LOCAL" />
       <updated>1460109943705</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完成后台功能修改">
+      <created>1460715079005</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1460715079006</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -614,6 +912,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.49166667" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -625,7 +924,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973786" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.49166667" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -652,387 +950,418 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pay/Public/css/basic.css">
+    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6056547">
-          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        <state vertical-scroll-proportion="-4.3846154">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Lijian/lijian.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.3707385">
-          <caret line="199" column="25" selection-start-line="199" selection-start-column="25" selection-end-line="199" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Staff/staffs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.481534">
-          <caret line="129" column="116" selection-start-line="129" selection-start-column="71" selection-end-line="129" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrencode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.70596594">
-          <caret line="155" column="10" selection-start-line="155" selection-start-column="10" selection-end-line="155" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/zip.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2159091">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Util/FileUtil.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.97159094">
-          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67471594">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Home/View/Staff/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.821428">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Public/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36160713">
-          <caret line="4190" column="21" selection-start-line="4190" selection-start-column="21" selection-end-line="4190" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Home/View/Staff/signout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78409094">
-          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Home/View/Staff/sign.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Merchant/payconfig.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.821429">
-          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Order/statistics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.464286">
-          <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Public/js/jquery-1.10.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-44.6875">
-          <caret line="5443" column="21" selection-start-line="5443" selection-start-column="17" selection-end-line="5443" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Public/css/date.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0">
-          <caret line="55" column="72" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Util/BaseAuthController.class.php">
+    <entry file="file://$PROJECT_DIR$/pay/Util/AddressUtil.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Home/View/Staff/storeStatistics.html">
+    <entry file="file://$PROJECT_DIR$/pay/Public/js/area0.04.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.026988637">
-          <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Home/View/Staff/showOrder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51420456">
-          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/PageinfoController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.357143">
-          <caret line="37" column="65" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/LijianController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78409094">
-          <caret line="85" column="69" selection-start-line="85" selection-start-column="69" selection-end-line="85" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/CardController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="126.85714">
-          <caret line="343" column="20" selection-start-line="343" selection-start-column="20" selection-end-line="343" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Util/AuthConfig.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.571428">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Home/View/Pay/paySuccess.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Util/WeChatUtil.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1193181">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Home/Controller/WechatController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/post.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/postdata.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/PayController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="112" column="11" selection-start-line="112" selection-start-column="11" selection-end-line="112" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Home/Controller/StaffController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="135" column="46" selection-start-line="135" selection-start-column="46" selection-end-line="135" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Home/View/Index/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/Model/StaffModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18892045">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/Model/MerchantModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13494319">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5653409">
-          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Home/Controller/PayController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="208" column="37" selection-start-line="208" selection-start-column="37" selection-end-line="208" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Util/CommonUtil.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="299" column="34" selection-start-line="299" selection-start-column="34" selection-end-line="299" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Home/View/Staff/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Public/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4261365">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/StaffController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/MerchantController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="136" column="56" selection-start-line="136" selection-start-column="56" selection-end-line="136" selection-end-column="56" />
-          <folding />
+        <state vertical-scroll-proportion="0.039617486">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pay/Admin/View/Merchant/submerchants.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="333" column="30" selection-start-line="333" selection-start-column="30" selection-end-line="333" selection-end-column="30" />
-          <folding>
-            <marker date="1460533763707" expanded="true" signature="15699:15713" placeholder="..." />
-          </folding>
+          <caret line="676" column="52" selection-start-line="676" selection-start-column="52" selection-end-line="676" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/OrderController.class.php">
+    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Pageinfo/pageinfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-          <folding>
-            <marker date="1460536270504" expanded="true" signature="6274:6680" placeholder="SELECT FROM_... tgyx_order" />
-            <marker date="1460536270504" expanded="true" signature="6801:7196" placeholder="SELECT FROM_... tgyx_order" />
-            <marker date="1460536270504" expanded="true" signature="7315:7699" placeholder="SELECT FROM_... tgyx_order" />
-            <marker date="1460536270504" expanded="true" signature="10539:10957" placeholder="SELECT FROM_... tgyx_order" />
-            <marker date="1460536270504" expanded="true" signature="11094:11501" placeholder="SELECT FROM_... tgyx_order" />
-          </folding>
+        <state vertical-scroll-proportion="-23.785715">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Order/proxystatistics.html">
+    <entry file="file://$PROJECT_DIR$/pay/account.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+          <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Util/CommonUtil.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.642857">
+          <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/StoreController.class.php">
+    <entry file="file://$PROJECT_DIR$/pay/staffAccount.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Public/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02827381">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Public/css/basic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Home/Controller/WechatController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40482953">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Index/left.html">
+    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="61" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Index/body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="18.285715">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Order/proxystatistics_backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2386363">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Order/proxyorders.html">
+    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Merchant/submerchantStore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10795455">
+          <caret line="180" column="32" selection-start-line="180" selection-start-column="32" selection-end-line="180" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Home/View/Merchant/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.285715">
+          <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Home/View/Staff/storeStatistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="58.357143">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Home/View/Merchant/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-38.67857">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Util/BaseAuthController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2159091">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Lijian/lijian.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="278" column="18" selection-start-line="182" selection-start-column="11" selection-end-line="278" selection-end-column="18" />
-          <folding>
-            <marker date="1460528683957" expanded="true" signature="13340:13413" placeholder="..." />
-            <marker date="1460528683957" expanded="true" signature="13340:13434" placeholder="..." />
-          </folding>
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Home/Controller/PayController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="167" column="59" selection-start-line="167" selection-start-column="59" selection-end-line="167" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Discount/discount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="121" column="43" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Home/View/Pay/wechatPay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4829545">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pay/Admin/View/Order/orders.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="271" column="37" selection-start-line="271" selection-start-column="37" selection-end-line="271" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.026988637">
+          <caret line="51" column="61" selection-start-line="48" selection-start-column="16" selection-end-line="51" selection-end-column="61" />
           <folding>
             <marker date="1460537986685" expanded="true" signature="13186:13280" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Order/proxyorders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76704544">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding>
+            <marker date="1461132773925" expanded="true" signature="13390:13463" placeholder="..." />
+            <marker date="1461132773925" expanded="true" signature="13390:13484" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Order/statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.892857">
+          <caret line="144" column="105" selection-start-line="144" selection-start-column="105" selection-end-line="144" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Order/proxystatistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.357143">
+          <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pay/Admin/View/Store/stores.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.214286">
-          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+        <state vertical-scroll-proportion="-5.428571">
+          <caret line="209" column="101" selection-start-line="209" selection-start-column="101" selection-end-line="209" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Staff/staffs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.857143">
+          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+          <folding>
+            <marker date="1461291513361" expanded="true" signature="13964:13979" placeholder="..." />
+            <marker date="1461291513361" expanded="true" signature="14044:14059" placeholder="..." />
+            <marker date="1461291513361" expanded="true" signature="14180:14195" placeholder="..." />
+            <marker date="1461291513361" expanded="true" signature="14280:14295" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Home/View/Index/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.142858">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.026988637">
+          <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Util/AuthConfig.class.php__backup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Util/AuthController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48579547">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/PageinfoController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44602272">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/DiscountController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2159091">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/CardController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2159091">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.928572">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.16193181">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Index/foot.html">
+    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/LijianController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.428571">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="14" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.59375">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Index/body.html">
+    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/MerchantController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.178572">
-          <caret line="15" column="65" selection-start-line="8" selection-start-column="3" selection-end-line="15" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.18892045">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Index/index.html">
+    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/PayController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48579547">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.026988637">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/OrderController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="127.53571">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1461290375222" expanded="true" signature="6274:6710" placeholder="SELECT FROM_... tgyx_order" />
+            <marker date="1461290375222" expanded="true" signature="6831:7226" placeholder="SELECT FROM_... tgyx_order" />
+            <marker date="1461290375222" expanded="true" signature="7345:7729" placeholder="SELECT FROM_... tgyx_order" />
+            <marker date="1461290375222" expanded="true" signature="10569:11017" placeholder="SELECT FROM_... tgyx_order" />
+            <marker date="1461290375222" expanded="true" signature="11153:11560" placeholder="SELECT FROM_... tgyx_order" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Util/AuthConfig.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.785714">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/StoreController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.642858">
+          <caret line="59" column="17" selection-start-line="51" selection-start-column="15" selection-end-line="59" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/Controller/StaffController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.714285">
+          <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Admin/View/Index/left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="80" column="61" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Home/Controller/StaffController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="40.035713">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <marker date="1461144408128" expanded="true" signature="6937:7009" placeholder="SELECT COUNT... tgyx_order" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Home/View/Staff/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.535714">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Util/WeChatUtil.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.714286">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/Home/Controller/MerchantController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53977275">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="e#119#140#0#PHP" expanded="true" />
+            <marker date="1461228504750" expanded="true" signature="3114:3172" placeholder="SELECT COUNT... tgyx_order" />
+            <marker date="1461228504750" expanded="true" signature="3114:3173" placeholder="SELECT COUNT... tgyx_order" />
+          </folding>
         </state>
       </provider>
     </entry>

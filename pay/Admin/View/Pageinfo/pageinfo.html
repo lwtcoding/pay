@@ -47,6 +47,14 @@
                 </a>
                 <strong>提示！</strong>本配置用于支付页面信息展示。
             </div>
+            <?php if(($_SESSION['loginMerchant']['pageinfo_status']==0)&&($_SESSION['loginMerchant']['parent_id']>0)){ ?>
+            <div class="alert alert-danger">
+                <a href="#" class="close" data-dismiss="alert">
+                    &times;
+                </a>
+                <strong>此功能处于锁定状态！</strong>如有需要请联系管理员启用此功能。
+            </div>
+            <?php } ?>
         </div>
         <div class="col-md-12 ">
 
@@ -55,6 +63,7 @@
                 <input type="hidden" name="mid" value="<?php echo $_SESSION['loginMerchant']['id'] ?>">
                 <div class="form-group">
                     <input type="hidden" id="logoUrl" name="logo" value="{$pageinfo['logo']}">
+
                     <label  class="col-sm-3 control-label">logo</label>
                     <div class="col-sm-7">
                         <input id="input-1" name="logo_temp[]" type="file" multiple class="file-loading" accept="image/*">
@@ -103,6 +112,7 @@
             document.getElementById("preload").style.display="none";
         },1000);
       var logoUrl = '/Uploads/'+$('#logoUrl').val();
+
         $("#input-1").fileinput({
             language: 'zh',
             maxFileCount:1,
@@ -114,6 +124,7 @@
                 "<img src='"+logoUrl+"' class='file-preview-image' />"
             ]
         });
+
         $('#input-1').on('fileuploaded', function(event, data, previewId, index) {
 
             $("#logoUrl").val(data.response);

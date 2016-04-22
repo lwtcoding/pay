@@ -1,0 +1,3 @@
+<?php
+//000000000600a:14:{s:2:"id";s:1:"7";s:3:"mid";s:2:"15";s:5:"appid";N;s:6:"openid";s:28:"okmiKuGJJvRFzpcaqPU3Y0LQHk6Y";s:12:"is_subscribe";s:1:"1";s:8:"nickname";s:15:"客盈门科技";s:3:"sex";s:1:"1";s:8:"province";s:6:"陕西";s:4:"city";s:6:"西安";s:7:"country";s:6:"中国";s:10:"headimgurl";s:130:"http://wx.qlogo.cn/mmopen/OAX6uXbhWlib6TarDLquvSAiblKFdMCXzorQXIu5ibH3M9D2DWWUgtoXDVZNwqF2gQpI1tYwuibzM85898ibicPh76atqNt6F6ELQW/0";s:7:"groupid";s:1:"0";s:9:"total_fee";s:1:"0";s:6:"refund";s:1:"0";}
+?>

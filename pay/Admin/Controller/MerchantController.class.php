@@ -9,10 +9,12 @@
 namespace Admin\Controller;
 
 use Think\Controller;
+use Util\AddressUtil;
 use Util\AuthController;
+use Util\BaseAuthController;
 use Util\CommonUtil;
 
-class MerchantController extends AuthController
+class MerchantController extends BaseAuthController
 {
   /*  public function merchants(){
     //limit=10&offset=10&search=1&sort=id&order=desc
@@ -132,7 +134,7 @@ class MerchantController extends AuthController
             }
             $pager=array();
                 $pager['total']=$db->where($condition)->count();
-                $pager['rows']=$db->field(array("id",'username','merchantname','email','pid','salt','parent_id'))->where($condition)->order($_POST['sort'])->limit($_POST['offset'].",".$_POST['limit'])->select();
+                $pager['rows']=$db->field(array("id",'username','merchantname','email','pid','salt','parent_id','province','city','address','phone','industry','pageinfo_status'))->where($condition)->order($_POST['sort'])->limit($_POST['offset'].",".$_POST['limit'])->select();
 
                 for($i=0;$i<count($pager['rows']);$i++){
                         if($pager['rows'][$i]['pid']==0) {
@@ -145,7 +147,74 @@ class MerchantController extends AuthController
                         if(($pager['rows'][$i]['pid']>0)&&($pager['rows'][$i]['parent_id']>0)){
                             $pager['rows'][$i]['type'] = "下级商户";
                         }
+                    $pager['rows'][$i]['proId']=AddressUtil::getProID($pager['rows'][$i]['province']);
+                    $pager['rows'][$i]['cityId']=AddressUtil::getCityID($pager['rows'][$i]['city']);
                     }
+            $this->ajaxReturn($pager);
+
+        }
+        if($_SERVER['REQUEST_METHOD']=="GET"){
+            if(!isset($_GET['id'])){
+                if($_SESSION['loginMerchant']['is_proxy']==1) {
+                    $this->assign("pid",$_SESSION['loginMerchant']['id']);
+                    $this->assign("parent_id", 0);
+                }else{
+                    $this->assign("pid",$_SESSION['loginMerchant']['pid']);
+                    $this->assign("parent_id",$_SESSION['loginMerchant']['id']);
+                }
+            }else{
+                //TODO 验证
+                if(!($_SESSION['loginMerchant']['id'] == $_GET['id'])) {
+                    $merchant = M('Merchant')->field(array('pid', 'parent_id'))->where("id='%s'", array($_GET['id']))->find();
+                    if ((!($_SESSION['loginMerchant']['id'] == $merchant['pid'])) && (!($_SESSION['loginMerchant']['id'] == $merchant['parent_id']))) {
+                        $this->display("Error:403");
+                        exit();
+                    }
+                }
+                $this->assign("pid",$_GET['pid']);
+                $this->assign("parent_id",$_GET['id']);
+            }
+
+            $address=AddressUtil::init();
+            $this->assign('address',json_encode($address));
+            $this->display();
+        }
+    }
+
+    public function submerchantStore(){
+        //limit=10&offset=10&search=1&sort=id&order=desc
+
+        if($_SERVER['REQUEST_METHOD']=="POST"){
+
+            $db = M('merchant');
+            $condition="1=1";
+            if(isset($_POST['pid'])&&(!(trim($_POST['pid'])=="")))
+                $condition.=" AND pid=".$_POST['pid'];
+            if(isset($_POST['parent_id'])&&(!(trim($_POST['parent_id'])==""))) {
+                $condition .= " AND (parent_id=" . $_POST['parent_id'];
+                $condition .= " OR id=" . $_POST['parent_id'].")";
+            }
+            if(isset($_POST['merchantname'])&&(!(trim($_POST['merchantname'])=="")))
+                $condition.=" AND merchantname like '%".$_POST['merchantname']."%'";
+            if(isset($_POST['contact'])&&(!(trim($_POST['contact'])=="")))
+                $condition.=" AND contact like '%".$_POST['contact']."%'";
+            $pager=array();
+            $pager['total']=$db->where($condition)->count();
+            $pager['rows']=$db->field(array("id",'username','merchantname','email','pid','salt','parent_id','province','city','address','phone'))->where($condition)->order($_POST['sort'])->limit($_POST['offset'].",".$_POST['limit'])->select();
+
+            for($i=0;$i<count($pager['rows']);$i++){
+                if($pager['rows'][$i]['pid']==0) {
+                    $pager['rows'][$i]['type'] ="服务商";
+                }
+                if(($pager['rows'][$i]['pid']>0)&&($pager['rows'][$i]['parent_id']==0)) {
+                    $pager['rows'][$i]['type'] ="代理商";
+
+                }
+                if(($pager['rows'][$i]['pid']>0)&&($pager['rows'][$i]['parent_id']>0)){
+                    $pager['rows'][$i]['type'] = "下级商户";
+                }
+
+            }
             $this->ajaxReturn($pager);
 
         }
@@ -176,15 +245,21 @@ class MerchantController extends AuthController
     public function add(){
 
         if($_SERVER['REQUEST_METHOD']=="POST"){
-            $_POST['salt'] = CommonUtil::genernateNonceStr(8);
-
             $merchant = new \Admin\Model\MerchantModel();
+            $account = json_decode(file_get_contents("account.txt"),true);
+            $account['username']+=1;
+            $username = $account['username'];
+            $_POST['username']=$username;
+            $_POST['password']=$account['password'];
+            $_POST['repassword']="123456";
+            $_POST['salt'] = CommonUtil::genernateNonceStr(8);
             //var_dump($merchant);
             if(!$merchant->create($_POST)){
                 //var_dump($merchant->getError());
-                $this->ajaxReturn(array("result"=>"error","message"=>"fail","data"=>$merchant->getError()));
+                $this->ajaxReturn(array("result"=>"error","message"=>"添加失败","data"=>$merchant->getError()));
             }else{
                 $merchant->add();
+                file_put_contents("account.txt",json_encode($account));
                 $this->ajaxReturn(array("result"=>"success","message"=>"添加成功","data"=>""));
             }
         }

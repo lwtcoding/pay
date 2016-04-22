@@ -92,14 +92,31 @@
             </div>
             <div class="modal-body">
                 <form class="form-horizontal" role="form" id="addStoreForm">
-                    <input type="text" name="mid" value="{$mid}">
+                    <input type="hidden" name="mid" value="{$mid}">
                     <div class="form-group">
-                        <label  class="col-sm-2 control-label">门店名</label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" placeholder="请输入名字" name="name">
+                        <label  class="col-sm-2 control-label">门店名称</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" placeholder="请输入名称" name="name">
                         </div>
                     </div>
-
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">门店地址</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" placeholder="请输入门店地址" name="address">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">联系人</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" placeholder="请输入联系人名称" name="contact">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">联系电话</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" placeholder="请输入联系电话" name="phone">
+                        </div>
+                    </div>
                 </form>
             </div>
             <div class="modal-footer">
@@ -181,19 +198,19 @@
                             <input type="text" class="form-control"  name="name" placeholder="所属门店" value="" readonly>
                         </div>
                     </div>
-                    <div class="form-group">
+                   <!-- <div class="form-group">
                         <label  class="col-sm-2 control-label">账号</label>
                         <div class="col-sm-8">
                             <input type="text" class="form-control"  name="username" placeholder="账号" value="">
                         </div>
-                    </div>
+                    </div>-->
                     <div class="form-group">
                         <label  class="col-sm-2 control-label">员工名</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control"  name="nickname" placeholder="账号" value="">
+                            <input type="text" class="form-control"  name="nickname" placeholder="员工名" value="">
                         </div>
                     </div>
-                    <div class="form-group">
+                   <!-- <div class="form-group">
                         <label  class="col-sm-2 control-label">密码</label>
                         <div class="col-sm-8">
                             <input type="password" class="form-control" name="password"  placeholder="密码" value="">
@@ -205,7 +222,17 @@
                             <input type="password" class="form-control"  name="repassword"  placeholder="确认密码" value="">
                         </div>
                     </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">微信统计</label>
+                        <div class="col-sm-8">
+                          <select name="type">
+                              <option value="0">统计所在门店</option>
+                              <option value="1">统计全部门店</option>
+                          </select>
+                        </div>
+                    </div>-->
                    <hr/>
+
                     <div class="row">
                         <volist name='auths' id='auth'>
                             <div class="col-md-3">
@@ -288,6 +315,27 @@
                     title: '门店名',
                     align: 'center',
                     width: '200',
+                    valign: 'middle',
+                    sortable: true
+                }, {
+                    field: 'address',
+                    title: '地址',
+                    align: 'center',
+                    width: '200',
+                    valign: 'middle',
+                    sortable: true
+                }, {
+                    field: 'contact',
+                    title: '联系人',
+                    align: 'center',
+                    width: '200',
+                    valign: 'middle',
+                    sortable: true
+                },{
+                    field: 'phone',
+                    title: '联系电话',
+                    align: 'center',
+
                     valign: 'middle',
                     sortable: true
                 }, {

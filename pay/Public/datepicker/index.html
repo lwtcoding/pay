@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chinaz</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="themes/default.css" id="theme_base">
+<link rel="stylesheet" href="themes/default.date.css" id="theme_date">
+<link rel="stylesheet" href="themes/default.time.css" id="theme_time">
+</head>
+<body>
+<div>
+<input type="hidden" style="display:none;" class="datepicker">
+<br/><br/><br/>
+<div id="a">asdada</div>
+</div>
+
+  
+<script type="text/javascript" src="jquery-1.10.2.js"></script>
+<script type="text/javascript" src="picker.js"></script>
+<script type="text/javascript" src="picker.date.js"></script>
+<script type="text/javascript" src="translations/zh_CN.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+
+	var $date=$('.datepicker').pickadate({format: 'yyyy-mm-dd'});
+	var picker = $date.pickadate('picker');
+	$("#a").click(function(event){
+	
+			picker.open();
+			alert($('.datepicker').val());
+		event.stopPropagation();
+	
+	});
+			});
+</script>
+</body>
+</html>

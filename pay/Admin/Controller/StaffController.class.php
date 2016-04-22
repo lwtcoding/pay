@@ -12,10 +12,11 @@ namespace Admin\Controller;
 use Think\Controller;
 use Util\AuthConfig;
 use Util\AuthController;
+use Util\BaseAuthController;
 use Util\CommonUtil;
 use Util\WeChatUtil;
 
-class StaffController extends AuthController
+class StaffController extends BaseAuthController
 {
 
     public function staffs(){
@@ -31,7 +32,7 @@ class StaffController extends AuthController
                 $condition.=" AND nickname like '%".$_POST['nickname']."%'";
 
             $pager['total'] = $db->where($condition)->count();
-            $staffs = $db->field(array('id','username','nickname','mid','auths','store_id','salt','merchantname'))->where($condition)->order(($_POST['sort']==''?'id':$_POST['sort']).' '.$_POST['order'])->limit($_POST['offset'] . "," . $_POST['limit'])->select();
+            $staffs = $db->field(array('id','username','nickname','mid','auths','store_id','salt','merchantname','openid','type'))->where($condition)->order(($_POST['sort']==''?'id':$_POST['sort']).' '.$_POST['order'])->limit($_POST['offset'] . "," . $_POST['limit'])->select();
             for($i=0;$i<count($staffs);$i++){
                 $staffs[$i]['auths']=json_decode($staffs[$i]['auths'],true);
             }
@@ -60,7 +61,7 @@ class StaffController extends AuthController
             $auths=AuthConfig::$auth;
 
             if(!($_SESSION['loginMerchant']['parent_id']==0)){
-                $au=array("查看代理商户","添加商户","编辑商户","编辑子商户配置","删除商户","代理商订单流水","代理商订单统计",);
+                $au=array("代理商订单流水","代理商订单统计",);
                 foreach($auths as $k=>$v){
                    foreach($v as $kk=>$vv){
 
@@ -68,6 +69,16 @@ class StaffController extends AuthController
                            unset($auths[$k]);
                        }
                    }
+                }
+            }else{
+                $au=array("订单管理","订单统计",);
+                foreach($auths as $k=>$v){
+                    foreach($v as $kk=>$vv){
+
+                        if(in_array($vv,$au)){
+                            unset($auths[$k]);
+                        }
+                    }
                 }
             }
             $this->assign('auths',$auths);
@@ -80,6 +91,13 @@ class StaffController extends AuthController
 
         if($_SERVER['REQUEST_METHOD']=="POST"){
             $db = M('staff');
+
+            $staffAccount=json_decode(file_get_contents("staffAccount.txt"),true);
+            $staffAccount['username']+=1;
+            $_POST['username']=$staffAccount['username'];
+            $_POST['password']=$staffAccount['password'];
+            $_POST['repassword']=$staffAccount['password'];
+
             $this->validate();
             if(!(empty($db->where("username = '%s'",array($_POST['username']))->find())))
                 $this->ajaxReturn(array("result"=>"error","message"=>"用户名（账号）已存在","data"=>null));
@@ -99,6 +117,7 @@ class StaffController extends AuthController
                 $this->ajaxReturn(array("result"=>"error","message"=>"fail","data"=>$db->getError()));
             }else{
                 $db->add();
+                file_put_contents("staffAccount.txt",json_encode($staffAccount));
                 $this->ajaxReturn(array("result"=>"success","message"=>"添加成功！","data"=>"success"));
             }
         }

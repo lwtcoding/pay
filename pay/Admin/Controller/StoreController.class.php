@@ -10,10 +10,11 @@ namespace Admin\Controller;
 
 use Think\Controller;
 use Util\AuthController;
+use Util\BaseAuthController;
 use Util\WeChatUtil;
 use Util\CommonUtil;
 use Util\AuthConfig;
-class StoreController extends AuthController
+class StoreController extends BaseAuthController
 {
     public function stores(){
         if($_SERVER['REQUEST_METHOD']=="POST"){
@@ -30,9 +31,25 @@ class StoreController extends AuthController
             $this->ajaxReturn($pager);
         }
         if($_SERVER['REQUEST_METHOD']=="GET"){
+            //展示权限
+            $mid=$_SESSION['loginMerchant']['id'];
+            if(isset($_GET['mid']))
+                $mid=$_GET['mid'];
+            $targetMerchant=M('merchant')->field("parent_id")->where("id='%s'",array($mid))->find();
+
             $auths=AuthConfig::$auth;
-            if(!($_SESSION['loginMerchant']['parent_id']==0)){
-                $au=array("查看代理商户","添加商户","编辑商户","编辑子商户配置","删除商户","代理商订单流水","代理商订单统计",);
+            if(!($targetMerchant['parent_id']==0)){
+                $au=array("代理商订单流水","代理商订单统计",);
+                foreach($auths as $k=>$v){
+                    foreach($v as $kk=>$vv){
+
+                        if(in_array($vv,$au)){
+                            unset($auths[$k]);
+                        }
+                    }
+                }
+            }else{
+                $au=array("订单管理","订单统计",);
                 foreach($auths as $k=>$v){
                     foreach($v as $kk=>$vv){
 

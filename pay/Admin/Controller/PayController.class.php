@@ -10,10 +10,11 @@ namespace Admin\Controller;
 
 use Think\Controller;
 use Util\AuthController;
+use Util\BaseAuthController;
 use Util\CommonUtil;
 use Util\FileUtil;
 
-class PayController extends AuthController
+class PayController extends BaseAuthController
 {
     public function jspay()
     {
